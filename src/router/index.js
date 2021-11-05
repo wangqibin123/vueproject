@@ -3,8 +3,6 @@ import VueRouter from 'vue-router'
 import home from '../views/Home.vue'
 
 
-
-
 Vue.use(VueRouter)
 
 const routes = [
