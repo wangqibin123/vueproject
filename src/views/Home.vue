@@ -12,6 +12,7 @@
     </div>
 </template>
 <script>
+
 import Header from '@/views/header/header.vue'
 export default {
     components:{
