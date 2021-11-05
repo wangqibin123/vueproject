@@ -1,15 +1,24 @@
 <template>
     <div>
-        <Career/>
-        <router-view></router-view>
+        <header>
+            <Header />
+        </header>
+        <main>
+            
+        </main>
+        <footer>
+
+        </footer>
     </div>
     
 </template>
 <script>
-import Career from '../views/StudentCareer/Career.vue'
+
+
+import Header from '@/views/header/header.vue'
 export default {
     components:{
-        Career
+        Header
     }
 }
 </script>
