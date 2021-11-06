@@ -174,7 +174,7 @@
                 <div class="check">
                     <div class="check_con">
                         <span class="chakan">查看更多咨询</span>
-                        <img src="@/assets/images/放大镜.png"/>
+                        <img src="@/assets/images/sou.png"/>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@ export default {
           display: flex;
           justify-content: center;
           .StudentCareer_con{
-            width: 88%;
+            width: 3.55rem;
             height: 5.24rem;
             margin-top: .15rem;
             background-color: #fff;

@@ -1,4 +1,3 @@
-
 {
   "name": "vueproject",
   "version": "0.1.0",
@@ -11,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.15.6",
+    "swiper": "^5.4.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -29,4 +29,3 @@
     "vue-template-compiler": "^2.6.11"
   }
 }
-
