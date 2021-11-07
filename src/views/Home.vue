@@ -11,6 +11,8 @@
 
         <Career />
 
+        <Five />
+
 
 
         <footere />
@@ -29,6 +31,7 @@ import aviation from '@/views/major/aviation.vue'
 import HotTopics from '@/views/hottopics/HotTopics.vue'
 import Information from '@/views/hottopics/Information.vue'
 import Career from '@/views/StudentCareer/Career.vue'
+import Five from '@/views/Five/index.vue'
 
 
 
@@ -44,6 +47,7 @@ export default {
         HotTopics,
         Information,
         Career,
+        Five,
         footere,
     }
 }
@@ -54,7 +58,6 @@ export default {
     background: #eaeaea;
     width: 100%;
     padding: 0 0 .42rem 0;
-    // height: 10rem;
 }
 
 </style>

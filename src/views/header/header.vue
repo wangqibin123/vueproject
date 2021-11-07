@@ -50,7 +50,7 @@ export default {
   align-items: center;
 }
 .spn {
-  width: 2.76rem;
+  // width: 2.76rem;
   height: 0.12rem;
   font-family: PingFang-SC-Medium;
   font-size: 0.12rem;

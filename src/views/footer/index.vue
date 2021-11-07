@@ -94,6 +94,7 @@ export default {
         flex: 1;
         text-align: center;
         line-height: 0.5rem;
+        white-space: nowrap;
         color: rgb(102, 102, 102);
       }
     }
