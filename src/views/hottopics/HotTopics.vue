@@ -68,7 +68,7 @@ em,i{
     width: 100%;
     height: auto;
     min-width: 3.56rem;
-    padding: .1rem 0;
+    padding: 0 0 .1rem 0;
     background: #eaeaea;
     .hot_con{
         width: 3.56rem;

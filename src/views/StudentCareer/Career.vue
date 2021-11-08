@@ -279,10 +279,12 @@ export default {
                         line-height: .12rem;
                         letter-spacing: 0px;
                         color: #1776af;
+                        padding-right: .04rem;
                     }
                     img{
                         width: .16rem;
                         height: .16rem;
+                        
                     }
                 }
             }

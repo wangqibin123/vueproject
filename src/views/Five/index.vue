@@ -88,15 +88,15 @@ export default {
     data(){
         return {
             list:[
-                '39岁的小伙子,就发生了发颤,怎...',
-                '市北市民留言咨询这些问题,官...',
+                '39岁的小伙子,就发生了发颤,怎么',
+                '市北市民留言咨询这些问题,官方',
                 '美供应链受阻问题雪上加霜',
-                '篮网有能力解决他们的问题度...',
-                '记者实测快速企业智能客服:回...',
-                '养老金有哪些渠道可以获得？有...',
-                '怎么样买保险才是最合理的？咱...',
-                '全面建成小康社会的重要举措...',
-                '摩根士丹利重磅报告:中国经济...'       
+                '篮网有能力解决他们的问题度,你',
+                '记者实测快速企业智能客服:回复',
+                '养老金有哪些渠道可以获得?有说明',
+                '怎么样买保险才是最合理的?咱们',
+                '全面建成小康社会的重要举措你们慢慢',
+                '摩根士丹利重磅报告:中国经济措施'       
             ],
             visible: false,
             tlep:'2021.10.15',
@@ -131,17 +131,19 @@ export default {
 
 <style lang='scss' scoped>
 .five_top{
-    width: 3.55rem;
+    width: 3.75rem;
     margin: auto;
+    
     img{
         width: 100%;
         height: 100%;
     }
     .five_top_kite{
         margin-top: 0.15rem;
+        margin: 0 .1rem;
         border-radius: 0.05rem;
         box-sizing : border-box;
-        // height: 5rem;
+        height: 5rem;
         margin-bottom: .15rem;
         background-color: #ffffff;
         overflow: hidden;
@@ -155,24 +157,26 @@ export default {
                     border-bottom: 1px solid #cccccc;
                     display: flex;
                     justify-content: space-between;
-                    margin-top: .2rem;
+                    padding-top: .2rem;
                     align-items: center;
                     text-align: -webkit-left;
                     .span_One{
-                        // width: 2.5rem;
+                        width: 2.35rem;
                         height: .15rem;
                         font-family: PingFang-SC-Medium;
                         font-size: .15rem;
                         font-weight: normal;
                         font-stretch: normal;
-                        line-height: .12rem;
+                        line-height: .15rem;
                         letter-spacing: 0px;
                         color: #333333;
-                        display: flex;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                        white-space:nowrap;
                         margin-left: .07rem;
                     }
                     .span_Two{
-                        width: .74rem;
+                        // width: .74rem;
                         height: .11rem;
                         font-family: PingFang-SC-Medium;
                         font-size: .14rem;
@@ -192,11 +196,11 @@ export default {
         }
     }
     .lsit-all-the{
-    //   height: 3.58rem;
+      height: 3.58rem;
       box-sizing:border-box;
       overflow: hidden;
       background-color: #ffffff;
-      padding-bottom: .11rem;
+      margin: 0 .1rem;
     //   margin: .15rem .1rem 0 .1rem;
       border-radius: 5px;
       .all-the-tap{
@@ -209,8 +213,7 @@ export default {
       }
       .list-from{
         width: 3.38rem;
-        // height: 2.85rem;
-        padding-bottom: .05rem;
+        height: 2.85rem;
         background-color: #efefef;
         border-radius: 5px;  
         margin: 0 auto;
@@ -278,7 +281,7 @@ export default {
                 line-height: .12rem;
                 color: #878988;
                 text-align: center;
-                margin-bottom: .23rem;
+                margin-bottom: .34rem;
                 display: block;
             }
         }

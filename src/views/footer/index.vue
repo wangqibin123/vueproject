@@ -60,7 +60,7 @@ export default {
   min-height: 1rem;
   background: #fff;
   margin: 0.15rem auto 0;
-  padding-bottom: 0.05rem;
+  padding-bottom: 0.01rem;
   .sch-header {
     width: 100%;
     height: 0.55rem;
@@ -92,9 +92,7 @@ export default {
       span {
         font-size: 0.14rem;
         flex: 1;
-        text-align: center;
-        line-height: 0.5rem;
-        white-space: nowrap;
+        padding: 0 0 0 .1rem;
         color: rgb(102, 102, 102);
       }
     }
@@ -117,6 +115,7 @@ footer{
     left: 0;
     bottom: 0;
     display: flex;
+    z-index: 9999999;
     justify-content: space-between;
     div{
         width: 33.2%;
