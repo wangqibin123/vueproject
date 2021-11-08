@@ -149,7 +149,7 @@ footer{
     z-index: 9999999;
     justify-content: space-between;
     div{
-        width: 33.2%;
+        width: 33%;
         height: 100%;
         img{
             width: 100%;

@@ -12,10 +12,9 @@
                     </li>
                 </ul>           
             </div>
-            <div class="information_con_btm">
-                <div class="btm_border">
-                    <span>查看更多问题</span>
-                    <img src="../../assets/images/sou.png" alt="">
+            <div class="bottom">
+                <div class="bottom_img">
+                    <img src="../../assets/images/首页改1_94.gif" alt="">
                 </div>
             </div>
         </div>
@@ -29,35 +28,52 @@
         </div>
         <div class="list-from">
             <div class="from-name">
-                <a-input size="large" placeholder="学生姓名" style="width: 1.49rem;height: .31rem;margin-right: .1rem;"/>
-                <a-input size="large" placeholder="电话" style="width: 1.49rem;height: .31rem;"/>
+                <div class="from_One">
+                    <i class="icon_rest">*</i>
+                    <a-input size="large" placeholder="学生姓名" style="width: 1.49rem;color:#000;height: .31rem;margin-right: .1rem;"/>
+                </div>
+                <div class="from_Two">
+                    <i class="icon_rest">*</i>
+                    <a-input size="large" placeholder="手机号码" style="width: 1.49rem;color:#000;height: .31rem;"/>
+                </div>
             </div>
             <div class="from-date">
                 <div class="from-suffixIcon">
-                    <a-week-picker placeholder="Select week"  /> 
+                     <i class="icon_rest">*</i>
+                   <a-date-picker placeholder="出生年月" suffix-icon=" " /> 
                     <i class="from-icon"> 
                         <img src="../../assets/images/首页改1_100.gif" alt="">
                     </i> 
                 </div>
-                    <a-select default-value="*请选择意向学校" style="width: 1.49rem;height: .31rem;color: #ccc;overflow: hidden;">
-                        <a-select-option value="清华大学">
-                        清华大学
+                <div class="from_three">
+                    <i class="icon_rest_Two">*</i>
+                     <a-select default-value="请选择意向学校" style="width: 1.49rem;font-size:.15rem;height: .31rem;color: #ccc;overflow: hidden;">
+                        <a-icon slot="suffixIcon" type="caret-down" style="width: .11rem;height: .08rem;"/>
+                        <a-select-option  value="清华大学">
+                            <span style='color:#000'>清华大学</span>
                         </a-select-option>
                         <a-select-option value="北大大学">
-                        北大大学
+                        <span style='color:#000'>北京大学</span>
                         </a-select-option>
                     </a-select>
+                </div>
             </div>
             <div class="from-school">
-                <a-select default-value="*请选择学历" class="top"  >
-                    <a-select-option value="大专学历">
-                    大专学历
-                    </a-select-option>
-                    <a-select-option value="本科学历">
-                    本科学历
-                    </a-select-option>
-                </a-select>
-                <a-input placeholder="*你的疑问"  style="width: 1.49rem;height: .31rem;position: absolute;"/>
+                <div class="from_school_One">
+                    <i class="icon_rest_Two">*</i>
+                    <a-select default-value="请选择学历" style="font-size:.15rem;color:#ccc;" class="top"  >
+                        <a-icon slot="suffixIcon" type="caret-down" style="color: #000;width: .11rem;height: .08rem;"/>
+                        <a-select-option value="大专学历">
+                            <span style='color:#000'>大专学历</span>
+                        </a-select-option>
+                        <a-select-option value="本科学历">
+                            <span style='color:#000'>本科学历</span>
+                        </a-select-option>
+                    </a-select>
+                </div>
+                <div class="from_school_Two">
+                    <a-input placeholder="您的疑问"  style="width: 1.49rem;color:#000;height: .31rem;position: absolute;font-size:.15rem"/>
+                </div>
             </div>
             <div class="from-submit">
                 <router-link to="" class="submit-click">
@@ -67,8 +83,8 @@
                     《隐私保障》
                 </router-link> -->
                  <div class="submit-size">
-                    <div type="primary" @click="showModal">
-                    《隐私保障》
+                    <div>
+                        <span @click="showModal">《隐私保障》</span>
                     </div>
                     <a-modal v-model="visible" title="隐私保障" ok-text="确认" cancel-text="取消" @ok="hideModal">
                     <p>Bla bla ...</p>
@@ -131,6 +147,26 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+.icon_rest{
+    color: red;
+    left: 7px;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    top: -4px;
+    font-size: 0.2rem;
+    line-height: .4rem;
+}
+.icon_rest_Two{
+    color: red;
+    left: 7px;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    top: -2px;
+    font-size: 0.2rem;
+    line-height: .4rem;
+}
 .five_top{
     width: 3.75rem;
     margin: auto;
@@ -158,7 +194,7 @@ export default {
                     border-bottom: 1px solid #cccccc;
                     display: flex;
                     justify-content: space-between;
-                    padding-top: .2rem;
+                    margin-top: .2rem;
                     align-items: center;
                     text-align: -webkit-left;
                     .span_One{
@@ -191,42 +227,9 @@ export default {
                 }
             }
         }
-        .information_con_btm{
-            padding: .15rem .12rem .25rem .12rem;
-            .btm_border{
-                width: 100%;
-                height: 100%;
-                border-radius: 5px;
-                border: solid 1px #1776af;
-                text-align: center;
-                line-height: .42rem;
-                span{
-                    font-size: .16rem;
-                    color: #1776af;
-                    font-family: PingFang-SC-Medium;
-                    font-weight: normal; 
-                    font-stretch: normal;
-                    letter-spacing: 0px;
-                }
-                img{
-                    width: 0.16rem;
-                    height: 0.16rem;
-                    margin-left: .04rem; 
-                    vertical-align: middle;
-                    margin-bottom: .02rem;   
-                }
-            }
-            :hover{
-                background: #3f555f;
-            }
-            :hover>span{
-                color: #ffffff;
-                font-size: .16rem;
-                font-family: PingFang-SC-Medium;
-                font-weight: normal; 
-                font-stretch: normal;
-                letter-spacing: 0px;
-            }
+        .bottom{
+            margin: .12rem auto .25rem;
+            width: 3.31rem;
         }
     }
     .lsit-all-the{
@@ -254,9 +257,42 @@ export default {
         margin-top: -.12rem;
         .from-name{
             padding: .3rem .15rem .1rem .15rem;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            .from_One{
+                position: relative;
+                .icon_rest{
+                    color: red;
+                    left: 7px;
+                    height: 100%;
+                    position: absolute;
+                    z-index: 999;
+                    top: -5px;
+                    font-size: 0.2rem;
+                    line-height: .4rem;
+                }
+                input{
+                    position: absolute;
+                    display: inline-block;
+                    padding-left: .15rem;
+                }
+            }
+            .from_Two{
+                position: relative;
+                input{
+                    display: inline-block;
+                    padding-left: .15rem;
+                }
+            }
+            
         }
         .from-date{
             padding: 0 .15rem .1rem .15rem;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
             .from-suffixIcon{
                 display: inline-block;
                 width: 1.49rem;
@@ -265,9 +301,16 @@ export default {
                 position: relative;
                 overflow: hidden;
                ::v-deep .ant-input{
-                   height: 100%;
+                   height: .3rem;
+                   display: inline-block;
+                   padding-left: .15rem;
+                   color:#000;
                }
                 .ant-calendar-picker{
+                    width: 100%;
+                    height: 100%;
+                }
+                .ant-calendar-picker-input{
                     width: 100%;
                     height: 100%;
                 }
@@ -282,19 +325,32 @@ export default {
                     }
                 }
             }
+            .from_three{
+                position: relative;
+                .ant-select-selection-selected-value{
+                    display: inline-block !important;
+                    padding-left: .05rem;
+                    color:#000 !important;
+                }
+            }
         }
         .from-school{
             padding: 0 .15rem .15rem .15rem;
             position: relative;
-            .top{
-                width: 1.49rem;
-                height: .31rem;
-                color: #ccc;
-                margin-right: .1rem;
-                overflow: hidden;
-            }
-            ::deep .ant-select-selection--single{
-                height: 100%;
+            overflow: hidden;
+            display: flex;
+            .from_school_One{
+                position: relative;
+                .top{
+                    width: 1.49rem;
+                    height: .31rem;
+                    color: #ccc;
+                    margin-right: .1rem;
+                    overflow: hidden;
+                }
+                ::deep .ant-select-selection--single{
+                    height: 100%;
+                }
             }
         }
         .from-submit{
@@ -332,6 +388,17 @@ export default {
 }
 ::v-deep .ant-select-selection-selected-value{
     line-height: .3rem;
+}
+::v-deep .ant-select-selection__rendered {
+        position: relative;
+        display: inline-block !important;
+        margin-right: 11px;
+        margin-left: 11px;
+        line-height: 30px;
+        padding-left: .05rem;
+}
+.act{
+    color: #000;
 }
 
 </style>
