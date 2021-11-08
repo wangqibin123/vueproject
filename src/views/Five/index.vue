@@ -12,9 +12,10 @@
                     </li>
                 </ul>           
             </div>
-            <div class="bottom">
-                <div class="bottom_img">
-                    <img src="../../assets/images/首页改1_94.gif" alt="">
+            <div class="information_con_btm">
+                <div class="btm_border">
+                    <span>查看更多问题</span>
+                    <img src="../../assets/images/sou.png" alt="">
                 </div>
             </div>
         </div>
@@ -38,7 +39,7 @@
                         <img src="../../assets/images/首页改1_100.gif" alt="">
                     </i> 
                 </div>
-                    <a-select default-value="请选择意向学校" style="width: 1.49rem;height: .31rem;color: #ccc;overflow: hidden;">
+                    <a-select default-value="*请选择意向学校" style="width: 1.49rem;height: .31rem;color: #ccc;overflow: hidden;">
                         <a-select-option value="清华大学">
                         清华大学
                         </a-select-option>
@@ -48,7 +49,7 @@
                     </a-select>
             </div>
             <div class="from-school">
-                <a-select default-value="请选择学历" class="top"  >
+                <a-select default-value="*请选择学历" class="top"  >
                     <a-select-option value="大专学历">
                     大专学历
                     </a-select-option>
@@ -56,7 +57,7 @@
                     本科学历
                     </a-select-option>
                 </a-select>
-                <a-input placeholder="你的疑问"  style="width: 1.49rem;height: .31rem;position: absolute;"/>
+                <a-input placeholder="*你的疑问"  style="width: 1.49rem;height: .31rem;position: absolute;"/>
             </div>
             <div class="from-submit">
                 <router-link to="" class="submit-click">
@@ -190,9 +191,42 @@ export default {
                 }
             }
         }
-        .bottom{
-            margin: .12rem auto .25rem;
-            width: 3.31rem;
+        .information_con_btm{
+            padding: .15rem .12rem .25rem .12rem;
+            .btm_border{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+                border: solid 1px #1776af;
+                text-align: center;
+                line-height: .42rem;
+                span{
+                    font-size: .16rem;
+                    color: #1776af;
+                    font-family: PingFang-SC-Medium;
+                    font-weight: normal; 
+                    font-stretch: normal;
+                    letter-spacing: 0px;
+                }
+                img{
+                    width: 0.16rem;
+                    height: 0.16rem;
+                    margin-left: .04rem; 
+                    vertical-align: middle;
+                    margin-bottom: .02rem;   
+                }
+            }
+            :hover{
+                background: #3f555f;
+            }
+            :hover>span{
+                color: #ffffff;
+                font-size: .16rem;
+                font-family: PingFang-SC-Medium;
+                font-weight: normal; 
+                font-stretch: normal;
+                letter-spacing: 0px;
+            }
         }
     }
     .lsit-all-the{

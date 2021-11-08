@@ -10,7 +10,7 @@ import "./assets/reset.css"
 import ElementUI from 'element-ui';
 // import 'element-ui/lib/theme-chalk/index.css';
 
-import "./assets/element.css"
+// import "./assets/element.css"
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false

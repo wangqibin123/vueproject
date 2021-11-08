@@ -78,22 +78,25 @@ export default {
     }
   }
   .menu {
+    position: relative;
     img {
       width: 0.3rem;
       height: 0.22rem;
       padding: 0.15rem;
     }
+    .txt::after{
+        content: '';
+        display: block;
+        width: 1.5rem;
+        height: 3.0rem;
+        background:red;
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        top: .38rem;
+    }
   }
 }
-.menu .txt::after{
-    content: '';
-    width: 1.5rem;
-    height: 3.0rem;
-    background:red;
-    z-index: 2;
-    position: absolute;
-    left: 2.25rem;
-    top: 0.8rem;
-}
+
 
 </style>
