@@ -106,6 +106,7 @@
                             font-stretch: normal;
                             letter-spacing: 0px;
                             color: #999999;
+                            margin-bottom: 0;
                         }
                     }
                 }

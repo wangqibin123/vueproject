@@ -3,7 +3,7 @@
         <p>当前位置：<span>首页</span></p>
     </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 .page{
     height: .53rem;
     width: 3.75rem;

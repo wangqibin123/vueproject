@@ -9,13 +9,13 @@
       <!-- 如果需要分页器 -->
       <div class="swiper-pagination" style="color: #00f0ff"></div>
       <img
-        class="swiper-button-next"
+        class="swiper-button-prev"
         id="one"
         src="../../assets/images/首页改1_10.gif"
         alt=""
       />
       <img
-        class="swiper-button-prev"
+        class="swiper-button-next"
         id="two"
         src="../../assets/images/首页改1_13.gif"
         alt=""
@@ -51,13 +51,10 @@ export default {
         prevEl: ".swiper-button-prev",
       },
     });
-    let res = await getBanner(1);
-    console.log(res);
-    this.img = res.data.banners;
   },
 };
 </script>
-<style scoped>
+<style  lang="scss" scoped>
 .swiper {
   position: relative;
   width: 3.75rem;

@@ -59,7 +59,10 @@
                                         <span class="midell_left">2、市北市民留言咨询这...</span>
                                         <span class="midell_right">2021.10.15</span>
                                     </div>
-                                   
+                                   <div class="midell_list">
+                                        <span class="midell_left">3、美供应链受阻问题雪...</span>
+                                        <span class="midell_right">2021.10.15</span>
+                                    </div>
                                     
                                     <div class="midell_list">
                                         <span class="midell_left">4、篮网有能力解决他们...</span>
@@ -194,7 +197,7 @@ export default {
     .main{
         .StudentCareer{
           width: 100%;
-          height: 5.55rem;
+        //   height: 5.55rem;
           font-size: .12rem;
           background-color: rgb(234, 234, 234);
           display: flex;
@@ -217,7 +220,7 @@ export default {
             .tab{
                 height: 3.88rem;
                 display: flex;
-                // justify-content: center;
+                justify-content: center;
                 // border-radius: .4rem;
                 .midell{
                     height: 3.2rem;
@@ -230,16 +233,15 @@ export default {
                         display: flex;
                         justify-content: space-between;
                          border-bottom: .01rem solid rgb(204,204,204,);
-                        
                         .midell_left{
                             width: 1.76rem;
-                            height: .15rem;
+                            // height: .15rem;
                             font-size:.15rem;
                             white-space: nowrap;
                             overflow: hidden;
                             text-overflow: ellipsis;
                             line-height: .12rem;
-                            margin-top: .14rem;
+                            padding-top: .14rem;
                             color: #333333;
                         }
                         .midell_right{
@@ -269,7 +271,7 @@ export default {
                     margin-top: .1rem;
                     background: white;
                     .chakan{
-                        width: .96rem;
+                        // width: .96rem;
                         height:.15rem;
                         font-size: .16rem;
                         font-weight: normal;
@@ -288,9 +290,9 @@ export default {
         }
     }
 
-    #tab_list1{
-         background: red;
-    }
+    // #tab_list1{
+    //      background: red;
+    // }
     .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
         border-top-left-radius:0rem !important;
     }

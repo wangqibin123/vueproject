@@ -12,7 +12,6 @@
         <div class="txt" v-show="isloading"></div>
       </div>
     </div>
-
     <HeaderLun />
   </div>
 </template>
@@ -41,7 +40,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .inp {
   width: 3.75rem;
   height: 0.3rem;

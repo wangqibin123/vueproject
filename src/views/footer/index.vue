@@ -59,8 +59,8 @@ export default {
   width: 3.54rem;
   min-height: 1rem;
   background: #fff;
-  margin: 0.15rem auto;
-  padding-bottom: 0.33rem;
+  margin: 0.15rem auto 0;
+  padding-bottom: 0.05rem;
   .sch-header {
     width: 100%;
     height: 0.55rem;
@@ -119,7 +119,7 @@ footer{
     display: flex;
     justify-content: space-between;
     div{
-        width: 33.3%;
+        width: 33.2%;
         height: 100%;
         img{
             width: 100%;
