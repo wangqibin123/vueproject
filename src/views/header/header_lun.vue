@@ -58,6 +58,8 @@ export default {
 .swiper {
   position: relative;
   width: 3.75rem;
+  margin: 0 auto;
+
   height: 1.5rem;
 }
 .swiper-slide img {

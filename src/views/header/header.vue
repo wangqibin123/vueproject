@@ -43,6 +43,7 @@ export default {
 <style lang="scss" scoped>
 .inp {
   width: 3.75rem;
+  margin: 0 auto;
   height: 0.3rem;
   background-color: #ffffff;
   display: flex;
@@ -51,6 +52,7 @@ export default {
 .spn {
   // width: 2.76rem;
   height: 0.12rem;
+  
   font-family: PingFang-SC-Medium;
   font-size: 0.12rem;
   font-weight: normal;
@@ -62,6 +64,8 @@ export default {
 .logo_body {
   width: 3.75rem;
   height: 0.49rem;
+  margin: 0 auto;
+
   background: #eaeaea;
   display: flex;
   justify-content: space-between;
