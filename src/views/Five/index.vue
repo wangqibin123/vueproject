@@ -166,7 +166,7 @@ export default {
     line-height: .4rem;
 }
 .five_top{
-    // width: 3.75rem;
+    width: 3.75rem;
     margin: auto;
     img{
         width: 100%;
