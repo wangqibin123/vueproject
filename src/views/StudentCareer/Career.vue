@@ -227,14 +227,15 @@ body {
   display: flex;
   justify-content: center;
   background: #eaeaea;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
   .main {
     width: 3.55rem;
     height: 5.36rem;
     background-color: #ffffff;
     box-shadow: 0.01rem 0.02rem 0.02rem 0 rgba(228, 228, 228, 0.51);
     border-radius: 0.05rem;
+    overflow: hidden;
     position: relative;
     .header {
       width: 3.55rem;

@@ -166,9 +166,8 @@ export default {
     line-height: .4rem;
 }
 .five_top{
-    width: 3.75rem;
+    // width: 3.75rem;
     margin: auto;
-    
     img{
         width: 100%;
         height: 100%;
@@ -264,7 +263,7 @@ export default {
             }
     }
     .lsit-all-the{
-      height: 3.58rem;
+    //   height: 3.58rem;
       box-sizing:border-box;
       overflow: hidden;
       background-color: #ffffff;
@@ -281,7 +280,8 @@ export default {
       }
       .list-from{
         width: 3.38rem;
-        height: 2.85rem;
+        // height: 2.85rem;
+        // padding: 0 0 .01rem 0;
         background-color: #efefef;
         border-radius: 5px;  
         margin: 0 auto;
@@ -402,8 +402,9 @@ export default {
                 line-height: .12rem;
                 color: #878988;
                 text-align: center;
-                margin-bottom: .34rem;
+                margin-bottom: .11rem;
                 display: block;
+                padding: 0 0 .23rem 0;
             }
         }
       }

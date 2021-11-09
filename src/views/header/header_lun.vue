@@ -11,13 +11,15 @@
       <img
         class="swiper-button-prev"
         id="one"
-        src="../../assets/images/首页改1_10.gif"
+        :src="leftimg"
+        @click="left"
         alt=""
       />
       <img
         class="swiper-button-next"
         id="two"
-        src="../../assets/images/首页改1_13.gif"
+        :src="rightimg"
+        @click="right"
         alt=""
       />
     </div>
@@ -29,17 +31,19 @@ import Swiper from "swiper";
 import "swiper/css/swiper.css";
 
 export default {
-  data: function () {
+  data(){
     return {
       img: [
         { pic: require("../../assets/images/首页改1_27.gif") },
         { pic: require("../../assets/images/首页改1_03.gif") },
         { pic: require("../../assets/images/首页改1_03.gif") },
       ],
+      leftimg:require("../../assets/images/首页改1_10.gif"),
+      rightimg:require("../../assets/images/未标题-1_03.gif")
     };
   },
-  async mounted() {
-    var mySwiper = new Swiper("#swiperOne", {
+  mounted() {
+    var mySwiper =new Swiper("#swiperOne", {
       loop: true, // 循环模式选项
     //   autoplay: true, //自动播放
       // 如果需要分页器
@@ -52,14 +56,27 @@ export default {
       },
     });
   },
-};
+  methods:{
+    left(){
+      if(this.rightimg==require("../../assets/images/首页改1_13.gif")){
+        this.leftimg=require("../../assets/images/左.png")
+        this.rightimg=require("../../assets/images/未标题-1_03.gif")
+      }
+    },
+    right(){
+      if(this.leftimg=require("../../assets/images/首页改1_13.gif")){
+        this.leftimg=require("../../assets/images/首页改1_10.gif")
+        this.rightimg=require("../../assets/images/首页改1_13.gif")
+      }
+    }
+  }
+}
 </script>
 <style  lang="scss" scoped>
 .swiper {
   position: relative;
   width: 3.75rem;
   margin: 0 auto;
-
   height: 1.5rem;
 }
 .swiper-slide img {
@@ -73,6 +90,7 @@ export default {
   top: 45%;
   left: 0.2rem;
   z-index: 999;
+  opacity: 0.7;
 }
 #one1 {
   position: absolute;
@@ -88,7 +106,7 @@ export default {
   height: 0.31rem;
   right: 0.2rem;
   left: 3.2rem;
-  opacity: 0.5;
+  opacity: 0.7;
   top: 45%;
   z-index: 999;
 }

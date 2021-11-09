@@ -64,6 +64,8 @@ export default {
   min-height: 1rem;
   background: #fff;
   margin: 0.15rem auto 0;
+  border-radius: .05rem .05rem 0 0;
+  overflow: hidden;
   padding-bottom: 0.01rem;
   .sch-header {
     width: 100%;
