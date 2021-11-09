@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="foot">
     <div class="school">
       <div class="sch-header">
         <img src="@/assets/images/首页改1_107.gif" alt="" />
@@ -58,6 +58,7 @@ export default {
 };
 </script>
 <style lang='scss' scoped>
+
 .school {
   width: 3.54rem;
   min-height: 1rem;
@@ -139,12 +140,13 @@ export default {
   }
 }
 footer{
-    width: 100%;
+    width: 3.75rem;
     height: .42rem;
-    background: #fff;
+    background: #EAEAEA;
     position: fixed;
-    left: 0;
+    left: 50%;
     bottom: 0;
+    transform: translate(-50%,0);
     display: flex;
     z-index: 9999999;
     justify-content: space-between;

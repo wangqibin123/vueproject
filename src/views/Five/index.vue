@@ -12,9 +12,10 @@
                     </li>
                 </ul>           
             </div>
-            <div class="bottom">
-                <div class="bottom_img">
-                    <img src="../../assets/images/首页改1_94.gif" alt="">
+            <div class="information_con_btm">
+                <div class="btm_border">
+                    <span>查看更多资讯</span>
+                    <img src="../../assets/images/sou.png" alt="">
                 </div>
             </div>
         </div>
@@ -79,9 +80,6 @@
                 <router-link to="" class="submit-click">
                     <img src="../../assets/images/首页改1_104.gif" alt="">
                 </router-link>
-                <!-- <router-link to="" class="submit-size">
-                    《隐私保障》
-                </router-link> -->
                  <div class="submit-size">
                     <div>
                         <span @click="showModal">《隐私保障》</span>
@@ -227,10 +225,43 @@ export default {
                 }
             }
         }
-        .bottom{
-            margin: .12rem auto .25rem;
-            width: 3.31rem;
-        }
+         .information_con_btm{
+                padding: .15rem .12rem .25rem .12rem;
+                .btm_border{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px;
+                    border: solid 1px #1776af;
+                    text-align: center;
+                    line-height: .42rem;
+                    span{
+                        font-size: .16rem;
+                        color: #1776af;
+                        font-family: PingFang-SC-Medium;
+                        font-weight: normal; 
+                        font-stretch: normal;
+                        letter-spacing: 0px;
+                    }
+                    img{
+                        width: 0.16rem;
+                        height: 0.16rem;
+                        margin-left: .04rem; 
+                        vertical-align: middle;
+                        margin-bottom: .02rem;   
+                    }
+                }
+                :hover{
+                    background: #3f555f;
+                }
+                :hover>span{
+                    color: #ffffff;
+                    font-size: .16rem;
+                    font-family: PingFang-SC-Medium;
+                    font-weight: normal; 
+                    font-stretch: normal;
+                    letter-spacing: 0px;
+                }
+            }
     }
     .lsit-all-the{
       height: 3.58rem;
