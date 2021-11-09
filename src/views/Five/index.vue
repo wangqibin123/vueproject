@@ -49,7 +49,7 @@
                 <div class="from_three">
                     <i class="icon_rest_Two">*</i>
                      <a-select default-value="请选择意向学校" style="width: 1.49rem;font-size:.15rem;height: .31rem;color: #ccc;overflow: hidden;">
-                        <a-icon slot="suffixIcon" type="caret-down" style="width: .11rem;height: .08rem;"/>
+                        <a-icon slot="suffixIcon" type="caret-down" style="width: .11rem;height: .08rem; color: #000;"/>
                         <a-select-option  value="清华大学">
                             <span style='color:#000'>清华大学</span>
                         </a-select-option>
@@ -432,5 +432,4 @@ export default {
 .act{
     color: #000;
 }
-
 </style>
