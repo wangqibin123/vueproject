@@ -7,16 +7,11 @@ import store from './store'
 import "./assets/app"
 // 引入样式重置文件
 import "./assets/reset.css"
-import ElementUI from 'element-ui';
-// import 'element-ui/lib/theme-chalk/index.css';
 
-// import "./assets/element.css"
 
-Vue.use(ElementUI);
 Vue.config.productionTip = false
 
 import "./assets/ant.css"
-// import 'ant-design-vue/dist/antd.css';
 import Antd from 'ant-design-vue'
 Vue.use(Antd);
 
