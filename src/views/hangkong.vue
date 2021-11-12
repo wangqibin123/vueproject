@@ -1,8 +1,18 @@
 <template>
     <div class="warp">
         <Header />
+
         <Show/>
         <Age/>
+
+        <Lun />
+        <Title />
+        <Video/>
+
+        <Prospects/>
+        <swiperBanner/>
+
+
         <footere />
     </div>
 </template>
@@ -11,17 +21,28 @@ import Header from '@/components/header/header.vue'
 import Show from '@/views/aviation/show.vue'
 import Age from '@/views/aviation/age.vue'
 
+import Lun from '@/views/hangkongs/lun.vue'
+import Title from '@/views/hangkongs/title.vue'
+import Video from '@/views/hangkongs/video_lun.vue'
 
+import swiperBanner from '@/views/Aviation/swiperbanner.vue'
+
+
+import Prospects from '../views/homes/Five/prospects.vue'
 
 
 import footere from '@/components/footer/index.vue'
-
 export default {
     components:{
         Header,
         Show,
         Age,
+        Lun,
+        Title,
+        Video,
+        swiperBanner,
         footere,
+        Prospects
     }
 }
 </script>
