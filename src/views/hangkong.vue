@@ -1,6 +1,7 @@
 <template>
     <div class="warp">
         <Header />
+        <Prospects/>
         <footere />
     </div>
 </template>
@@ -9,6 +10,7 @@ import Header from '@/components/header/header.vue'
 
 
 
+import Prospects from '../views/homes/Five/prospects.vue'
 
 import footere from '@/components/footer/index.vue'
 
@@ -16,6 +18,7 @@ export default {
     components:{
         Header,
         footere,
+        Prospects
     }
 }
 </script>
