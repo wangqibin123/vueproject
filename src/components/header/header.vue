@@ -12,18 +12,11 @@
         <div class="txt" v-show="isloading"></div>
       </div>
     </div>
-<<<<<<< HEAD
-=======
-    
-    <HeaderLun />
->>>>>>> ups/master
   </div>
 </template>
 
 <script>
 export default {
- components:{
- },
  data(){
      return {
          isloading:false
