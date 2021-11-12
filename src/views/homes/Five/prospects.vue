@@ -76,16 +76,16 @@
           <div class="prospects_content_Two">
               <ul>
                   <li>
-                      <span><em>1、</em>凤凰可分为颇为姐姐基督教减肥陪玩'DNF酒精发酵按键打开的渴望快递'</span>
+                      <p><span>1</span>、凤凰可分为颇为姐姐基督教减肥陪玩'DNF酒精发酵按键打开的渴望快递'</p>
                   </li>
                   <li>
-                      <span><em>2、</em>DNF酒精发酵按键打开的渴望快递'DNF酒精发酵按键打开的渴望快递'</span>
+                      <p><span>2</span>、DNF酒精发酵按键打开的渴望快递'DNF酒精发酵按键打开的渴望快递'</p>
                   </li>
                   <li>
-                      <span><em>3、</em>和客户上帝问问饿未接龙卷风分'DNF酒精发酵按键打开的渴望快递'</span>
+                      <p><span>3</span>、和客户上帝问问饿未接龙卷风分'DNF酒精发酵按键打开的渴望快递'</p>
                   </li>
                   <li>
-                      <span><em>4、</em>分开开开飞机抗裂砂浆low扣痘痘是'DNF酒精发酵按键打开的渴望快递'</span>
+                      <p><span>4</span>、分开开开飞机抗裂砂浆low扣痘痘是'DNF酒精发酵按键打开的渴望快递'</p>
                   </li>
                   <div data-v-38b7d4ae="" class="information_con_btm">
                       <div data-v-38b7d4ae="" class="btm_border">
@@ -259,7 +259,7 @@ export default {
             ul{
                 li{
                     padding-top: .1rem;
-                    span{
+                    p{
                         display: -webkit-box;
                         text-overflow: ellipsis;
                         overflow : hidden;
@@ -267,8 +267,15 @@ export default {
                         -webkit-box-orient: vertical;
                         width: 2.6rem;
                         line-height: .15rem;
-                        em{
-                            padding-left: .1rem;
+                        span{
+                            display: inline-block;
+                            width: .15rem;
+                            text-align: center;
+                            height: .15rem;
+                            line-height: .15rem;
+                            border-radius: 50%;
+                            border: 1px solid #000000;
+                            margin-left: .05rem;
                         }
                     }
                 }
@@ -344,6 +351,7 @@ export default {
                     text-align: -webkit-left;
                     .span_One{
                         width: 2.35rem;
+                        padding-bottom: .02rem;
                         height: .15rem;
                         font-family: PingFang-SC-Medium;
                         font-size: .15rem;
