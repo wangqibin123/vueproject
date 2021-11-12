@@ -4,8 +4,8 @@
             <div class="swiper-container" id="swiper_con">
                 <div class="swiper-wrapper" id="swiper_warp" style="background-color: #fdfafa;">
                     <div class="swiper-slide" id="slide" v-for="item in listimg" :key="item.id">
-                        <img :src="item.img" alt="">
-                        <img :src="item.img2" alt="">
+                       <img :src="item.img" alt="">
+                       <img :src="item.img2" alt="">
                     </div>
                 </div>
                 <img class="swiper-button-prev" :src="leftimg" @click="leftSide" alt="">
@@ -17,6 +17,7 @@
     </div>
 </template>
 <script>
+import { play } from "vue-video-player"
 import Swiper from "swiper";
 import "swiper/css/swiper.css";
 export default {
@@ -40,19 +41,20 @@ export default {
                 }
             ],
             leftimg:require("@/assets/images2/首页改1_10.gif"),
-            rightimg:require("@/assets/images/未标题-1_03.gif")
+            rightimg:require("@/assets/images/未标题-1_03.gif"),
+         
         }
     },
     methods:{
         leftSide(){
             if(this.leftimg == require("@/assets/images2/首页改1_10.gif")){
-                this.leftimg = require("@/assets/images/左.png")
+                this.leftimg = require("@/assets/images2/题-1_03.png")
                 this.rightimg = require("@/assets/images/未标题-1_03.gif")
             }
         },
         rightSide(){
             if(this.rightimg == require("@/assets/images/未标题-1_03.gif")){
-                this.rightimg = require("@/assets/images2/首页改1_13.gif")
+                this.rightimg = require("@/assets/images2/未标题-1_03.png")
                 this.leftimg = require("@/assets/images2/首页改1_10.gif")
             }
         }
@@ -71,10 +73,13 @@ export default {
                 prevEl: ".swiper-button-prev",
             },
       })
+     
+      
     },
+   
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
     .video_warp{
         width: 100%;
         height: auto;
@@ -95,6 +100,8 @@ export default {
                         img{
                             width: 1.70rem;
 	                        height: .97rem;
+                            border-radius: .05rem;
+                             position: relative;
                         }
                     }
                 }
@@ -112,4 +119,24 @@ export default {
             }
         }
     }
+    .video-img{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    background-size:100%;
+	cursor:pointer;
+    img{
+      display:block;
+      width: 60px;
+      height: 60px;
+      position: relative;
+      top:260px;
+      left: 48%;
+    }
+}
 </style>
+
+
+

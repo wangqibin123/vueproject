@@ -8,7 +8,10 @@ import "./assets/app"
 // 引入样式重置文件
 import "./assets/reset.css"
 
-
+import VideoPlayer from 'vue-video-player'
+require('video.js/dist/video-js.css')
+require('vue-video-player/src/custom-theme.css')
+Vue.use(VideoPlayer)
 Vue.config.productionTip = false
 
 import "./assets/ant.css"

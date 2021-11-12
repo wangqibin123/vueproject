@@ -1,16 +1,17 @@
 <template>
     <div class="warp">
         <Header />
-
-        <Show/>
-        <Age/>
-
         <Lun />
         <Title />
         <Video/>
+        <Show/>
+        <swiperBanner/>
+        <Age/>
+
+
 
         <Prospects/>
-        <swiperBanner/>
+
 
 
         <footere />
@@ -18,8 +19,8 @@
 </template>
 <script>
 import Header from '@/components/header/header.vue'
-import Show from '@/views/aviation/show.vue'
-import Age from '@/views/aviation/age.vue'
+import Show from '@/views/Aviation/show.vue'
+import Age from '@/views/Aviation/age.vue'
 
 import Lun from '@/views/hangkongs/lun.vue'
 import Title from '@/views/hangkongs/title.vue'
