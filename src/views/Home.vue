@@ -21,22 +21,21 @@
     
 </template>
 <script>
-//李宗旋
-import Header from '@/views/header/header.vue'
-//李艺圆
-import page from '@/views/page/page.vue'
-import major from '@/views/major/major.vue'
-import aviation from '@/views/major/aviation.vue'
-//赵黎明
-import HotTopics from '@/views/hottopics/HotTopics.vue'
-import Information from '@/views/hottopics/Information.vue'
-import Career from '@/views/StudentCareer/Career.vue'
-import Five from '@/views/Five/index.vue'
+import Header from '@/views/homes/header/header.vue'
 
 
+import page from '@/views/homes/page/page.vue'
+import major from '@/views/homes/major/major.vue'
+import aviation from '@/views/homes/major/aviation.vue'
 
-//王棋彬
-import footere from '@/views/footer/index.vue'
+
+import HotTopics from '@/views/homes/hottopics/HotTopics.vue'
+import Information from '@/views/homes/hottopics/Information.vue'
+import Career from '@/views/homes/StudentCareer/Career.vue'
+import Five from '@/views/homes/Five/index.vue'
+
+
+import footere from '@/views/homes/footer/index.vue'
 
 export default {
     components:{

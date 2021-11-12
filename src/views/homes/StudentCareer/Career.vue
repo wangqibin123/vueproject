@@ -171,7 +171,7 @@
       <div class="information_con_btm">
             <div class="btm_border">
                 <span>查看更多资讯</span>
-                <img src="../../assets/images/sou.png" alt="">
+                <img src="@/assets/images/sou.png" alt="">
             </div>
         </div>
     </div>

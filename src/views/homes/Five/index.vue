@@ -2,7 +2,7 @@
   <div class="five_top">
         <div class="five_top_kite">
            <div class="header">
-                <img src="../../assets/images/首页改1_91.gif" alt="">
+                <img src="@/assets/images/首页改1_91.gif" alt="">
             </div>
             <div class="content">
                 <ul class="content_ul">
@@ -15,7 +15,7 @@
             <div class="information_con_btm">
                 <div class="btm_border">
                     <span>查看更多资讯</span>
-                    <img src="../../assets/images/sou.png" alt="">
+                    <img src="@/assets/images/sou.png" alt="">
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
         <div class="all-the-tap">
             <h2 class="all-the-size">
                 <span class="all-the-icon">
-                    <img src="../../assets/images/首页改1_97.gif" alt="">
+                    <img src="@/assets/images/首页改1_97.gif" alt="">
                 </span>
             </h2>
         </div>
@@ -43,7 +43,7 @@
                      <i class="icon_rest">*</i>
                    <a-date-picker placeholder="出生年月" suffix-icon=" " /> 
                     <i class="from-icon"> 
-                        <img src="../../assets/images/首页改1_100.gif" alt="">
+                        <img src="@/assets/images/首页改1_100.gif" alt="">
                     </i> 
                 </div>
                 <div class="from_three">
@@ -78,7 +78,7 @@
             </div>
             <div class="from-submit">
                 <router-link to="" class="submit-click">
-                    <img src="../../assets/images/首页改1_104.gif" alt="">
+                    <img src="@/assets/images/首页改1_104.gif" alt="">
                 </router-link>
                  <div class="submit-size">
                     <div>

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import home from '../views/Home.vue'
-
+import Hangkong from '@/views/hangkong.vue'
 
 Vue.use(VueRouter)
 
@@ -10,10 +10,12 @@ const routes = [
        path: '/',
        component: home
      },
-    //  {
-    //    path: '/',
-    //    component: () => import( '../views/completed.vue')
-    //  }
+     {
+        path:"/hangkong",
+        name:"航空",
+        component:Hangkong
+     }
+
 ]
 
 const router = new VueRouter({

@@ -34,12 +34,12 @@ export default {
   data(){
     return {
       img: [
-        { pic: require("../../assets/images/首页改1_27.gif") },
-        { pic: require("../../assets/images/首页改1_03.gif") },
-        { pic: require("../../assets/images/首页改1_03.gif") },
+        { pic: require("@/assets/images/首页改1_27.gif") },
+        { pic: require("@/assets/images/首页改1_03.gif") },
+        { pic: require("@/assets/images/首页改1_03.gif") },
       ],
-      leftimg:require("../../assets/images/首页改1_10.gif"),
-      rightimg:require("../../assets/images/未标题-1_03.gif")
+      leftimg:require("@/assets/images/首页改1_10.gif"),
+      rightimg:require("@/assets/images/未标题-1_03.gif")
     };
   },
   mounted() {
@@ -58,15 +58,15 @@ export default {
   },
   methods:{
     left(){
-      if(this.rightimg==require("../../assets/images/首页改1_13.gif")){
-        this.leftimg=require("../../assets/images/左.png")
-        this.rightimg=require("../../assets/images/未标题-1_03.gif")
+      if(this.rightimg==require("@/assets/images/首页改1_13.gif")){
+        this.leftimg=require("@/assets/images/左.png")
+        this.rightimg=require("@/assets/images/未标题-1_03.gif")
       }
     },
     right(){
-      if(this.leftimg=require("../../assets/images/首页改1_13.gif")){
-        this.leftimg=require("../../assets/images/首页改1_10.gif")
-        this.rightimg=require("../../assets/images/首页改1_13.gif")
+      if(this.leftimg=require("@/assets/images/首页改1_13.gif")){
+        this.leftimg=require("@/assets/images/首页改1_10.gif")
+        this.rightimg=require("@/assets/images/首页改1_13.gif")
       }
     }
   }
@@ -87,19 +87,12 @@ export default {
   position: absolute;
   width: 0.32rem;
   height: 0.31rem;
-  top: 45%;
+  top: 55%;
   left: 0.2rem;
   z-index: 999;
   opacity: 0.7;
 }
-#one1 {
-  position: absolute;
-  width: 0.32rem;
-  height: 0.31rem;
-  top: 45%;
-  left: 0.2rem;
-  z-index: 999;
-}
+
 #two {
   position: absolute;
   width: 0.32rem;
@@ -107,7 +100,7 @@ export default {
   right: 0.2rem;
   left: 3.2rem;
   opacity: 0.7;
-  top: 45%;
+  top: 55%;
   z-index: 999;
 }
 .swiper-pagination {

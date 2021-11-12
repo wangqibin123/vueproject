@@ -2,30 +2,30 @@
     <div class="hot_warp">
         <div class="hot_con">
             <div class="hot_con_top">
-                <img src="../../assets/images/首页改1_56.gif" alt="">
+                <img src="@/assets/images/首页改1_56.gif" alt="">
             </div>
             <div class="hot_con_btm">
                 <ul>
                     <li>
-                        <img src="../../assets/images/首页改1_59.gif" alt="">
+                        <img src="@/assets/images/首页改1_59.gif" alt="">
                     </li>
                     <li>
-                        <img src="../../assets/images/首页改1_62.gif" alt="">
+                        <img src="@/assets/images/首页改1_62.gif" alt="">
                     </li>
                     <li>
-                        <img src="../../assets/images/首页改1_66.gif" alt="">
+                        <img src="@/assets/images/首页改1_66.gif" alt="">
                     </li>
                     <li>
-                        <img src="../../assets/images/首页改1_68.gif" alt="">
+                        <img src="@/assets/images/首页改1_68.gif" alt="">
                     </li>
                     <li>
-                        <img src="../../assets/images/首页改1_71.gif" alt="">
+                        <img src="@/assets/images/首页改1_71.gif" alt="">
                     </li>
                     <li>
-                        <img src="../../assets/images/首页改1_72.gif" alt="">
+                        <img src="@/assets/images/首页改1_72.gif" alt="">
                     </li>
                     <li>
-                        <img src="../../assets/images/首页改1_75.gif" alt="">
+                        <img src="@/assets/images/首页改1_75.gif" alt="">
                     </li>
                     <li>
                         <a href="#">查看更多</a>

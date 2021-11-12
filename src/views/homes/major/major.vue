@@ -1,24 +1,24 @@
 <template>
   <div class="major">
     <div class="major-header">
-      <img src="../../assets/images/首页改1_18.gif" alt="" />
+      <img src="@/assets/images/首页改1_18.gif" alt="" />
     </div>
     <div class="major-content">
       <ul>
+        <router-link to="/hangkong" tag="li">
+            <img src="@/assets/images/首页改1_22.gif" alt="" />
+        </router-link>
         <li>
-          <img src="../../assets/images/首页改1_22.gif" alt="" />
+          <img src="@/assets/images/首页改1_25.gif" alt="" />
         </li>
         <li>
-          <img src="../../assets/images/首页改1_25.gif" alt="" />
+          <img src="@/assets/images/首页改1_27.gif" alt="" />
         </li>
         <li>
-          <img src="../../assets/images/首页改1_27.gif" alt="" />
+          <img src="@/assets/images/首页改1_29.gif" alt="" />
         </li>
         <li>
-          <img src="../../assets/images/首页改1_29.gif" alt="" />
-        </li>
-        <li>
-          <img src="../../assets/images/首页改1_31.gif" alt="" />
+          <img src="@/assets/images/首页改1_31.gif" alt="" />
         </li>
       </ul>
     </div>

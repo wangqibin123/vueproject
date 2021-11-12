@@ -1,13 +1,13 @@
 <template>
   <div class="aviation">
     <div class="aviation-header">
-      <img src="../../assets/images/首页改1_33.gif" alt="" />
+      <img src="@/assets/images/首页改1_33.gif" alt="" />
     </div>
     <div class="aviation-content">
       <ul>
         <li>
           <div class="content-img">
-            <img src="../../assets/images/首页改1_40.gif" alt="" />
+            <img src="@/assets/images/首页改1_40.gif" alt="" />
           </div>
           <div class="content-text">
             <p>北京市航空中学</p>
@@ -15,7 +15,7 @@
         </li>
         <li>
           <div class="content-img">
-            <img src="../../assets/images/首页改1_37.gif" alt="" />
+            <img src="@/assets/images/首页改1_37.gif" alt="" />
           </div>
           <div class="content-text">
             <p>吉林大学</p>
@@ -25,7 +25,7 @@
       <ul>
         <li>
           <div class="content-img">
-            <img src="../../assets/images/首页改1_44.gif" alt="" />
+            <img src="@/assets/images/首页改1_44.gif" alt="" />
           </div>
           <div class="content-text">
             <p>大连海事大学</p>
@@ -33,7 +33,7 @@
         </li>
         <li>
           <div class="content-img">
-            <img src="../../assets/images/首页改1_46.gif" alt="" />
+            <img src="@/assets/images/首页改1_46.gif" alt="" />
           </div>
           <div class="content-text">
             <p>渤海大学</p>
@@ -43,7 +43,7 @@
       <ul>
         <li>
           <div class="content-img">
-            <img src="../../assets/images/首页改1_50.gif" alt="" />
+            <img src="@/assets/images/首页改1_50.gif" alt="" />
           </div>
           <div class="content-text">
             <p>山东杏林航空大学</p>
@@ -51,7 +51,7 @@
         </li>
         <li>
           <div class="content-img">
-            <img src="../../assets/images/首页改1_52.gif" alt="" />
+            <img src="@/assets/images/首页改1_52.gif" alt="" />
           </div>
           <div class="content-text">
             <p>南京市航空大学</p>
