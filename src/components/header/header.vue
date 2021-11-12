@@ -17,9 +17,6 @@
 
 <script>
 export default {
- components:{
-     
- },
  data(){
      return {
          isloading:false

@@ -1,7 +1,10 @@
 <template>
     <div class="warp">
         <Header />
+
         <HeaderLun/>
+
+
         <page />
         <major />
         <aviation />
@@ -20,7 +23,6 @@
 </template>
 <script>
 import Header from '@/components/header/header.vue'
-
 import HeaderLun from "@/views/homes/header-lun/header_lun.vue";
 
 import page from '@/views/homes/page/page.vue'

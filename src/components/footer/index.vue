@@ -2,7 +2,7 @@
   <div class="foot">
     <div class="school">
       <div class="sch-header">
-        <img src="@/assets/images/首页改1_107.gif" alt="" />
+        <img src="@/assets/images2/国际航空服务与管理_99.jpg" alt="" />
       </div>
       <div class="sch-content">
         <div class="sch-colleage">
@@ -67,6 +67,8 @@ export default {
   border-radius: .05rem .05rem 0 0;
   overflow: hidden;
   padding-bottom: 0.01rem;
+  border-bottom-right-radius: 0.04rem;
+  border-bottom-left-radius: 0.04rem;
   .sch-header {
     width: 100%;
     height: 0.55rem;
