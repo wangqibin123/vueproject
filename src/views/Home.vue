@@ -13,15 +13,13 @@
 
         <Five />
 
-
-
         <footere />
         
     </div>
     
 </template>
 <script>
-import Header from '@/views/homes/header/header.vue'
+import Header from '@/components/header/header.vue'
 
 
 import page from '@/views/homes/page/page.vue'
@@ -35,7 +33,7 @@ import Career from '@/views/homes/StudentCareer/Career.vue'
 import Five from '@/views/homes/Five/index.vue'
 
 
-import footere from '@/views/homes/footer/index.vue'
+import footere from '@/components/footer/index.vue'
 
 export default {
     components:{

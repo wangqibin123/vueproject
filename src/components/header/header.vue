@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import HeaderLun from "./header_lun.vue";
+import HeaderLun from "@/views/homes/header-lun/header_lun.vue";
 export default {
  components:{
      HeaderLun
