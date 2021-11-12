@@ -12,6 +12,7 @@
         <div class="txt" v-show="isloading"></div>
       </div>
     </div>
+    
     <HeaderLun />
   </div>
 </template>
