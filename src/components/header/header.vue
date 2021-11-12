@@ -12,16 +12,12 @@
         <div class="txt" v-show="isloading"></div>
       </div>
     </div>
-    <HeaderLun />
   </div>
 </template>
 
 <script>
-import HeaderLun from "@/views/homes/header-lun/header_lun.vue";
+
 export default {
- components:{
-     HeaderLun
- },
  data(){
      return {
          isloading:false

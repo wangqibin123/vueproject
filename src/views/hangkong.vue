@@ -1,11 +1,15 @@
 <template>
     <div class="warp">
         <Header />
+        <Show/>
+        <Age/>
         <footere />
     </div>
 </template>
 <script>
 import Header from '@/components/header/header.vue'
+import Show from '@/views/aviation/show.vue'
+import Age from '@/views/aviation/age.vue'
 
 
 
@@ -15,6 +19,8 @@ import footere from '@/components/footer/index.vue'
 export default {
     components:{
         Header,
+        Show,
+        Age,
         footere,
     }
 }
