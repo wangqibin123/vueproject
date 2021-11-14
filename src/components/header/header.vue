@@ -12,11 +12,11 @@
         <div class="txt" v-show="isloading">
           <router-link to="/Service" tag="p">VIP地勤专业</router-link>
           <router-link to="/hangkong" tag="p">航空学院</router-link>
-          <router-link to="" tag="p">游龙海城专业</router-link>
-          <router-link to="" tag="p">空乘专业</router-link>
-          <router-link to="" tag="p">艺考生</router-link>
-          <router-link to="" tag="p">招生要求</router-link>
-          <router-link to="" tag="p">高铁乘务专业</router-link>
+          <router-link to="/youlong" tag="p">游龙海城专业</router-link>
+          <router-link to="/kongcheng" tag="p">空乘专业</router-link>
+          <router-link to="/yishusheng" tag="p">艺考生</router-link>
+          <router-link to="/zhaoshengyaoqiu" tag="p">招生要求</router-link>
+          <router-link to="/gaotie" tag="p">高铁乘务专业</router-link>
         </div>
       </div>
     </div>
