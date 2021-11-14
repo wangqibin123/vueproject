@@ -1,6 +1,5 @@
 <template>
-    <div class="warp">
-        <Header />
+    <div>
 
         <HeaderLun/>
 
@@ -15,14 +14,10 @@
         <Career />
 
         <Five />
-
-        <footere />
-        
+        <foot />
     </div>
-    
 </template>
 <script>
-import Header from '@/components/header/header.vue'
 import HeaderLun from "@/views/homes/header-lun/header_lun.vue";
 
 import page from '@/views/homes/page/page.vue'
@@ -35,12 +30,11 @@ import Information from '@/views/homes/hottopics/Information.vue'
 import Career from '@/views/homes/StudentCareer/Career.vue'
 import Five from '@/views/homes/Five/index.vue'
 
+import foot from '@/views/homes/foot/index.vue'
 
-import footere from '@/components/footer/index.vue'
 
 export default {
     components:{
-        Header,
         HeaderLun,
         page,
         major,
@@ -49,16 +43,11 @@ export default {
         Information,
         Career,
         Five,
-        footere,
+        foot,
     }
 }
 </script>
 
 <style lang='scss' scoped>
-.warp{
-    background: #eaeaea;
-    width: 100%;
-    padding: 0 0 .42rem 0;
-}
 
 </style>

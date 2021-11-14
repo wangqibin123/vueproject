@@ -1,6 +1,6 @@
 <template>
-    <div class="warp">
-        <Header />
+    <div>
+        
         <Lun />
         <Title />
         <Video/>
@@ -11,14 +11,14 @@
 
 
         <Prospects/>
+        <foot />
 
 
 
-        <footere />
+        
     </div>
 </template>
 <script>
-import Header from '@/components/header/header.vue'
 import Show from '@/views/Aviation/show.vue'
 import Age from '@/views/Aviation/age.vue'
 
@@ -30,28 +30,23 @@ import swiperBanner from '@/views/Aviation/swiperbanner.vue'
 
 
 import Prospects from '../views/homes/Five/prospects.vue'
+import foot from '@/views/homes/foot/index.vue'
 
 
-import footere from '@/components/footer/index.vue'
 export default {
     components:{
-        Header,
         Show,
         Age,
         Lun,
         Title,
         Video,
         swiperBanner,
-        footere,
-        Prospects
+        Prospects,
+        foot
     }
 }
 </script>
 <style lang='scss' scoped>
-.warp{
-    background: #eaeaea;
-    width: 100%;
-    padding: 0 0 .42rem 0;
-}
+
 
 </style>

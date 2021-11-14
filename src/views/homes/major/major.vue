@@ -5,9 +5,9 @@
     </div>
     <div class="major-content">
       <ul>
-        <router-link to="/hangkong" tag="li">
+        <li>
             <img src="@/assets/images/首页改1_22.gif" alt="" />
-        </router-link>
+        </li>
         <li>
           <img src="@/assets/images/首页改1_25.gif" alt="" />
         </li>

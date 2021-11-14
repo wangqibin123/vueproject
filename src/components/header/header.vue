@@ -9,7 +9,15 @@
       </div>
       <div class="menu">
         <img @click="btn()" src="@/assets/images/首页改1_05.gif" alt="" />
-        <div class="txt" v-show="isloading"></div>
+        <div class="txt" v-show="isloading">
+          <router-link to="/Service" tag="p">VIP地勤专业</router-link>
+          <router-link to="/hangkong" tag="p">航空学院</router-link>
+          <router-link to="" tag="p">游龙海城专业</router-link>
+          <router-link to="" tag="p">空乘专业</router-link>
+          <router-link to="" tag="p">艺考生</router-link>
+          <router-link to="" tag="p">招生要求</router-link>
+          <router-link to="" tag="p">高铁乘务专业</router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -80,12 +88,11 @@ export default {
       height: 0.22rem;
       padding: 0.15rem;
     }
-    .txt::after{
-        content: '';
-        display: block;
+    .txt{
+        // display: block;
         width: 1.5rem;
         height: 3.0rem;
-        background:red;
+        background:#eeeeee;
         z-index: 2;
         position: absolute;
         right: 0;

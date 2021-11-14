@@ -2,7 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import home from '../views/Home.vue'
 import Hangkong from '@/views/hangkong.vue'
-
+import zaixianbaoming from '@/views/zaixianbaoming.vue'
+import Service from '@/views/Service/service.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,8 +15,17 @@ const routes = [
         path:"/hangkong",
         name:"航空",
         component:Hangkong
-     }
-
+     },
+     {
+      path:"/zaixianbaoming",
+      name:"zaixianbaoming",
+      component:zaixianbaoming
+    },
+    {
+      path:"/Service",
+      name:"Service",
+      component:Service
+    },
 ]
 
 const router = new VueRouter({
