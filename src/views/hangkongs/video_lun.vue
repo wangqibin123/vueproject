@@ -4,8 +4,8 @@
             <div class="swiper-container" id="swiper_con">
                 <div class="swiper-wrapper" id="swiper_warp" style="background-color: #fdfafa;">
                     <div class="swiper-slide" id="slide" v-for="item in listimg" :key="item.id">
-                       <img :src="item.img" alt="">
-                       <img :src="item.img2" alt="">
+                       <router-link to="videos"><img :src="item.img" alt=""></router-link>
+                       <router-link to="videos"><img :src="item.img2" alt=""></router-link>
                     </div>
                 </div>
                 <img class="swiper-button-prev" :src="leftimg" @click="leftSide" alt="">
