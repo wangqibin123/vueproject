@@ -13,10 +13,10 @@ export default {
 <style lang="scss" scoped>
     .lun_warp{
         width: 100%;
-        height: 1.49rem;
+        height: 1.50rem;
         .lun_con{
             width: 3.75rem;
-            height: 1.49rem;
+            height: 1.50rem;
             margin: 0 auto;
             img{
                 width: 100%;
