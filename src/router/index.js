@@ -56,6 +56,22 @@ const routes = [
       name:"videos",
       component:()=> import ('@/components/videos/index.vue')
     },
+    {
+      path:"/chuzhongsheng",
+      name:"chuzhongsheng",
+      component:()=> import ('@/views/student/chuzhongsheng.vue')
+    },
+    {
+      path:"/gaozhongsheng",
+      name:"gaozhongsheng",
+      component:()=> import ('@/views/student/gaozhongsheng.vue')
+    },
+    {
+      path:"/sanxiaosheng",
+      name:"sanxiaosheng",
+      component:()=> import ('@/views/student/sanxiaosheng.vue')
+    },
+    
 ]
 
 const router = new VueRouter({

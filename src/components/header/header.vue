@@ -12,6 +12,9 @@
         <div class="txt" v-show="isloading">
           <router-link to="/Service" tag="p">VIP地勤专业</router-link>
           <router-link to="/hangkong" tag="p">航空学院</router-link>
+          <router-link to="/chuzhongsheng" tag="p">初中生</router-link>
+          <router-link to="/gaozhongsheng" tag="p">高中生</router-link>
+          <router-link to="/sanxiaosheng" tag="p">三校生</router-link>
           <router-link to="/youlong" tag="p">游龙海城专业</router-link>
           <router-link to="/kongcheng" tag="p">空乘专业</router-link>
           <router-link to="/yishusheng" tag="p">艺考生</router-link>
@@ -33,13 +36,22 @@ export default {
  },
  methods:{
      btn(){
-         if(this.isloading==true){
-             this.isloading=false
-         }else{
-             this.isloading=true
-         }
-         
+        if(this.isloading==true){
+          this.isloading=false
+        }else{
+          this.isloading=true
+        }
      }
+ },
+ watch:{
+   $route:{
+     handler(){
+        if(this.isloading==true){
+          this.isloading=false
+        }
+     },
+     immediate:true
+   }
  }
 };
 </script>

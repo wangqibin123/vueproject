@@ -17,7 +17,6 @@
     </div>
 </template>
 <script>
-import { play } from "vue-video-player"
 import Swiper from "swiper";
 import "swiper/css/swiper.css";
 export default {
