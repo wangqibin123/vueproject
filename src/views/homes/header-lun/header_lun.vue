@@ -58,16 +58,12 @@ export default {
   },
   methods:{
     left(){
-      if(this.rightimg==require("@/assets/images/首页改1_13.gif")){
         this.leftimg=require("@/assets/images/左.png")
         this.rightimg=require("@/assets/images/未标题-1_03.gif")
-      }
     },
     right(){
-      if(this.leftimg=require("@/assets/images/首页改1_13.gif")){
         this.leftimg=require("@/assets/images/首页改1_10.gif")
         this.rightimg=require("@/assets/images/首页改1_13.gif")
-      }
     }
   }
 }

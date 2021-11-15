@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-        <Header />
-     <router-view></router-view>
-        <footere />
-
+    <Header />
+    <router-view></router-view>
+    <footere />
   </div>
 </template>
 
@@ -23,7 +22,8 @@ export default {
 <style lang="scss" scoped>
 #app{
     background: #eaeaea;
-    width: 100%;
+    width: 3.75rem;
+    margin: 0 auto;
     padding: 0 0 .42rem 0;
 }
 </style>

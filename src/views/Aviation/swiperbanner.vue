@@ -52,8 +52,8 @@ export default {
         { pic: require("@/assets/images2/国际航空服务与管理_50.jpg"),type:'3'},
         { pic: require("@/assets/images2/国际航空服务与管理_52.jpg"),type:'4' },
       ],
-      rightimg:require("@/assets/images2/未标题-1_03.png"),
-      leftimg:require("@/assets/images2/题-1_03.png"),
+      leftimg:require("@/assets/images2/未标题-1_06.png"),
+      rightimg:require("@/assets/images2/题-1_06.png"),
     };
   },
   mounted() {
@@ -77,16 +77,12 @@ export default {
   },
   methods:{
     left(){
-      if(this.rightimg==require("@/assets/images2/题-1_06.png")){
-        this.leftimg=require("@/assets/images2/未标题-1_06.png")
-        this.rightimg= require("@/assets/images2/未标题-1_03.png")
-      }
+        this.leftimg=require("@/assets/images2/题-1_03.png")
+        this.rightimg= require("@/assets/images2/题-1_06.png")
     },
     right(){
-      if(this.leftimg=require("@/assets/images2/题-1_06.png")){
-        this.leftimg=require("@/assets/images2/题-1_03.png")
-        this.rightimg=require("@/assets/images2/题-1_06.png")
-      }
+        this.leftimg=require("@/assets/images2/未标题-1_06.png")
+        this.rightimg=require("@/assets/images2/未标题-1_03.png")
     }
   }
 };

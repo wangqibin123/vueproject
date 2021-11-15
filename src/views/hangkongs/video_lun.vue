@@ -42,21 +42,16 @@ export default {
             ],
             leftimg:require("@/assets/images2/首页改1_10.gif"),
             rightimg:require("@/assets/images/未标题-1_03.gif"),
-         
         }
     },
     methods:{
         leftSide(){
-            if(this.leftimg == require("@/assets/images2/首页改1_10.gif")){
-                this.leftimg = require("@/assets/images2/题-1_03.png")
-                this.rightimg = require("@/assets/images/未标题-1_03.gif")
-            }
+            this.leftimg = require("@/assets/images2/题-1_03.png")
+            this.rightimg = require("@/assets/images/未标题-1_03.gif")
         },
         rightSide(){
-            if(this.rightimg == require("@/assets/images/未标题-1_03.gif")){
-                this.rightimg = require("@/assets/images2/未标题-1_03.png")
-                this.leftimg = require("@/assets/images2/首页改1_10.gif")
-            }
+            this.rightimg = require("@/assets/images2/未标题-1_03.png")
+            this.leftimg = require("@/assets/images2/首页改1_10.gif")
         }
     },
     mounted() {

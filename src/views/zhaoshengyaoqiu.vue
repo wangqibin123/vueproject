@@ -1,6 +1,6 @@
 <template>
     <div>
-        招生要求
+        航空院校在线报名
     </div>
 </template>
 

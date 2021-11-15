@@ -89,14 +89,17 @@ export default {
       padding: 0.15rem;
     }
     .txt{
-        // display: block;
         width: 1.5rem;
-        height: 3.0rem;
-        background:#eeeeee;
+        background:#fff;
         z-index: 2;
         position: absolute;
         right: 0;
         top: .38rem;
+        p{
+          height: .40rem;
+          text-align: center;
+          line-height: .4rem;
+        }
     }
   }
 }
