@@ -18,9 +18,9 @@
 
 <script>
 import HeaderLun from "@/views/homes/header-lun/header_lun.vue";
-import Major from '@/views/requirement/major.vue';
-import Enroll from '@/views/requirement/enroll.vue';
-import Environment from '@/views/requirement/environment.vue';
+import Major from '@/views/zhaoshengyaoqiu/requirement/major.vue';
+import Enroll from '@/views/zhaoshengyaoqiu/requirement/enroll.vue';
+import Environment from '@/views/zhaoshengyaoqiu/requirement/environment.vue';
 export default {
   components: {
     HeaderLun,
@@ -29,8 +29,6 @@ export default {
     Environment
   },
 };
-
-
 </script>
 <style lang="scss" scoped>
 .title_warp{width:100%;padding:0 .2rem;margin: .15rem 0;box-sizing:border-box;
