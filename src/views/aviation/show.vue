@@ -97,7 +97,6 @@ export default {};
 <style lang="scss" scoped>
 .show {
   width: 3.55rem;
-  height: 6.98rem;
   background: #fff;
   border-radius: 0.05rem;
   overflow: hidden;
@@ -110,10 +109,7 @@ export default {};
     }
   }
   .show-text {
-    // width: 100%;
-    height: 6.54rem;
-    padding: 0.1rem 0.05rem 0.05rem;
-    // box-sizing: border-box;
+    padding: 0.1rem 0.05rem 0rem;
     ul {
         width: 100%;
         display: flex;
@@ -121,7 +117,6 @@ export default {};
         margin-bottom: .05rem;
       li {
         width: 1.7rem;
-        // height: 2.1rem;
         border-radius: 0.06rem;
         overflow: hidden;
         background: #f4f4f4;
@@ -133,10 +128,7 @@ export default {};
           }
         }
         .school-text {
-        //   width: 100%;
-        //   height: 1.2rem;
           padding: 0 0.17rem 0.1rem 0.05rem;
-        //   box-sizing: border-box;
           .school-name {
             font-family: PingFang-SC-Heavy;
             font-size: 0.17rem;
@@ -148,7 +140,6 @@ export default {};
             font-size: 0.1rem;
             color: #999;
             line-height: .17rem;
-            // padding-top: .07rem;
             span {
               font-family: PingFang-SC-Heavy;
               font-size: 0.1rem;
@@ -156,15 +147,6 @@ export default {};
               color: #666;
             }
             }
-            // .school-one{
-            //     line-height: .25rem;
-            // }
-            // .school-two{
-            //     line-height: .21rem;
-            // }
-            // .school-three{
-            //     line-height: .18rem;
-            // }
         }
       }
     }

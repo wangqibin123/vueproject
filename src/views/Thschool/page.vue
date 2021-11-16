@@ -16,7 +16,6 @@
   font-size: 0.14rem;
   box-sizing: border-box;
   span {
-    // margin-left: 0.2rem;
     font-size: .14rem;
     font-weight: normal;
     font-stretch: normal;

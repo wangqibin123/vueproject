@@ -37,7 +37,7 @@
 }
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .enroll{
     width: 3.55rem;
     margin: 0 auto;

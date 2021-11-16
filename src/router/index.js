@@ -14,7 +14,33 @@ const routes = [
      {
         path:"/hangkong",
         name:"航空",
-        component:Hangkong
+        component:Hangkong,
+        children:[
+          {
+            path:"/",
+            component:()=> import ('@/views/hangkongs/hk.vue')
+          },
+          {
+            path:"sanxiaosheng",
+            name:"sanxiaosheng",
+            component:()=> import ('@/views/student/sanxiaosheng.vue')
+          },
+          {
+            path:"gaozhongsheng",
+            name:"gaozhongsheng",
+            component:()=> import ('@/views/student/gaozhongsheng.vue')
+          },
+          {
+            path:"chuzhongsheng",
+            name:"chuzhongsheng",
+            component:()=> import ('@/views/student/chuzhongsheng.vue')
+          },
+          {
+            path:"yishusheng",
+            name:"yishusheng",
+            component:()=> import ('@/views/yishusheng.vue')
+          },
+        ]
      },
      {
       path:"/zaixianbaoming",
@@ -37,11 +63,6 @@ const routes = [
       component:()=> import ('@/views/kongcheng.vue')
     },
     {
-      path:"/yishusheng",
-      name:"yishusheng",
-      component:()=> import ('@/views/yishusheng.vue')
-    },
-    {
       path:"/youlong",
       name:"youlong",
       component:()=> import ('@/views/youlong.vue')
@@ -56,22 +77,6 @@ const routes = [
       name:"videos",
       component:()=> import ('@/components/videos/index.vue')
     },
-    {
-      path:"/chuzhongsheng",
-      name:"chuzhongsheng",
-      component:()=> import ('@/views/student/chuzhongsheng.vue')
-    },
-    {
-      path:"/gaozhongsheng",
-      name:"gaozhongsheng",
-      component:()=> import ('@/views/student/gaozhongsheng.vue')
-    },
-    {
-      path:"/sanxiaosheng",
-      name:"sanxiaosheng",
-      component:()=> import ('@/views/student/sanxiaosheng.vue')
-    },
-    
 ]
 
 const router = new VueRouter({
