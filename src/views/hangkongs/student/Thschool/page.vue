@@ -1,9 +1,9 @@
 <template>
   <div class="page">
     <p>
-      <router-link to="/" tag="span">当前位置：首页 ></router-link>
-      <router-link to="/hangkong" tag="span" class="hang">航空学院 ></router-link>
-      <router-link to="/sanxiaosheng" tag="span" class="hang">艺考生</router-link>
+      <router-link to="/" tag="span">当前位置：首页</router-link>>
+      <router-link to="/hangkong" tag="span">航空学院</router-link>>
+      三校生
     </p>
   </div>
 </template>
@@ -11,14 +11,11 @@
 .page {
   width: 100%;
   margin: auto;
-  padding: .15rem 0;
+  padding: 0 0.1rem .15rem;
   color: #888888;
   font-size: 0.14rem;
   box-sizing: border-box;
-  p{
-      padding: 0 .1rem;
   span {
-    // margin-left: 0.2rem;
     font-size: .14rem;
     font-weight: normal;
     font-stretch: normal;
@@ -33,7 +30,6 @@
     font-weight: normal;
     letter-spacing: 0px;
     color: #b0b0b0;
-  }
   }
 }
 </style>

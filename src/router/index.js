@@ -1,9 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import home from '../views/Home.vue'
-import Hangkong from '@/views/hangkong.vue'
-import zaixianbaoming from '@/views/zaixianbaoming.vue'
-import Service from '@/views/Service/service.vue'
+import home from '@/views/homes/Home.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,7 +11,7 @@ const routes = [
      {
         path:"/hangkong",
         name:"航空",
-        component:Hangkong,
+        component:()=> import ('@/views/hangkongs/hangkong.vue'),
         children:[
           {
             path:"/",
@@ -23,54 +20,54 @@ const routes = [
           {
             path:"sanxiaosheng",
             name:"sanxiaosheng",
-            component:()=> import ('@/views/student/sanxiaosheng.vue')
+            component:()=> import ('@/views/hangkongs/student/sanxiaosheng.vue')
           },
           {
             path:"gaozhongsheng",
             name:"gaozhongsheng",
-            component:()=> import ('@/views/student/gaozhongsheng.vue')
+            component:()=> import ('@/views/hangkongs/student/gaozhongsheng.vue')
           },
           {
             path:"chuzhongsheng",
             name:"chuzhongsheng",
-            component:()=> import ('@/views/student/chuzhongsheng.vue')
+            component:()=> import ('@/views/hangkongs/student/chuzhongsheng.vue')
           },
           {
             path:"yishusheng",
             name:"yishusheng",
-            component:()=> import ('@/views/yishusheng.vue')
+            component:()=> import ('@/views/hangkongs/student/yishusheng.vue')
           },
         ]
      },
-     {
-      path:"/zaixianbaoming",
-      name:"zaixianbaoming",
-      component:zaixianbaoming
-    },
     {
       path:"/Service",
       name:"Service",
-      component:Service
+      component:()=> import ('@/views/Service/service.vue')
     },
     {
       path:"/gaotie",
       name:"gaotie",
-      component:()=> import ('@/views/gaotie.vue')
+      component:()=> import ('@/views/gaotie/gaotie.vue')
     },
     {
       path:"/kongcheng",
       name:"kongcheng",
-      component:()=> import ('@/views/kongcheng.vue')
+      component:()=> import ('@/views/kongcheng/kongcheng.vue')
     },
     {
-      path:"/youlong",
-      name:"youlong",
-      component:()=> import ('@/views/youlong.vue')
+      path:"/youlun",
+      name:"youlun",
+      component:()=> import ('@/views/youlun/youlun.vue')
     },
     {
       path:"/zhaoshengyaoqiu",
       name:"zhaoshengyaoqiu",
-      component:()=> import ('@/views/zhaoshengyaoqiu.vue')
+      component:()=> import ('@/views/zhaoshengyaoqiu/zhaoshengyaoqiu.vue')
+    },
+    {
+      path:"/zaixianbaoming",
+      name:"zaixianbaoming",
+      component:()=> import ('@/views/zaixianbaoming/zaixianbaoming.vue')
     },
     {
       path:"/videos",

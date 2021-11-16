@@ -2,10 +2,10 @@
   <div>
     <div class="header-yks">
       <div class="box_show">
-        <img src="../../assets/images2/国际航空服务与管理_58.jpg" alt="" />
+        <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
       </div>
       <div class="header-kc">
-        <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+        <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         <ul class="header-wz">
           <li>
             空乘就是大学选择读空中乘务专业，也就是未来当上大家说的空姐、空少

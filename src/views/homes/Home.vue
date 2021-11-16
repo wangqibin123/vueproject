@@ -1,18 +1,12 @@
 <template>
     <div>
-
         <HeaderLun/>
-
-
         <page />
         <major />
         <aviation />
-
         <HotTopics />
         <Information />
-
         <Career />
-
         <Five />
         <foot />
     </div>

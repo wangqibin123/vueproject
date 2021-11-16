@@ -11,11 +11,11 @@
 
 <script>
 import Lun from '@/views/hangkongs/lun.vue'
-import Liner from "@/views/Rail/liner.vue"
-import High from "@/views/Rail/High.vue"
-import Major from "@/views/Rail/major.vue"
-import Plan from "@/views/Rail/plan.vue"
-import Unit from "@/views/Rail/unit.vue"
+import Liner from "@/views/gaotie/Rail/liner.vue"
+import High from "@/views/gaotie/Rail/High.vue"
+import Major from "@/views/gaotie/Rail/major.vue"
+import Plan from "@/views/gaotie/Rail/plan.vue"
+import Unit from "@/views/gaotie/Rail/unit.vue"
 
 export default{
     components:{

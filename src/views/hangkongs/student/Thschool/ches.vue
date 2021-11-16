@@ -1,10 +1,10 @@
 <template>
   <div class="box">
     <div class="bottom">
-      <img src="../../assets/images2/国际航空服务与管理_58.jpg" alt="" />
+      <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
       <div class="bottom-a">
         <div class="left">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="right">
           <p>升职潜力大</p>
@@ -20,7 +20,7 @@
       </div>
       <div class="bottom-a">
         <div class="left">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="right">
           <p>工资待遇好</p>
@@ -36,7 +36,7 @@
       </div>
       <div class="bottom-a">
         <div class="left">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="right">
           <p>入职面试快</p>
@@ -55,7 +55,7 @@
       </div>
       <div class="bottom-a">
         <div class="left">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="right">
           <p>休假时间多</p>

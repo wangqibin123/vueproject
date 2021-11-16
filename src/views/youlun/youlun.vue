@@ -3,7 +3,7 @@
     <!--  国际海乘就业趋势  -->
     <div class="cruise_header_title">
       <a href="">
-        <img src="../assets/images/首页改1_27.gif" alt="" />
+        <img src="@/assets/images/首页改1_27.gif" alt="" />
       </a>
     </div>
     <div class="title_warp">
@@ -19,13 +19,13 @@
       <div class="cruise_rest">
         <div class="cruise_header_content">
           <a href="">
-            <img src="../assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/images/首页改1_33.gif" alt="" />
           </a>
         </div>
         <div class="cruise_header_bottom">
           <div class="cruise_header_bottom_top">
             <a href="">
-              <img src="../assets/images/首页改1_31.gif" alt="" />
+              <img src="@/assets/images/首页改1_31.gif" alt="" />
             </a>
           </div>
           <div class="cruise_text">
@@ -45,13 +45,13 @@
       <div class="cruise_rest">
         <div class="cruise_header_content">
           <a href="">
-            <img src="../assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/images/首页改1_33.gif" alt="" />
           </a>
         </div>
         <div class="cruise_header_bottom">
           <div class="cruise_header_bottom_top">
             <a href="">
-              <img src="../assets/images/首页改1_31.gif" alt="" />
+              <img src="@/assets/images/首页改1_31.gif" alt="" />
             </a>
           </div>
           <div class="cruise_text">
@@ -71,13 +71,13 @@
       <div class="cruise_rest">
         <div class="cruise_header_content">
           <a href="">
-            <img src="../assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/images/首页改1_33.gif" alt="" />
           </a>
         </div>
         <div class="cruise_header_bottom">
           <div class="cruise_header_bottom_top">
             <a href="">
-              <img src="../assets/images/首页改1_31.gif" alt="" />
+              <img src="@/assets/images/首页改1_31.gif" alt="" />
             </a>
           </div>
           <div class="cruise_text">
@@ -94,14 +94,14 @@
       <div class="cruise_bottom">
         <div class="cruise_bottom_header">
             <a href="">
-            <img src="../assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/images/首页改1_33.gif" alt="" />
             </a>
         </div>
         <div class="cruise_content">
             <ul class="cruise_content_ul">
             <li v-for="(item, index) in 6" :key="index">
                 <a href="">
-                    <img src="../assets/images/首页改1_31.gif" alt="" />
+                    <img src="@/assets/images/首页改1_31.gif" alt="" />
                 </a>
             </li>
             </ul>

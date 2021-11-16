@@ -16,7 +16,7 @@
           <router-link to="/hangkong/gaozhongsheng" tag="p">高中生</router-link>
           <router-link to="/hangkong/sanxiaosheng" tag="p">三校生</router-link>
           <router-link to="/hangkong/yishusheng" tag="p">艺考生</router-link>
-          <router-link to="/youlong" tag="p">游轮海城专业</router-link>
+          <router-link to="/youlun" tag="p">游轮海城专业</router-link>
           <router-link to="/kongcheng" tag="p">空乘专业</router-link>
           <router-link to="/zhaoshengyaoqiu" tag="p">招生要求</router-link>
           <router-link to="/gaotie" tag="p">高铁乘务专业</router-link>
@@ -42,8 +42,20 @@ export default {
         }else{
           this.isloading=true
         }
+     },
+     scroll(){
+       if(this.isloading==true){
+          this.isloading=false
+        }
      }
  },
+ mounted(){
+     this.scrollHanle = this.scroll.bind(this)  
+     window.addEventListener('scroll',this.scrollHanle)
+  },
+  destroyed() {
+    window.removeEventListener("scroll",this.scrollHanle)
+  },
  watch:{
    $route:{
      handler(){
@@ -67,7 +79,6 @@ export default {
   align-items: center;
 }
 .spn {
-  // width: 2.76rem;
   height: 0.12rem;
   
   font-family: PingFang-SC-Medium;
@@ -109,9 +120,10 @@ export default {
         position: absolute;
         right: 0;
         top: .38rem;
-        display: none;
+        height: 0;
         transition: all 0.3s linear;
         z-index: 3;
+        overflow: hidden;
         p{
           height: .40rem;
           text-align: center;
@@ -119,8 +131,7 @@ export default {
         }
     }
     .act{
-      display: block;
-      transition: all 0.3s linear;
+      height: 4rem;
     }
     .quan{
       width: 100%;

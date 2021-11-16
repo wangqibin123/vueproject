@@ -2,11 +2,11 @@
   <div class="sx">
     <div class="what">
       <div class="what-img-one">
-        <img src="../../assets/images2/国际航空服务与管理_58.jpg" alt="" />
+        <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
       </div>
       <div class="what-school">
         <div class="what-img-two">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <p>
           空乘就是大学选择读空中乘务专业，也就是未来当上大家说的空姐、
@@ -18,11 +18,11 @@
     <!--  -->
     <div class="advantage">
       <div class="advantage-img-one">
-        <img src="../../assets/images2/国际航空服务与管理_58.jpg" alt="" />
+        <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
       </div>
       <div class="advantage-div">
         <div class="advantage-img-two">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="advantage-dv">
           <p class="advantage-p">工资待遇好</p>
@@ -37,7 +37,7 @@
 
       <div class="advantage-div">
         <div class="advantage-img-two">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="advantage-dv">
           <p class="advantage-p">升职潜力大</p>
@@ -52,7 +52,7 @@
 
       <div class="advantage-div">
         <div class="advantage-img-two">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="advantage-dv">
           <p class="advantage-p">入职面试快</p>
@@ -68,7 +68,7 @@
 
       <div class="advantage-div">
         <div class="advantage-img-two">
-          <img src="../../assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
         </div>
         <div class="advantage-dv">
           <p class="advantage-p">休假时间多</p>
