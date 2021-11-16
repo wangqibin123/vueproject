@@ -1,8 +1,9 @@
 <template>
   <div class="page">
     <p>
-      <router-link to="/" tag="span">当前位置：首页 ></router-link>
-      <router-link to="/sanxiaosheng" tag="span" class="hang">三校生</router-link>
+      <router-link to="/" tag="span">当前位置：首页</router-link>>
+      <router-link to="/hangkong" tag="span">航空学院</router-link>>
+      <router-link to="/sanxiaosheng" tag="span">三校生</router-link>
     </p>
   </div>
 </template>

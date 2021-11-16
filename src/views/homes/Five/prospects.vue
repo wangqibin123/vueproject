@@ -8,18 +8,18 @@
               <ul class="prospects_banner_ul">
                   <li>
                       <div class="banner_li_left">
-                          <a href="">
+                          <router-link to="/Service">
                             <img src="../../../assets/images2/国际航空服务与管理_74.jpg" alt="">
-                          </a>
+                          </router-link>
                           <div class="ul_text">
                                 就业方向：地勤专业值机 、 机场安检 、 VIP客服 、 易登机 、 航空票务 、 两舱等
                                 '00000000000000000000000000000000000000000000000000'
                           </div>
                       </div>
                       <div class="banner_li_right">
-                          <a href="">
+                          <router-link to="/youlong">
                             <img src="../../../assets/images2/国际航空服务与管理_76.jpg" alt="">
-                          </a>
+                          </router-link>
                           <div class="ul_text_two">
                                 就业方向：当时国内外的豪华邮轮为主，主要在邮轮上从事服务性的工作。高收入
                                 '00000000000000000000000000000000000000000000000000'
@@ -28,18 +28,18 @@
                   </li>
                   <li>
                       <div class="banner_li_left">
-                          <a href="">
+                          <router-link to="/kongcheng">
                             <img src="../../../assets/images2/国际航空服务与管理_79.jpg" alt="">
-                          </a>
+                          </router-link>
                           <div class="ul_text">
                                 就业方向：国内外各主要机场及其他非民航相关单位。从事飞机机体结构维修、飞机
                                '00000000000000000000000000000000000000000000000000'
                           </div>
                       </div>
                       <div class="banner_li_right">
-                          <a href="">
+                          <router-link to="/kongcheng">
                             <img src="../../../assets/images2/国际航空服务与管理_80.jpg" alt="">
-                          </a>
+                          </router-link>
                           <div class="ul_text_two">
                                 就业方向：掌握民航管理、民航乘务、民航票务、民航法规、机场商务管理，从事
                                 '00000000000000000000000000000000000000000000000000'
@@ -48,18 +48,18 @@
                   </li>
                   <li>
                       <div class="banner_li_left">
-                          <a href="">
+                          <router-link to="/gaotie">
                             <img src="../../../assets/images2/国际航空服务与管理_83.jpg" alt="">
-                          </a>
+                          </router-link>
                           <div class="ul_text">
                                 就业方向：国内外各主要机场及其他非民航相关单位。从事飞机机体结构维修、飞机
                                 '00000000000000000000000000000000000000000000000000'
                           </div>
                       </div>
                       <div class="banner_li_right">
-                          <a href="">
+                          <router-link to="/kongcheng">
                             <img src="../../../assets/images2/国际航空服务与管理_84.jpg" alt="">
-                          </a>
+                          </router-link>
                           <div class="ul_text_two">
                                 就业方向：国内外各大航空公司、地方航空公司、民营航空公司、外航服务公司、各大
                                 '00000000000000000000000000000000000000000000000000'

@@ -3,8 +3,9 @@
     <Lun />
     <div class="title_warp">
       <p>
-        <router-link to="/" tag="span">当前位置：首页>航空学院></router-link>
-        <router-link to="/hangkong" tag="span" class="hang">高中生</router-link>
+        <router-link to="/" tag="span">当前位置：首页</router-link>>
+        <router-link to="/hangkong" tag="span">航空学院</router-link>>
+        高中生
       </p>
     </div>
     <div class="recommend_warp">
@@ -144,8 +145,8 @@ export default {
     p {
       width: 3.75rem;
       margin: 0 auto;
+      margin-left: 0.2rem;
       span {
-        margin-left: 0.2rem;
         font-size: 14px;
         font-weight: normal;
         font-stretch: normal;

@@ -2,7 +2,11 @@
   <div class="Cthere">
     <Lun />
     <div class="Gao">
-      <p>当前位置：首页>航空学院>初中生</p>
+      <p>当前位置：
+        <router-link to="/" tag="span">首页</router-link>
+        >
+        <router-link to="/hangkong" tag="span">航空学院</router-link>
+        >初中生</p>
     </div>
     <div class="Green">
       <div class="Ctit">
@@ -124,7 +128,7 @@ export default {
   padding: 0.15rem 0.2rem;
 }
 .Gao p {
-  width: 2.17rem;
+  // width: 2.17rem;
   height: 0.14rem;
   font-family: PingFang-SC-Medium;
   font-size: 0.14rem;

@@ -5,6 +5,7 @@
     </div>
     <div class="age-text">
       <ul>
+        <router-link to="/chuzhongsheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_64.jpg" alt="" />
@@ -13,6 +14,8 @@
             <p class="junior">初中生15岁+</p>
           </div>
         </li>
+        </router-link>
+        <router-link to="/gaozhongsheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_61.jpg" alt="" />
@@ -21,8 +24,10 @@
             <p class="senior">高中生18岁+</p>
           </div>
         </li>
+        </router-link>
       </ul>
       <ul>
+        <router-link to="/sanxiaosheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_69.jpg" alt="" />
@@ -31,6 +36,8 @@
             <p class="cube">三校生18岁+</p>
           </div>
         </li>
+        </router-link>
+        <router-link to="/yishusheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_68.jpg" alt="" />
@@ -39,6 +46,7 @@
             <p class="art">艺考生18岁+</p>
           </div>
         </li>
+        </router-link>
       </ul>
     </div>
     <div class="information_con_btm">
