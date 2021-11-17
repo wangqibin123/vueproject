@@ -142,6 +142,14 @@ a {
       border-radius: 0.04rem;
       background-color: #fff;
       margin-bottom: 0.15rem;
+      .cruise_header_content{
+        a{
+          height: .54rem;
+          img{
+            height: 100%;
+          }
+        }
+      }
       .cruise_header_bottom {
         border-bottom-right-radius: 0.04rem;
         border-bottom-left-radius: 0.04rem;
@@ -162,10 +170,15 @@ a {
     }
   }
   .cruise_bottom {
-    // margin-top: .15rem;
     .cruise_bottom_header {
         border-top-right-radius: 0.1rem;
         border-top-left-radius: 0.1rem;
+        a{
+          height: .54rem;
+          img{
+            height: 100%;
+          }
+        }
     }
     .cruise_content {
       border-bottom-right-radius: 0.1rem;

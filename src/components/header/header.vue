@@ -15,7 +15,7 @@
           <router-link to="/hangkong/chuzhongsheng" tag="p">初中生</router-link>
           <router-link to="/hangkong/gaozhongsheng" tag="p">高中生</router-link>
           <router-link to="/hangkong/sanxiaosheng" tag="p">三校生</router-link>
-          <router-link to="/hangkong/yishusheng" tag="p">艺考生</router-link>
+          <router-link to="/hangkong/yikaosheng" tag="p">艺考生</router-link>
           <router-link to="/youlun" tag="p">游轮海城专业</router-link>
           <router-link to="/kongcheng" tag="p">空乘专业</router-link>
           <router-link to="/zhaoshengyaoqiu" tag="p">招生要求</router-link>

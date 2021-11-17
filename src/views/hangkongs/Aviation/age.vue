@@ -5,7 +5,7 @@
     </div>
     <div class="age-text">
       <ul>
-        <router-link to="/chuzhongsheng">
+        <router-link to="/hangkong/chuzhongsheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_64.jpg" alt="" />
@@ -15,7 +15,7 @@
           </div>
         </li>
         </router-link>
-        <router-link to="/gaozhongsheng">
+        <router-link to="/hangkong/gaozhongsheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_61.jpg" alt="" />
@@ -27,7 +27,7 @@
         </router-link>
       </ul>
       <ul>
-        <router-link to="/sanxiaosheng">
+        <router-link to="/hangkong/sanxiaosheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_69.jpg" alt="" />
@@ -37,7 +37,7 @@
           </div>
         </li>
         </router-link>
-        <router-link to="/yishusheng">
+        <router-link to="/hangkong/yikaosheng">
         <li>
           <div class="age-img">
             <img src="@/assets/images2/国际航空服务与管理_68.jpg" alt="" />

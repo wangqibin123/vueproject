@@ -34,9 +34,9 @@ const routes = [
             component:()=> import ('@/views/hangkongs/student/chuzhongsheng.vue')
           },
           {
-            path:"yishusheng",
-            name:"艺术生",
-            component:()=> import ('@/views/hangkongs/student/yishusheng.vue')
+            path:"yikaosheng",
+            name:"艺考生",
+            component:()=> import ('@/views/hangkongs/student/yikaosheng.vue')
           },
         ]
      },
