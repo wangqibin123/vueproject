@@ -3,12 +3,7 @@
     <div class="aservice_con">
           <img src="@/assets/images/首页改1_27.gif" />
     </div>
-    <div class="page">
-      <p>
-        当前位置：
-       <router-link to="/"><span class="shouye">首页</span></router-link>>VIP地勤专业
-      </p>
-    </div>
+    <page/>
     <!-- 专业介绍 -->
     <div class="Introduction">
       <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
@@ -77,7 +72,13 @@
 </template>
 
 <script>
-export default {};
+import page from "@/components/page/index.vue";
+
+export default {
+  components:{
+    page
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -96,18 +97,6 @@ export default {};
       width: 3.75rem;
       height: 1.5rem;
       background: yellow;
-    }
-  }
-  .page {
-    height: 0.53rem;
-    width: 3.75rem;
-    margin: auto;
-    padding: 0.15rem 0.2rem;
-    color: #888888;
-    font-size: 0.14rem;
-    box-sizing: border-box;
-    .shouye{
-      color: #888888;
     }
   }
   .Introduction {

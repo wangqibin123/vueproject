@@ -1,7 +1,5 @@
 <template>
     <div>
-        <Lun />
-        <Title />
         <Video/>
         <Show/>
         <swiperBanner/>
@@ -14,8 +12,8 @@
 import Show from '@/views/hangkongs/Aviation/show.vue'
 import Age from '@/views/hangkongs/Aviation/age.vue'
 
-import Lun from '@/views/hangkongs/lun.vue'
-import Title from '@/views/hangkongs/title.vue'
+
+
 import Video from '@/views/hangkongs/video_lun.vue'
 
 import swiperBanner from '@/views/hangkongs/Aviation/swiperbanner.vue'
@@ -29,8 +27,6 @@ export default {
     components:{
         Show,
         Age,
-        Lun,
-        Title,
         Video,
         swiperBanner,
         Prospects,

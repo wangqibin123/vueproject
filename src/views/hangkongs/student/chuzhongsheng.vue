@@ -1,13 +1,5 @@
 <template>
   <div class="Cthere">
-    <Lun />
-    <div class="Gao">
-      <p>当前位置：
-        <router-link to="/" tag="span">首页</router-link>
-        >
-        <router-link to="/hangkong" tag="span">航空学院</router-link>
-        >初中生</p>
-    </div>
     <div class="Green">
       <div class="Ctit">
         <img src="@/assets/images2/国际航空服务与管理_40.jpg" alt="" />
@@ -108,10 +100,8 @@
   </div>
 </template>
 <script>
-import Lun from '@/views/hangkongs/lun.vue'
 export default {
     components:{
-        Lun
     }
 }
 </script>
@@ -124,19 +114,7 @@ export default {
   width: 3.75rem;
   height: 1.5rem;
 }
-.Gao {
-  padding: 0.15rem 0.2rem;
-}
-.Gao p {
-  // width: 2.17rem;
-  height: 0.14rem;
-  font-family: PingFang-SC-Medium;
-  font-size: 0.14rem;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: 0px;
-  color: #888888;
-}
+
 .Green {
   width: 3.56rem;
   margin: 0 auto;

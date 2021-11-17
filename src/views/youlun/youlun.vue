@@ -6,14 +6,7 @@
         <img src="@/assets/images/首页改1_27.gif" alt="" />
       </a>
     </div>
-    <div class="title_warp">
-      <p>
-        <router-link to="/" tag="span">当前位置：首页 ></router-link>
-        <router-link to="/youlong" tag="span" class="hang"
-          >游轮海乘专业</router-link
-        >
-      </p>
-    </div>
+    <page/>
     <!-- 头部 -->
     <div class="cruise_header">
       <div class="cruise_rest">
@@ -112,7 +105,13 @@
 </template>
 
 <script>
-export default {};
+import page from "@/components/page/index.vue";
+
+export default {
+  components:{
+    page
+  }
+};
 </script>
 
 <style lang='scss' scoped>
@@ -127,31 +126,6 @@ a {
   width: 3.75rem;
   overflow: hidden;
   margin: 0 auto;
-  .title_warp {
-    width: 100%;
-    padding: 0.15rem 0;
-    p {
-      width: 3.75rem;
-      margin: 0 auto;
-      span {
-        margin-left: 0.2rem;
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        line-height: .07rem;
-        letter-spacing: 0px;
-        color: #888888;
-      }
-      .hang {
-        margin-left: 0.05rem;
-        font-family: PingFang-SC-Medium;
-        font-size: 14px;
-        font-weight: normal;
-        letter-spacing: 0px;
-        color: #b0b0b0;
-      }
-    }
-  }
   .cruise_header_title {
         a {
             height: 1.5rem;
