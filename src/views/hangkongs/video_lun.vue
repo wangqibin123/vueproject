@@ -91,6 +91,7 @@ export default {
                         display: flex;
                         justify-content: space-evenly;
                         align-items: center;
+                        background-color: #fdfafa;
                         img{
                             width: 1.70rem;
 	                        height: .97rem;

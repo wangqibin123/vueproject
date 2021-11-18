@@ -1,12 +1,8 @@
 <template>
-  <div class="wrap actt">
-    <div class="inp">
-      <span class="spn">欢迎来到紧缺应用技术技能型人才职业教育报考平台</span>
-    </div>
-    <div class="logo_body">
-        <router-link to="/" tag="div" class="logo">
-          <img src="@/assets/images/首页改1_03.gif" alt="" />
-        </router-link>
+  <div class="wrap"><div class="logo_body">
+      <div class="logo">
+        <img src="@/assets/images/首页改1_03.gif" alt="" />
+      </div>
       <div class="menu">
         <img @click="btn()" src="@/assets/images/首页改1_05.gif" alt="" />
         <div class="txt" :class="{'act':isloading}">
@@ -15,7 +11,7 @@
           <router-link to="/hangkong/chuzhongsheng" tag="p">初中生</router-link>
           <router-link to="/hangkong/gaozhongsheng" tag="p">高中生</router-link>
           <router-link to="/hangkong/sanxiaosheng" tag="p">三校生</router-link>
-          <router-link to="/hangkong/yikaosheng" tag="p">艺考生</router-link>
+          <router-link to="/hangkong/yishusheng" tag="p">艺考生</router-link>
           <router-link to="/youlun" tag="p">游轮海城专业</router-link>
           <router-link to="/kongcheng" tag="p">空乘专业</router-link>
           <router-link to="/zhaoshengyaoqiu" tag="p">招生要求</router-link>
@@ -32,7 +28,7 @@
 export default {
  data(){
      return {
-         isloading:false,
+         isloading:false
      }
  },
  methods:{
@@ -44,7 +40,7 @@ export default {
         }
      },
      scroll(){
-        if(this.isloading==true){
+       if(this.isloading==true){
           this.isloading=false
         }
      }
@@ -70,32 +66,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.actt{
-    position: fixed;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%,0);
-    z-index: 9999;
-}
-.inp {
-  width: 3.75rem;
-  margin: 0 auto;
-  height: 0.3rem;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-}
-.spn {
-  height: 0.12rem;
-  
-  font-family: PingFang-SC-Medium;
-  font-size: 0.12rem;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: 0rem;
-  color: #777777;
-  padding-left: 0.13rem;
-}
 .logo_body {
   width: 3.75rem;
   height: 0.49rem;

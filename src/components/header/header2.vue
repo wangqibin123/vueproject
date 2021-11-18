@@ -1,12 +1,9 @@
 <template>
   <div class="wrap actt">
-    <div class="inp">
-      <span class="spn">欢迎来到紧缺应用技术技能型人才职业教育报考平台</span>
-    </div>
     <div class="logo_body">
-        <router-link to="/" tag="div" class="logo">
-          <img src="@/assets/images/首页改1_03.gif" alt="" />
-        </router-link>
+      <router-link to="/" tag="div" class="logo">
+        <img src="@/assets/images/首页改1_03.gif" alt="" />
+      </router-link>
       <div class="menu">
         <img @click="btn()" src="@/assets/images/首页改1_05.gif" alt="" />
         <div class="txt" :class="{'act':isloading}">
@@ -77,29 +74,12 @@ export default {
     transform: translate(-50%,0);
     z-index: 9999;
 }
-.inp {
-  width: 3.75rem;
-  margin: 0 auto;
-  height: 0.3rem;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-}
-.spn {
-  height: 0.12rem;
-  
-  font-family: PingFang-SC-Medium;
-  font-size: 0.12rem;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: 0rem;
-  color: #777777;
-  padding-left: 0.13rem;
-}
+
 .logo_body {
   width: 3.75rem;
   height: 0.49rem;
   margin: 0 auto;
+    // background: blue;
 
   background: #eaeaea;
   display: flex;

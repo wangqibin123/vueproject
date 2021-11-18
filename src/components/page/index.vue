@@ -1,7 +1,7 @@
 <template>
     <div class="title_warp">
       <p>
-        <router-link to="/" tag="span">当前位置：首页 </router-link>
+        <router-link to="/" tag="span">当前位置：首页</router-link>
         <router-link v-for="(item,index) in matched" :key="index" :to="{path:item.path}" tag="span">
             <span  v-if="item.name!='/'">>{{item.name}}</span>
         </router-link>

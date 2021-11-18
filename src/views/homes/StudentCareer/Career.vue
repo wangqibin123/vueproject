@@ -269,7 +269,7 @@ body {
         background: rgb(194, 194, 194);
         // border-top-left-radius: 0.04rem;
         // border-top-right-radius: 0.04rem;
-        color: rgb(102, 102, 102);
+        color: white;
         z-index: 10;
         // margin-left: 0.02rem;
       }

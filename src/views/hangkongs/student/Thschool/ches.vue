@@ -76,7 +76,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style lang='scss' scoped>
 .bottom {
   width: 3.55rem;
   background-color: #fcf9f9;

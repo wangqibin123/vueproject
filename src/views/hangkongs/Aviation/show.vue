@@ -5,7 +5,7 @@
     </div>
     <div class="show-text">
       <ul>
-        <li>
+        <router-link to="/sichuan" tag="li">
           <div class="school-img">
             <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
           </div>
@@ -17,7 +17,7 @@
             </p>
             <p><span>学校优势：</span>专业任选 推荐就业 一对一教学</p>
           </div>
-        </li>
+        </router-link>
         <li>
           <div class="school-img">
             <img src="@/assets/images2/国际航空服务与管理_28.jpg" alt="" />

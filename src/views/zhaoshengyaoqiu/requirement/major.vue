@@ -37,7 +37,7 @@
 }
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .major{
     width: 3.55rem;
     margin: .15rem auto;

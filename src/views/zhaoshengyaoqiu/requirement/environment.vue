@@ -20,7 +20,7 @@
 }
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 .environment{
     width: 3.55rem;
     margin: .05rem auto 0;

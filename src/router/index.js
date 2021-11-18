@@ -75,6 +75,11 @@ const routes = [
       name:"视频",
       component:()=> import ('@/components/videos/index.vue')
     },
+    {
+      path:"/sichuan",
+      name:"四川外国语大学简介",
+      component:()=> import ('@/views/sichuan/fours.vue')
+    },
 ]
 
 const router = new VueRouter({

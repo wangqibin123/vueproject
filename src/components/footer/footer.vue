@@ -57,8 +57,9 @@ footer{
     height: 50%;
     background: #fff;
     position: fixed;
-    left: 0;
+    left: 50%;
     bottom: .42rem;
+    transform: translate(-50%,0);
     z-index: 9999999999;
 }
 </style>
