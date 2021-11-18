@@ -12,7 +12,7 @@
     </div>
 </template>
 <script>
-import HeaderLun from "@/views/homes/header-lun/header_lun.vue";
+import HeaderLun from "@/components/header-lun/header_lun.vue";
 
 import page from '@/views/homes/page/page.vue'
 import major from '@/views/homes/major/major.vue'

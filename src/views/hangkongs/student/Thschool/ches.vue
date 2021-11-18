@@ -86,20 +86,18 @@ export default {};
 }
 .bottom-a {
   width: 3.55rem;
-  height: 1.5rem;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
 .bottom > img {
   width: 3.55rem;
-  height: 0.54rem;
 }
+
 
 .left {
   width: 1.79rem;
-  height: 1.41rem;
-  margin: 0.1rem 0;
+  margin: 0.1rem 0 0;
 }
 .left > img {
   width: 100%;
@@ -112,18 +110,22 @@ export default {};
 .right > p {
   font-size: 0.12rem;
   line-height: 0.12rem;
-  margin: 0.1rem 0.4rem;
+  margin: 0.1rem 0;
   color: #4d4b4b;
+  text-align: center
+}
+.bb{
+  
+    margin-bottom: 0;
 }
 .bb > li {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
-    line-height: 0.22rem;
+    -webkit-line-clamp: 7;
     overflow: hidden;
-    height: 1.04rem;
+      text-indent: 0.12rem;
     font-family: PingFang-SC-Bold;
     font-size: 0.09rem;
     color: #4d4b4b;
 }
-</style>
+</style>  

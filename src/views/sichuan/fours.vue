@@ -1,22 +1,24 @@
 <template>
     <div>
-        <!-- <Hea/> -->
-        <Ban/>
+        <lun/>
         <Pages/>
+        
         <All/>
+        <!-- <indexT/> -->
+        
     </div>
 </template>
 <script>
-// import Hea from './fours/fours-header.vue'
-import Ban from '@/views/sichuan/fours/four-lun.vue'
+import lun from '@/components/header-lun/header_lun.vue'
 import Pages from "@/components/page/index.vue";
 import All from '@/views/sichuan/fours/fourall.vue'
+// import indexT from '@/views/sichuan/index1.vue'
 export default {
     components:{
-        // Hea,
-        Ban,
+        lun,
         Pages,
         All,
+        // indexT
     }
 }
 </script>

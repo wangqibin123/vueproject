@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import HeaderLun from "@/views/homes/header-lun/header_lun.vue";
+import HeaderLun from "@/components/header-lun/header_lun.vue";
 import page from "@/components/page/index.vue";
 
 import Major from '@/views/zhaoshengyaoqiu/requirement/major.vue';

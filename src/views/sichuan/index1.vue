@@ -13,39 +13,39 @@
         :label-col="labelCol"
         :wrapper-col="wrapperCol"
       >
-        <a-form-model-item ref="name" label="" prop="name">
+        <a-form-model-item ref="formName" label="" prop="formName">
           <div class="aviation_text_input">
             <span class="span"><em>*</em>学生姓名</span>
             <a-input
-              v-model="form.name"
+              v-model="form.formName"
               placeholder="请填写姓名"
               @blur="
                 () => {
-                  $refs.name.onFieldBlur();
+                  $refs.formName.onFieldBlur();
                 }
               "
             ></a-input>
           </div>
         </a-form-model-item>
-        <a-form-model-item ref="number" label="" prop="name">
+        <a-form-model-item ref="numberBar" label="" prop="numberBar">
           <div class="aviation_text_input">
             <span class="span"><em>*</em>手机号码</span>
             <a-input
-              v-model="form.number"
+              v-model="form.numberBar"
               placeholder="请填写手机号码"
               @blur="
                 () => {
-                  $refs.number.onFieldBlur();
+                  $refs.numberBar.onFieldBlur();
                 }
               "
             ></a-input>
           </div>
         </a-form-model-item>
-        <a-form-model-item label="" required prop="date1">
+        <a-form-model-item label="" required prop="datePis">
           <div class="aviation_text_input">
             <span class="span"><em>*</em>出生年月</span>
             <a-date-picker
-              v-model="form.date1"
+              v-model="form.datePis"
               show-time
               type="date"
               style="height: 0.35rem; color: #000 !important"
@@ -55,12 +55,12 @@
           </div>
         </a-form-model-item>
 
-        <a-form-model-item label="" style="margin: 0" prop="region">
+        <a-form-model-item label="" style="margin: 0" prop="regionKis">
           <div class="aviation_text_cascader">
             <span class="span"><em>*</em>所选课程</span>
             <div class="from_three">
               <a-select
-                v-model="form.region"
+                v-model="form.regionKis"
                 placeholder="请选择课程"
                 style="
                   width: 2rem;
@@ -86,12 +86,12 @@
           </div>
         </a-form-model-item>
 
-        <a-form-model-item label="" style="margin: 0" prop="region">
+        <a-form-model-item label="" style="margin: 0" prop="educaTions">
           <div class="aviation_text_cascader">
             <span class="span"><em>*</em>当前学历</span>
             <div class="from_three">
               <a-select
-                v-model="form.education"
+                v-model="form.educaTions"
                 placeholder="请选择学历"
                 style="
                   width: 2rem;
@@ -117,35 +117,16 @@
           </div>
         </a-form-model-item>
 
-        <a-form-model-item label="" prop="desc">
+        <a-form-model-item label="" prop="berTes">
           <div class="aviation_text_input">
             <span class="span"><em>*</em>身份证号</span>
             <a-input
-              v-model="form.id_number"
+              v-model="form.id_numberTes"
               placeholder="请填写身份证号"
             ></a-input>
           </div>
         </a-form-model-item>
-
-        <a-form-model-item label="" prop="desc">
-          <div class="aviation_textarea">
-            <span>您的疑问</span>
-            <div class="aviation_textarea_text">
-              <textarea
-                v-model="form.desc"
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-                style="color: #000"
-                placeholder="请填写您的疑问"
-              >
-              </textarea>
-            </div>
-          </div>
-        </a-form-model-item>
         <a-form-model-item :wrapper-col="{ span: 14, offset: 4 }">
-          <!-- <a-button type="primary" @click="onSubmit"> -->
           <div class="bottom_jick">
             <div class="aviation_text_button" @click="onSubmit">
               <span>立即提交</span>
@@ -184,17 +165,17 @@ export default {
       wrapperCol: { span: 14 },
       other: "",
       form: {
-        name: "",
-        number: "",
-        region: undefined,
-        date1: undefined,
-        education: undefined,
-        id_number: undefined,
+        formName: "",
+        numberBar: "",
+        regionKis: undefined,
+        datePis: undefined,
+        educaTions: undefined,
+        // id_numberTes:undefined,
         type: [],
-        desc: "",
+        berTes: "",
       },
       rules: {
-        name: [
+        formName: [
           {
             required: true,
             message: "Please input Activity name",
@@ -207,21 +188,34 @@ export default {
             trigger: "blur",
           },
         ],
-        region: [
+        numberBar: [
+          {
+            required: true,
+            message: "Please input Activity name",
+            trigger: "blur",
+          },
+          {
+            min: 3,
+            max: 5,
+            message: "Length should be 3 to 5",
+            trigger: "blur",
+          },
+        ],
+        regionKis: [
           {
             required: true,
             message: "Please select Activity zone",
             trigger: "change",
           },
         ],
-        date1: [
+        datePis: [
           {
             required: true,
             message: "Length should be 3 to 5",
             trigger: "change",
           },
         ],
-        education: [
+        educaTions: [
           {
             required: true,
             message: "Please input Activity name",
@@ -234,7 +228,7 @@ export default {
             trigger: "blur",
           },
         ],
-        id_number: [
+        id_numberTes: [
           {
             required: true,
             message: "Please input Activity name",
@@ -255,7 +249,7 @@ export default {
             trigger: "change",
           },
         ],
-        desc: [
+        berTes: [
           {
             required: true,
             message: "Please input activity form",
@@ -280,9 +274,6 @@ export default {
     resetForm() {
       this.$refs.ruleForm.resetFields();
     },
-    submit() {
-      console.log(this.value);
-    },
     showModal() {
       this.visible = true;
     },
@@ -304,8 +295,7 @@ export default {
 <style lang='scss' scoped>
 .aviation_text {
   border-radius: 0.04rem;
-  // margin: 0 0.1rem;
-  margin-top: .15rem;
+  margin-top:.1rem;
   margin-bottom: 0.15rem;
   overflow: hidden;
   background-color: #fff;
@@ -347,40 +337,39 @@ export default {
         color: #000;
       }
     }
-    .aviation_textarea {
-      display: flex;
-      span {
-        width: 0.75rem;
-        height: 0.35rem;
-        font-family: PingFang-SC-Medium;
-        font-weight: normal;
-        font-stretch: normal;
-        letter-spacing: 0px;
-        // color: #333333;
-        padding-left: 0.05rem;
-        line-height: 0.35rem;
-        color: #454444;
-        margin-left: 0.3rem;
-      }
-      .aviation_textarea_text {
-        border: 1px solid #cbcbcb;
-        width: 2rem;
-        textarea {
-          width: 1.75rem;
-          height: 0.63rem;
-          border-radius: 0.01rem;
-          padding-left: 0.14rem;
-          padding-top: 0.11rem;
-          border: none;
-          outline: none;
-          resize: none;
-        }
-        textarea::-webkit-input-placeholder {
-          /* WebKit browsers*/
-          color: #cbcbcb;
-        }
-      }
-    }
+    // .aviation_textarea{
+    //   display: flex;
+    //   span{
+    //     width: .75rem;
+    //     height: .35rem;
+    //     font-family: PingFang-SC-Medium;
+    //     font-weight: normal;
+    //     font-stretch: normal;
+    //     letter-spacing: 0px;
+    //     // color: #333333;
+    //     padding-left: .05rem;
+    //     line-height: 0.35rem;
+    //     color: #454444;
+    //     margin-left: .3rem;
+    //   }
+    //   .aviation_textarea_text{
+    //     border: 1px solid #cbcbcb;
+    //     width: 2rem;
+    //     textarea{
+    //       width: 1.75rem;
+    //       height: .63rem;
+    //       border-radius: .01rem;
+    //       padding-left: .14rem;
+    //       padding-top: .11rem;
+    //       border: none;
+    //       outline: none;
+    //       resize: none;
+    //     }
+    //     textarea::-webkit-input-placeholder { /* WebKit browsers*/
+    //       color: #cbcbcb;
+    //     }
+    //   }
+    // }
     .aviation_text_cascader {
       display: flex;
       // justify-content: center;

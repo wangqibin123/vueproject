@@ -26,11 +26,12 @@ export default {
   },
 };
 </script>
+
 <style lang="scss" scoped>
+
 
 .header-yks {
   width: 3.55rem;
-  height: 2.67rem;
   background: #fdfcfc;
   margin: auto;
   border-radius: 0.05rem;
@@ -38,7 +39,6 @@ export default {
 }
 .box_show {
   width: 3.55rem;
-  height: 0.55rem;
   border-radius: 0.01rem;
   img {
     width: 100%;
@@ -47,17 +47,13 @@ export default {
 }
 .header-kc {
   width: 3.55rem;
-  height: 1.3rem;
   margin-top: 0.1rem;
   img {
     width: 100%;
     height: 100%;
   }
   .header-wz {
-    width: 3.29rem;
-    height: 0.62rem;
     margin: 0 auto;
-    overflow: hidden;
     li {
       font-family: PingFang-SC-Bold;
       font-size: 0.1rem;
@@ -67,6 +63,8 @@ export default {
       color: #000000;
       text-indent: 0.12rem;
       line-height: 0.16rem;
+      padding: .1rem;
+      box-sizing: content-box;
     }
   }
 }

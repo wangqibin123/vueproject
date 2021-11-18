@@ -62,7 +62,6 @@
       </div>
     </div>
     <index/>
-
     <div class="all-environment">
       <div class="introduction-header">
         <img src="@/assets/images/首页改1_18.gif" alt="" />
@@ -102,6 +101,7 @@
         </div>
       </div>
     </div>
+     
     <div class="all-issue">
       <div class="introduction-header">
         <img src="@/assets/images/首页改1_18.gif" alt="" />
@@ -139,23 +139,21 @@
         </div>
       </div>
     </div>
-    <index4/>
-
+    <indexT/>
     <div class="foot">
       <p>报名资讯电话：8948956415</p>
       <p>煜龙时空</p>
     </div>
-
   </div>
 </template>
 <script>
-import index from '@/views/sichuan/index.vue'
-import index4 from '@/views/sichuan/index(4).vue'
+import indexT from '@/views/sichuan/index.vue'
+import index from '@/views/sichuan/index1.vue'
 
 export default {
   components:{
-        index,
-        index4
+    indexT,
+    index
   }
 };
 </script>

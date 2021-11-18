@@ -40,29 +40,29 @@ export default {
         }
     },
     created() {
-    document.documentElement.addEventListener(
-      "touchstart",
-      function (event) {
-        if (event.touches.length > 1) {
-          event.preventDefault();
-        }
-      },
-      { passive: false }
-    );
-    // 禁止双击放大
-    let lastTouchEnd = 0;
-    document.documentElement.addEventListener(
-      "touchend",
-      function (event) {
-        var now = Date.now();
-        if (now - lastTouchEnd <= 300) {
-          event.preventDefault();
-        }
-        lastTouchEnd = now;
-      },
-      { passive: false }
-    );
-  },
+      document.documentElement.addEventListener(
+        "touchstart",
+        function (event) {
+          if (event.touches.length > 1) {
+            event.preventDefault();
+          }
+        },
+        { passive: false }
+      );
+      // 禁止双击放大
+      let lastTouchEnd = 0;
+      document.documentElement.addEventListener(
+        "touchend",
+        function (event) {
+          var now = Date.now();
+          if (now - lastTouchEnd <= 300) {
+            event.preventDefault();
+          }
+          lastTouchEnd = now;
+        },
+        { passive: false }
+      );
+    },
 }
 </script>
 
@@ -72,12 +72,6 @@ export default {
     width: 3.75rem;
     margin: 0 auto;
     padding: .8rem 0 .42rem 0;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // .a{
-    //     flex: 1;
-    // }
 }
 .act{
     padding: .53rem 0 .42rem 0;

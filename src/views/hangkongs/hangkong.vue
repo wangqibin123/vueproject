@@ -9,7 +9,7 @@
 <script>
 import Lun from '@/views/hangkongs/lun.vue'
 import page from "@/components/page/index.vue";
-import Headerlun from '../homes/header-lun/header_lun.vue';
+import Headerlun from '@/components/header-lun/header_lun.vue';
 export default {
     components:{
         Lun,

@@ -5,10 +5,10 @@
                 <img src="@/assets/images/首页改1_56.gif" alt="">
             </div>
             <div class="hot_con_btm">
-                <ul>
-                    <li>
+                <ul>                    
+                    <router-link tag="li" to="/detail">
                         <img src="@/assets/images/首页改1_59.gif" alt="">
-                    </li>
+                    </router-link>
                     <li>
                         <img src="@/assets/images/首页改1_62.gif" alt="">
                     </li>

@@ -6,110 +6,27 @@
       </a>
     </div>
     <div class="aviation_text_content">
-      <div class="aviation_text_input">
-        <span class='span'><em>*</em>学生姓名</span>
-        <a-input v-model="value" placeholder="请填写姓名"></a-input>
-      </div>
-      <div class="aviation_text_input">
-        <span class='span'><em>*</em>手机号码</span>
-        <a-input placeholder="请填写手机号码"></a-input>
-      </div>
-      <div class="aviation_text_input">
-        <span class='span'><em>*</em>出生年月</span>
-        <a-date-picker style="height:.35rem;color: #000 !important;" :size="size" placeholder="请选择出生年月"/>
-      </div>
-      <div class="aviation_text_cascader">
-        <span class='span'><em>*</em>所选课程</span>
-        <div class="from_three">
-            <a-select default-value="请选择课程" style="width: 2rem;font-size:.15rem;height: .35rem;color: #ccc;overflow: hidden;">
-                <a-icon slot="suffixIcon" type="caret-down" style="width: .11rem;height: .08rem; color: #000;"/>
-                <a-select-option  value="清华大学">
-                    <span style='color:#000'>javaScript精选课程</span>
-                </a-select-option>
-                <a-select-option value="北大大学">
-                    <span style='color:#000'>jquery精选课程</span>
-                </a-select-option>
-            </a-select>
-        </div>
-      </div>
-      <div class="aviation_text_cascader">
-        <span class='span'><em>*</em>当前学历</span>
-        <div class="from_three">
-            <a-select default-value="请选择学历" style="width: 2rem;font-size:.15rem;height: .35rem;color: #ccc;overflow: hidden;">
-                <a-icon slot="suffixIcon" type="caret-down" style="width: .11rem;height: .08rem; color: #000;"/>
-                <a-select-option  value="清华大学">
-                    <span style='color:#000'>大专学历</span>
-                </a-select-option>
-                <a-select-option value="北大大学">
-                <span style='color:#000'>本科学历</span>
-                </a-select-option>
-            </a-select>
-        </div>
-      </div>
-      <div class="aviation_text_input">
-        <span class='span'><em>*</em>身份证号</span>
-        <a-input placeholder="请填写身份证号"></a-input>
-      </div>
-      <div class="aviation_textarea">
-        <span>您的疑问</span>
-        
-        <div class="aviation_textarea_text">
-          <textarea name="" id="" cols="30" rows="10" style="color:#000" placeholder="请填写您的疑问">
-            
-          </textarea>
-        </div>
-      </div>
-      <div class="aviation_text_button" @click="submit">
-          <span>立即提交</span>
-      </div>
-      <div class="submit-size">
-            <div>
-                <span @click="showModal">《隐私保障》</span>
-            </div>
-            <a-modal v-model="visible" title="隐私保障" ok-text="确认" cancel-text="取消" @ok="hideModal">
-            <p>Bla bla ...</p>
-            <p>Bla bla ...</p>
-            <p>Bla bla ...</p>
-            </a-modal>
-            <br />
-            <br />
-      </div>
+      <InputOf/>
+      <InputText/>
     </div>
   </div>
 </template>
 
 <script>
+import InputOf from './index.vue'
+import InputText from './index1.vue'
 export default {
-    data(){
-        return {
-            value:'',
-            visible: false,
-            size: 'default',
-        }
-    },
-    methods: {
-        submit(){
-           console.log(this.value);
-        },
-        showModal() {
-            this.visible = true;
-        },
-        hideModal() {
-            this.visible = false;
-        },
-        confirm() {
-            this.$confirm({
-                title: 'Confirm',
-                content: 'Bla bla ...',
-                okText: '确认',
-                cancelText: '取消',
-            });
-        }
+    components:{
+      InputOf,
+      InputText
     },
 }
 </script>
 
 <style lang='scss' scoped>
+::v-deep .ant-form{
+    padding-top: .13rem !important;
+}
 .aviation_text { 
   border-radius: .04rem;
   margin: 0 0.1rem;
@@ -240,6 +157,7 @@ export default {
     }
   }
 }
+
 ::v-deep .ant-select-selection{
     border-radius: 0 !important;
     z-index: 99;

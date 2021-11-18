@@ -80,6 +80,11 @@ const routes = [
       name:"四川外国语大学简介",
       component:()=> import ('@/views/sichuan/fours.vue')
     },
+    {
+      path:"/detail",
+      name:"航空专业详情",
+      component:()=> import ('@/views/details/details.vue')
+    },
 ]
 
 const router = new VueRouter({

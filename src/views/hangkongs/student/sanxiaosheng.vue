@@ -83,22 +83,20 @@
     <!--  -->
   </div>
 </template>
-<style scoped >
+<style lang='scss'  scoped >
 .sx {
   width: 3.55rem;
-  margin: 0 auto .1rem;
+  margin: 0 auto 0.1rem;
 }
 .what {
   width: 3.55rem;
-  height: 2.67rem;
   border-radius: 0.05rem;
   background-color: #fdfcfc;
   overflow: hidden;
   border-radius: 0.05rem;
 }
 .what-img-one img {
-  width: 3.55rem;
-  height: 0.54rem;
+  width: 100%;
 }
 .what-img-one img {
   width: 100%;
@@ -106,33 +104,25 @@
 }
 .what-img-two {
   width: 3.55rem;
-  height: 1.3rem;
-  margin-bottom: 0.1rem;
 }
 .what-img-two img {
   width: 100%;
   height: 100%;
 }
 .what-school p {
-  width: 3.38rem;
-  height: 0.63rem;
-  font-size: 0.1rem;
-  color: #000000;
-  margin-left: 0.1rem;
-  margin-right: 0.08rem;
-  margin-bottom: 0.1rem;
   font-family: PingFang-SC-Bold;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  line-height: 0.162rem;
-  overflow: hidden;
+  font-size: 0.1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
   text-indent: 0.12rem;
+  line-height: 0.16rem;
+  padding: 0.1rem;
+  box-sizing: content-box;
 }
-/*  */
 .advantage {
   width: 3.55rem;
-  height: 6.74rem;
   background-color: #fcf9f9;
   border-radius: 0.05rem;
   margin-top: 0.15rem;
@@ -149,13 +139,11 @@
 }
 .advantage-div {
   width: 3.55rem;
-  height: 1.41rem;
   display: flex;
   margin-top: 0.1rem;
 }
 .advantage-img-two {
   width: 1.79rem;
-  height: 1.41rem;
   margin-right: 0.1rem;
 }
 .advantage-img-two img {
@@ -164,7 +152,6 @@
 }
 .advantage-dv {
   width: 1.57rem;
-  height: 1.26rem;
   margin-right: 0.1rem;
   margin-top: 0.05rem;
   margin-bottom: 0.11rem;
@@ -172,7 +159,6 @@
   flex-direction: column;
 }
 .advantage-p {
-  height: 0.12rem;
   font-size: 0.12rem;
   line-height: 0.16rem;
   font-family: PingFang-SC-Bold;
@@ -181,13 +167,11 @@
   text-align: center;
 }
 .advantage-span {
-  width: 1.6rem;
-  height: 1.04rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-  line-height: 0.22rem;
+  -webkit-line-clamp: 7;
   overflow: hidden;
+  text-indent: 0.12rem;
   font-family: PingFang-SC-Bold;
   font-size: 0.09rem;
   color: #4d4b4b;

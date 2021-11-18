@@ -31,7 +31,8 @@
             <div class="from-name">
                 <div class="from_One">
                     <i class="icon_rest">*</i>
-                    <a-input size="large" placeholder="学生姓名" style="width: 1.49rem;color:#000;height: .31rem;margin-right: .1rem;"/>
+                    <a-input size="large" @blur="a" v-model="b" placeholder="学生姓名" style="width: 1.49rem;color:#000;height: .31rem;margin-right: .1rem;"/>
+                    <span>{{c}}</span>
                 </div>
                 <div class="from_Two">
                     <i class="icon_rest">*</i>
@@ -115,6 +116,8 @@ export default {
             ],
             visible: false,
             tlep:'2021.10.15',
+            b:'',
+            c:''
        }
     },
     methods:{
@@ -138,7 +141,14 @@ export default {
             cancelText: '取消',
         });
         },
-        
+        a(){
+            var rg7=/^[\u4e00-\u9fa5]{2,4}$/
+            if(rg7.test(this.b)){
+                this.c='符合规则'
+            }else{
+                this.c='不符合规则'
+            }
+        }
     },
    
  }
