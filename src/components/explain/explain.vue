@@ -21,8 +21,6 @@
           <span class="blue">发展方向：</span>
           <span>努力做学生学_的合作者、参与者和引导者，做学生的知心
 努力做学生学_的合作者、参与者和引导者，做学生的知心</span>
-          
-          
         </div>
       </div>
       <div class="number">

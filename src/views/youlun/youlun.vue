@@ -22,14 +22,15 @@
             </a>
           </div>
           <div class="cruise_text">
-            海乘专业主要为豪华邮轮培养海上乘务的专业人员,
+            <span>海乘专业:</span>  
+            主要为豪华邮轮培养海上乘务的专业人员,
             工作性质和空中乘务相近。但由于邮轮空间较大,属家庭式的豪华邮轮客轮,
             就像一艘航信在海上的五星级大型度假酒店,
             各种设施一应俱全,集商务、会议、餐饮、美食
             、文化、休闲、娱乐、旅游、观光为一体,
-            因此服务的范围和岗位远多于空乘。当很多同学还在想着“上天”
-            作空姐、空保的时候,
-            “下海”到豪华邮轮上做海乘已经成为不少年轻人的新选择。
+            因此服务的范围和岗位远多于空乘。
+            当很多同学还在想着“上天”
+            作空姐
           </div>
         </div>
       </div>
@@ -47,15 +48,19 @@
               <img src="@/assets/images/首页改1_31.gif" alt="" />
             </a>
           </div>
-          <div class="cruise_text">
-            1 工作年限长：上岗率非常高，不需要走后门。 2 工作
-            环境好：安检中心、呼叫中心、预定中心、指挥中心、
-            机场商务VIP、门户网站集合发展等，航空地勤人员是真
-            正的现代白领，都市丽人。 3 待遇福利高：工作强度与
-            奖金福利成正比增长，劳有所得。还有机票奖励，实现
-            蓝天梦、出国旅行，感受航空业的独特魅力。 4 地勤专
-            业永远都不失业：这个行业永远都需要人，尤其是有一
-            定经验的人才。
+          <div class="cruise_text_img">
+            <explain/>
+            <!-- <ul class="cruise_text_ul">
+              <li v-for="list,index of urlList" :key="index">
+                <a href="">
+                  <img :src="list.img" alt="">
+                </a>
+                <div class="cruise_text_dk">
+                  <span :style="list.color">{{list.feet+index}}</span>
+                  <div>{{list.text}}</div>
+                </div>
+              </li>
+            </ul> -->
           </div>
         </div>
       </div>
@@ -106,10 +111,11 @@
 
 <script>
 import page from "@/components/page/index.vue";
-
+import explain from '@/components/explain/explain.vue'
 export default {
   components:{
-    page
+    page,
+    explain
   }
 };
 </script>
@@ -165,6 +171,43 @@ a {
         .cruise_text {
           padding: 0.1rem;
           text-align: justify;
+          font-family: PingFang-SC-Medium;
+          font-weight: normal;
+          font-stretch: normal;
+          span{
+            color: #f45858;
+          }
+        }
+        .cruise_text_img{
+          .cruise_text_ul{
+            // padding: .1rem;
+            display: flex;
+            flex-direction: column;
+            li{
+              display: flex;
+              justify-content: space-evenly;
+              a{
+                width: .51rem;
+                height: .53rem;
+                display: flex;
+                border: none;
+                img{
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .cruise_text_dk{
+                width: 2.52rem;
+                
+                div{
+                  height: .75rem;
+                  span{
+                    display: inline-block;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -187,7 +230,7 @@ a {
       .cruise_content_ul {
         display: flex;
         flex-wrap: wrap;
-        // padding: 0.05rem 0;
+        padding: 0.05rem 0;
         padding-bottom: .11rem;
         padding-right: .1rem;
         justify-content: space-around;

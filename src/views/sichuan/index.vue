@@ -41,7 +41,7 @@
             ></a-input>
           </div>
         </a-form-model-item>
-        <a-form-model-item label="" required prop="date1">
+        <a-form-model-item ref="date1" label="" required prop="date1">
           <div class="aviation_text_input">
             <span class="span"><em>*</em>出生年月</span>
             <a-date-picker
@@ -51,11 +51,16 @@
               style="height: 0.35rem; color: #000 !important"
               :size="size"
               placeholder="请选择出生年月"
+              @blur="
+                () => {
+                  $refs.date1.onFieldBlur();
+                }
+              "
             />
           </div>
         </a-form-model-item>
 
-        <a-form-model-item label="" style="margin: 0" prop="region">
+        <a-form-model-item ref="region" label="" style="margin: 0" prop="region">
           <div class="aviation_text_cascader">
             <span class="span"><em>*</em>所选课程</span>
             <div class="from_three">
@@ -69,6 +74,11 @@
                   color: #ccc;
                   overflow: hidden;
                 "
+                 @blur="
+                    () => {
+                      $refs.region.onFieldBlur();
+                    }
+                  "
               >
                 <a-icon
                   slot="suffixIcon"
@@ -86,13 +96,18 @@
           </div>
         </a-form-model-item>
 
-        <a-form-model-item label="" style="margin: 0" prop="region">
+        <a-form-model-item label="" style="margin: 0" ref="education" prop="education">
           <div class="aviation_text_cascader">
             <span class="span"><em>*</em>当前学历</span>
             <div class="from_three">
               <a-select
                 v-model="form.education"
                 placeholder="请选择学历"
+                 @blur="
+                    () => {
+                      $refs.education.onFieldBlur();
+                    }
+                  "
                 style="
                   width: 2rem;
                   font-size: 0.15rem;
@@ -117,17 +132,22 @@
           </div>
         </a-form-model-item>
 
-        <a-form-model-item label="" prop="desc">
+        <a-form-model-item label="" prop="id_number" ref="id_number">
           <div class="aviation_text_input">
             <span class="span"><em>*</em>身份证号</span>
             <a-input
               v-model="form.id_number"
               placeholder="请填写身份证号"
+              @blur="
+                    () => {
+                      $refs.id_number.onFieldBlur();
+                    }
+                  "
             ></a-input>
           </div>
         </a-form-model-item>
 
-        <a-form-model-item label="" prop="desc">
+        <a-form-model-item label="" prop="desc" ref="desc">
           <div class="aviation_textarea">
             <span>您的疑问</span>
             <div class="aviation_textarea_text">
@@ -139,6 +159,11 @@
                 rows="10"
                 style="color: #000"
                 placeholder="请填写您的疑问"
+                @blur="
+                    () => {
+                      $refs.desc.onFieldBlur();
+                    }
+                  "
               >
               </textarea>
             </div>
@@ -211,14 +236,26 @@ export default {
           {
             required: true,
             message: "Please select Activity zone",
-            trigger: "change",
+            trigger: "blur",
+          },
+          {
+            min: 3,
+            max: 5,
+            message: "Length should be 3 to 5",
+            trigger: "blur",
           },
         ],
         date1: [
           {
             required: true,
             message: "Length should be 3 to 5",
-            trigger: "change",
+            trigger: "blur",
+          },
+          {
+            min: 3,
+            max: 5,
+            message: "Length should be 3 to 5",
+            trigger: "blur",
           },
         ],
         education: [
