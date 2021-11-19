@@ -357,6 +357,8 @@ export default {
 .aviation_text {
   border-radius: 0.04rem;
   // margin: 0 0.1rem;
+  width: 3.55rem;
+  margin: 0 .1rem;
   margin-top: .15rem;
   margin-bottom: 0.15rem;
   overflow: hidden;
@@ -369,6 +371,11 @@ export default {
         width: 100%;
       }
     }
+  }
+  ::v-deep .ant-form-item-control{
+    display: flex;
+    flex-direction: column;
+    width: 3.55rem;
   }
   .aviation_text_content {
     display: flex;

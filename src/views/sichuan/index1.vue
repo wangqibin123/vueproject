@@ -340,6 +340,11 @@ export default {
       }
     }
   }
+  ::v-deep .ant-form-item-control{
+    display: flex;
+    flex-direction: column;
+    width: 3.55rem;
+  }
   .aviation_text_content {
     display: flex;
     flex-direction: column;

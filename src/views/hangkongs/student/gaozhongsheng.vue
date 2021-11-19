@@ -377,7 +377,7 @@ export default {
         font-size: .12rem;
         div{
             padding: .13rem .2rem 0 1.4rem;
-            line-height: .18rem;
+            // line-height: .18rem;
             font-weight: 900;
         }
     }

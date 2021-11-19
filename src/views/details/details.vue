@@ -598,6 +598,9 @@ export default {
       margin-bottom: 0.15rem;
       overflow: hidden;
       background-color: #fff;
+      ::v-deep .ant-form-item-control{
+        display: flex;
+      }
       .aviation_text_content {
         display: flex;
         flex-direction: column;
