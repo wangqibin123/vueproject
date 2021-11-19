@@ -337,39 +337,6 @@ export default {
         color: #000;
       }
     }
-    // .aviation_textarea{
-    //   display: flex;
-    //   span{
-    //     width: .75rem;
-    //     height: .35rem;
-    //     font-family: PingFang-SC-Medium;
-    //     font-weight: normal;
-    //     font-stretch: normal;
-    //     letter-spacing: 0px;
-    //     // color: #333333;
-    //     padding-left: .05rem;
-    //     line-height: 0.35rem;
-    //     color: #454444;
-    //     margin-left: .3rem;
-    //   }
-    //   .aviation_textarea_text{
-    //     border: 1px solid #cbcbcb;
-    //     width: 2rem;
-    //     textarea{
-    //       width: 1.75rem;
-    //       height: .63rem;
-    //       border-radius: .01rem;
-    //       padding-left: .14rem;
-    //       padding-top: .11rem;
-    //       border: none;
-    //       outline: none;
-    //       resize: none;
-    //     }
-    //     textarea::-webkit-input-placeholder { /* WebKit browsers*/
-    //       color: #cbcbcb;
-    //     }
-    //   }
-    // }
     .aviation_text_cascader {
       display: flex;
       // justify-content: center;

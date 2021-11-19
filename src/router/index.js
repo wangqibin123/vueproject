@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 const routes = [
      {
        path: '/',
+       name:'/',
        component: home
      },
      {
@@ -84,6 +85,10 @@ const routes = [
       path:"/detail",
       name:"航空专业详情",
       component:()=> import ('@/views/details/details.vue')
+    },
+    {
+      path:"/ynjd",
+      component:()=> import ('@/views/ynjd/index.vue')
     },
 ]
 

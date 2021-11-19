@@ -78,6 +78,7 @@ export default {
 .swiper-slide img {
   width: 3.75rem;
   height: 1.5rem;
+  vertical-align: left;
 }
 #one {
   position: absolute;

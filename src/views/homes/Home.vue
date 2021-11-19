@@ -14,10 +14,9 @@
 <script>
 import HeaderLun from "@/components/header-lun/header_lun.vue";
 
-import page from '@/views/homes/page/page.vue'
+import page from '@/components/page/index.vue'
 import major from '@/views/homes/major/major.vue'
 import aviation from '@/views/homes/major/aviation.vue'
-
 
 import HotTopics from '@/views/homes/hottopics/HotTopics.vue'
 import Information from '@/views/homes/hottopics/Information.vue'

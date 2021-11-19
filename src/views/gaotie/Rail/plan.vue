@@ -7,9 +7,9 @@
             <div class="plan-img2">
                 <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="">
             </div>
-            <ul class="plan-list">
-                <li v-for="(item,index) in highList" :key="index">{{item.text}}</li>
-            </ul>
+            <div class="plan-list">  
+                伴随着近几年铁路格局的改变，铁路事业的发展，形成了在铁路工程和服务领域的人才紧缺，这一专业的人才呈现出供不应求的状态，大量高铁乘务专业的人才缺口急需填补。因此，未来高铁专业的就业前景十分广阔。
+            </div>
          </div>
     </div>
 </template>
@@ -35,7 +35,7 @@ export default{
         justify-content: center;
         .plan-body{
             width: 3.55rem;
-            height: 2.94rem;
+            // height: 2.94rem;
             background: white;
             border-radius: .05rem;
             .plan-img1{
@@ -47,19 +47,29 @@ export default{
                 }
             }
             .plan-img2{
-                width: 3.55rem;
-	            height: 1.3rem;
+                width: 3.35rem;
+                height: 1.2rem;
+                margin: 0 auto;
+                overflow: hidden;
+                border-radius: .05rem;
+                margin-top: .1rem;
                 img{
                     width: 100%;
                     height: 100%;
                 }
             }
             .plan-list{
-                width: 3.33rem;
-	            height: .89rem;
-                padding: .1rem .1rem .1rem .1rem;
-                font-size: .14rem;
-                color: #000000;
+                width: 3.3rem;
+                box-sizing: border-box;
+                height: .89rem;
+                border-radius: .15rem;
+                border: dashed  .01rem #999999;
+                margin: .1rem .1rem .2rem .1rem;
+                padding: .1rem .13rem;
+                color: #333333;
+                font-size: .12rem;
+                font-weight: normal;
+                line-height: .18rem;
                 li{
                     line-height: .19rem;
                     text-align: justify;

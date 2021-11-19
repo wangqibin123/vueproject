@@ -20,6 +20,7 @@
           <router-link to="/kongcheng" tag="p">空乘专业</router-link>
           <router-link to="/zhaoshengyaoqiu" tag="p">招生要求</router-link>
           <router-link to="/gaotie" tag="p">高铁乘务专业</router-link>
+          <router-link to="/ynjd" tag="p">疑难解答</router-link>
         </div>
         <div class="quan" v-if="isloading" @click="btn()"></div>
       </div>
@@ -84,18 +85,19 @@ export default {
   background-color: #ffffff;
   display: flex;
   align-items: center;
+  .spn {
+    height: 0.12rem;
+    
+    font-family: PingFang-SC-Medium;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #777777;
+    padding-left: 0.13rem;
+  }
 }
-.spn {
-  height: 0.12rem;
-  
-  font-family: PingFang-SC-Medium;
-  font-size: 0.12rem;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: 0rem;
-  color: #777777;
-  padding-left: 0.13rem;
-}
+
 .logo_body {
   width: 3.75rem;
   height: 0.49rem;
@@ -106,6 +108,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   .logo {
+    box-sizing: border-box;
     img {
       width: 1.03rem;
       height: 0.29rem;
@@ -138,7 +141,7 @@ export default {
         }
     }
     .act{
-      height: 4rem;
+      height: 4.4rem;
     }
     .quan{
       width: 100%;
