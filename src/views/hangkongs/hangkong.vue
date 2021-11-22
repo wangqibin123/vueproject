@@ -1,19 +1,18 @@
 <template>
     <div>
-        <Lun  v-if="boo2"/>
-        <headerlun v-if="boo"/>
+        <!-- <Lun  v-if="boo2"/> -->
+        <!-- <headerlun v-if="boo"/> -->
         <page />
         <router-view></router-view>
     </div>
 </template>
 <script>
 import Lun from '@/views/hangkongs/lun.vue'
-import page from "@/components/page/index.vue";
+
 import Headerlun from '@/components/header-lun/header_lun.vue';
 export default {
     components:{
-        Lun,
-        page,
+        // Lun,
         Headerlun,
     },
     data(){

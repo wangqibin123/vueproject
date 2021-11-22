@@ -1,17 +1,7 @@
 <template>
   <div class="aservice">
-    <div class="swiper">
-      <div class="swiper-container" id="swiperOne">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" v-for="(item, index) in img" :key="index">
-            <img :src="item.pic" />
-          </div>
-        </div>
-        <!-- 如果需要分页器 -->
-        <div class="swiper-pagination" style="color: #00f0ff"></div>
-        <img class="swiper-button-prev" id="one" :src="leftimg" @click="left" alt />
-        <img class="swiper-button-next" id="two" :src="rightimg" @click="right" alt />
-      </div>
+     <div class="int_con">
+      <img src="@/assets/images2/banner/vip地勤专业.jpg" />
     </div>
     <!-- <div class="aservice_con">
           <img src="@/assets/images/首页改1_27.gif" />
@@ -19,7 +9,7 @@
     <page />
     <!-- 专业介绍 -->
     <div class="Introduction">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
+      <img src="@/assets/img/专业介绍_03.jpg" />
       <div class="Introduction_con">
         <img src="@/assets/images/首页改1_31.gif" />
         <div class="in_xuxian">
@@ -61,7 +51,7 @@
     </div>
     <!-- 专业优势 -->
     <div class="advantage">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
+      <img src="@/assets/img/专业优势_03.jpg" />
       <div class="advantage_con">
         <img src="@/assets/images/首页改1_31.gif" />
         <Explain />
@@ -69,7 +59,7 @@
     </div>
     <!-- 职业规划 -->
     <div class="Introduction">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
+      <img src="@/assets/img/职业规划_03.jpg" />
       <div class="Introduction_con">
         <img src="@/assets/images/首页改1_31.gif" />
         <div class="in_xuxian">
@@ -83,7 +73,7 @@
     </div>
     <!-- 合作单位 -->
     <div class="hezuo">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
+      <img src="@/assets/img/合作单位_03.jpg" />
       <div class="hezuo_con">
         <div class="hezuo_img">
           <img src />
@@ -105,53 +95,27 @@
 <script>
 import Explain from "@/components/explain/explain.vue";
 import page from "@/components/page/index.vue";
-import Swiper from "swiper";
 
-import "swiper/css/swiper.css";
 export default {
   components: {
     page,
     Explain,
   },
-  data() {
-    return {
-      img: [
-        { pic: require("@/assets/images/首页改1_27.gif") },
-        { pic: require("@/assets/images/首页改1_03.gif") },
-        { pic: require("@/assets/images/首页改1_03.gif") },
-      ],
-      leftimg: require("@/assets/images/首页改1_10.gif"),
-      rightimg: require("@/assets/images/未标题-1_03.gif"),
-    };
-  },
-  mounted() {
-    var mySwiper = new Swiper("#swiperOne", {
-      loop: true, // 循环模式选项
-      //   autoplay: true, //自动播放
-      // 如果需要分页器
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  },
-  methods: {
-    left() {
-      this.leftimg = require("@/assets/images/左.png");
-      this.rightimg = require("@/assets/images/未标题-1_03.gif");
-    },
-    right() {
-      this.leftimg = require("@/assets/images/首页改1_10.gif");
-      this.rightimg = require("@/assets/images/首页改1_13.gif");
-    },
-  },
+  
 };
 </script>
 
 <style lang="scss" scoped>
+.int_con {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 3.75rem;
+      height: 1.5rem;
+    }
+  }
 .aservice {
   width: 100%;
   display: flex;

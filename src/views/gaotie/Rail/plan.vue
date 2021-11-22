@@ -2,7 +2,7 @@
     <div class="plan">
         <div class="plan-body">
             <div class="plan-img1">
-                <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="">
+                <img src="@/assets/img/职业规划_03.jpg" alt="">
             </div>
             <div class="plan-img2">
                 <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="">

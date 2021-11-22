@@ -1,18 +1,24 @@
 <template>
   <div class="Cthere">
+    <div class="lun_warp">
+        <div class="lun_con">
+            <img src="@/assets/images2/banner/初中生.jpg" alt="">
+        </div>
+    </div>
+    <page />
     <div class="Green">
       <div class="Ctit">
-        <img src="@/assets/images2/国际航空服务与管理_40.jpg" alt="" />
+        <img src="@/assets/img/初中生成长计划说明_03.jpg" alt="" />
       </div>
       <div class="Ccen">
-        <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="" />
+        <img src="@/assets/images2/banner/初中生.jpg" alt="" />
       </div>
      <Explain />
     </div>
 
     <div class="bott">
       <div class="Ctit">
-        <img src="@/assets/images2/国际航空服务与管理_40.jpg" alt="" />
+        <img src="@/assets/img/0002_03.jpg" alt="" />
       </div>
        <div class="Ccen">
         <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="" />
@@ -98,9 +104,11 @@
 </template>
 <script>
 import Explain from '@/components/explain/explain.vue'
+import page from "@/components/page/index.vue";
 export default {
   components: {
-    Explain
+    Explain,
+    page
   },
 };
 </script>
@@ -109,7 +117,19 @@ export default {
   width: 3.75rem;
   margin: 0 auto;
 }
-
+ .lun_warp{
+        width: 100%;
+        height: 1.50rem;
+        .lun_con{
+            width: 3.75rem;
+            height: 1.50rem;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 
 .Green {
   width: 3.56rem;

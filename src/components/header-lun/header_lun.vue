@@ -34,9 +34,9 @@ export default {
   data(){
     return {
       img: [
-        { pic: require("@/assets/images/首页改1_27.gif") },
-        { pic: require("@/assets/images/首页改1_03.gif") },
-        { pic: require("@/assets/images/首页改1_03.gif") },
+        { pic: require("@/assets/images2/banner/首页.png") },
+        { pic: require("@/assets/images2/banner/首页轮播1.png") },
+        { pic: require("@/assets/images2/banner/首页轮播2.png") },
       ],
       leftimg:require("@/assets/images/首页改1_10.gif"),
       rightimg:require("@/assets/images/未标题-1_03.gif")

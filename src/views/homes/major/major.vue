@@ -7,20 +7,20 @@
       <ul>
         <li>
           <router-link to="/hangkong">
-            <img src="@/assets/images/首页改1_22.gif" alt="" />
+            <img src="@/assets/images2/banner/首页小banner/国际航空服务与管理.png" alt="" />
             </router-link>
         </li>
         <li>
-          <img src="@/assets/images/首页改1_25.gif" alt="" />
+          <img src="@/assets/images2/banner/首页小banner/互联网金融与管理.png" alt="" />
         </li>
         <li>
-          <img src="@/assets/images/首页改1_27.gif" alt="" />
+          <img src="@/assets/images2/banner/首页小banner/人工智能与机器人.png" alt="" />
         </li>
         <li>
-          <img src="@/assets/images/首页改1_29.gif" alt="" />
+          <img src="@/assets/images2/banner/首页小banner/网络新媒体运营.png" alt="" />
         </li>
         <li>
-          <img src="@/assets/images/首页改1_31.gif" alt="" />
+          <img src="@/assets/images2/banner/首页小banner/新能源汽车.png" alt="" />
         </li>
       </ul>
     </div>

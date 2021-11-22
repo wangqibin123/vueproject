@@ -3,7 +3,7 @@
     <!--  国际海乘就业趋势  -->
     <div class="cruise_header_title">
       <a href="">
-        <img src="@/assets/images/首页改1_27.gif" alt="" />
+        <img src="@/assets/images2/banner/游轮海乘专业.png" alt="" />
       </a>
     </div>
     <page/>

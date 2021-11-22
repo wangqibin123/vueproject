@@ -1,27 +1,32 @@
 <template>
-    <div>
-        <lun/>
-        <Pages/>
-        
-        <All/>
-        <!-- <indexT/> -->
-        
+  <div>
+    <div class="int_con">
+      <img src="@/assets/images2/banner/四川外国语大学.png" />
     </div>
+    <Pages />
+
+    <All />
+  </div>
 </template>
 <script>
-import lun from '@/components/header-lun/header_lun.vue'
 import Pages from "@/components/page/index.vue";
-import All from '@/views/sichuan/fours/fourall.vue'
-// import indexT from '@/views/sichuan/index1.vue'
+import All from "@/views/sichuan/fours/fourall.vue";
 export default {
-    components:{
-        lun,
-        Pages,
-        All,
-        // indexT
-    }
-}
+  components: {
+    Pages,
+    All,
+  },
+};
 </script>
 <style lang="scss" scoped>
-
+.int_con {
+  width: 100%;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 3.75rem;
+    height: 1.5rem;
+  }
+}
 </style>

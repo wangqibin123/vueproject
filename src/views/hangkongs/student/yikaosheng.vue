@@ -1,5 +1,11 @@
 <template>
   <div>
+     <div class="lun_warp">
+        <div class="lun_con">
+            <img src="@/assets/images2/banner/艺考生.png" alt="">
+        </div>
+    </div>
+      <page />
     <div class="what">
       <div class="what-img-one">
         <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
@@ -95,13 +101,28 @@
   </div>
 </template>
 <script>
+import page from "@/components/page/index.vue";
 export default {
-  name: "yks",
-  components: {},
-};
+    components:{
+        page
+    }
+}
 </script>
 
 <style lang="scss" scoped>
+ .lun_warp{
+        width: 100%;
+        height: 1.50rem;
+        .lun_con{
+            width: 3.75rem;
+            height: 1.50rem;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 .what {
   width: 3.55rem;
   border-radius: 0.05rem;

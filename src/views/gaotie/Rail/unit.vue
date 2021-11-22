@@ -2,7 +2,7 @@
   <div class="unit">
     <div class="unit-body">
       <div class="unit-img">
-        <img src="@/assets/images2/国际航空服务与管理_40.jpg" alt="" />
+        <img src="@/assets/img/合作单位_03.jpg" alt="" />
       </div>
       <ul>
         <li v-for="(item, index) in imag" :key="index">

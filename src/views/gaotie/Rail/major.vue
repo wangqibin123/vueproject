@@ -2,7 +2,7 @@
   <div class="major">
     <div class="major-body">
       <div class="major-img1">
-        <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="" />
+        <img src="@/assets/img/专业优势_03.jpg" alt="" />
       </div>
       <div class="major-img2">
         <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="" />
