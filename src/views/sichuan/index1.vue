@@ -2,7 +2,7 @@
   <div class="aviation_text">
     <div class="aviation_text_header">
       <a href="">
-        <img src="../../assets/images/首页改1_33.gif" alt="" />
+        <img src="../../assets/img/四川外国语大学/预约看校_03.jpg" alt="" />
       </a>
     </div>
     <div class="aviation_text_content">

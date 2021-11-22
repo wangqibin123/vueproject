@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="int_con">
-      <img src="@/assets/images2/banner/四川外国语大学.png" />
+      <img src="@/assets/img/四川外国语大学/四川外国语大学.png" />
     </div>
     <Pages />
 
