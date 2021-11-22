@@ -1,7 +1,7 @@
 <template>
   <div class="aservice">
      <div class="int_con">
-      <img src="@/assets/images2/banner/vip地勤专业.jpg" />
+      <img src="@/assets/img/vip地勤/vip地勤专业.jpg" />
     </div>
     <!-- <div class="aservice_con">
           <img src="@/assets/images/首页改1_27.gif" />
@@ -9,9 +9,9 @@
     <page />
     <!-- 专业介绍 -->
     <div class="Introduction">
-      <img src="@/assets/img/专业介绍_03.jpg" />
+      <img src="@/assets/img/公共/专业介绍_03.jpg" />
       <div class="Introduction_con">
-        <img src="@/assets/images/首页改1_31.gif" />
+        <img src="@/assets/img/vip地勤/vip地勤专业_03.png" />
         <div class="in_xuxian">
           <div class="xuxian_text">
             &nbsp;&nbsp;&nbsp;&nbsp; 地勤是航空服务专业，该专业主要课程民航概论、
@@ -20,11 +20,11 @@
           </div>
         </div>
         <div class="in_img">
-          <img src="@/assets/下.png" />
+          <img src="@/assets/公共/航空专业详情页_04.png" />
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/images2/航空专业详情页_03.png" alt />
+            <img src="@/assets/img/公共/航空专业详情页_03.png" alt />
           </div>
           <div class="right">
             <span class="orange">自我分析：</span>
@@ -37,7 +37,7 @@
         </div>
         <div class="number">
         <div class="left">
-          <img src="@/assets/images2/航空专业详情页_06.png" alt="" />
+          <img src="@/assets/img/公共/航空专业详情页_06.png" alt="" />
         </div>
         <div class="right">
           <span class="blue">发展方向：</span>
@@ -51,17 +51,17 @@
     </div>
     <!-- 专业优势 -->
     <div class="advantage">
-      <img src="@/assets/img/专业优势_03.jpg" />
+      <img src="@/assets/img/公共/专业优势_03.jpg" />
       <div class="advantage_con">
-        <img src="@/assets/images/首页改1_31.gif" />
+        <img src="@/assets/img/vip地勤/vip地勤专业_06.png" />
         <Explain />
       </div>
     </div>
     <!-- 职业规划 -->
     <div class="Introduction">
-      <img src="@/assets/img/职业规划_03.jpg" />
+      <img src="@/assets/img/公共/职业规划_03.jpg" />
       <div class="Introduction_con">
-        <img src="@/assets/images/首页改1_31.gif" />
+        <img src="@/assets/img/vip地勤/vip地勤专业_08.png" />
         <div class="in_xuxian">
           <div class="xuxian_text">
             &nbsp;&nbsp;&nbsp;&nbsp; 地勤是航空服务专业，该专业主要课程民航概论、
@@ -73,19 +73,19 @@
     </div>
     <!-- 合作单位 -->
     <div class="hezuo">
-      <img src="@/assets/img/合作单位_03.jpg" />
+      <img src="@/assets/img/公共/合作单位_03.jpg" />
       <div class="hezuo_con">
         <div class="hezuo_img">
-          <img src />
-          <img src />
+          <img src="@/assets/img/公共/vip地勤专业_10.png" />
+          <img src="@/assets/img/公共/vip地勤专业_12.png" />
         </div>
         <div class="hezuo_img">
-          <img src />
-          <img src />
+          <img src="@/assets/img/公共/vip地勤专业_15.png" />
+          <img src="@/assets/img/公共/vip地勤专业_16.png" />
         </div>
         <div class="hezuo_img">
-          <img src />
-          <img src />
+          <img src="@/assets/img/公共/vip地勤专业_19.png" />
+          <img src="@/assets/img/公共/vip地勤专业_20.png" />
         </div>
       </div>
     </div>

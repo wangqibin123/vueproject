@@ -2,10 +2,10 @@
   <div class="major">
     <div class="major-body">
       <div class="major-img1">
-        <img src="@/assets/img/专业优势_03.jpg" alt="" />
+        <img src="@/assets/img/公共/专业优势_03.jpg" alt="" />
       </div>
       <div class="major-img2">
-        <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="" />
+        <img src="@/assets/img/高铁乘务专业/高铁乘务专业_06.gif" alt="" />
       </div>
       <ul class="size-list" v-for="(item,index) in highList" :key="index">
         <li class="list-img">
@@ -23,19 +23,19 @@ export default {
     return {
       highList: [
         {
-          imgs:require("@/assets/images2/航空专业详情页_03.jpg"),
+          imgs:require("@/assets/img/公共/航空专业详情页_03.png"),
           color:"color: #ff3300",
           title: "工作前景好",
           text: "我国的高铁事业也在不断的壮大，全国各地布满高铁，对于乘务员的需求也在不断地增加。选择高铁行业，成就好的未来。",
         },
         {
-          imgs:require("@/assets/images2/航空专业详情页_03.jpg"),
+          imgs:require("@/assets/img/公共/航空专业详情页_06.png"),
           color:"color: #ff3300",
           title: "工作前景好",
           text: "我国的高铁事业也在不断的壮大，全国各地布满高铁，对于乘务员的需求也在不断地增加。选择高铁行业，成就好的未来。",
         },
         {
-          imgs:require("@/assets/images2/航空专业详情页_03.jpg"),
+          imgs:require("@/assets/img/公共/航空专业详情页_03_08.png"),
           color:"color: #ff3300",
           title: "工作前景好",
           text: "我国的高铁事业也在不断的壮大，全国各地布满高铁，对于乘务员的需求也在不断地增加。选择高铁行业，成就好的未来。",

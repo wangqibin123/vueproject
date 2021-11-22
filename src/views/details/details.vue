@@ -11,19 +11,19 @@
           <p>REQUIREMENTS</p>
         </div>
         <div class="img">
-          <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="" />
+          <img src="@/assets/img/航空专业/航空专业详情页_03.jpg" alt="" />
         </div>
         <div class="dotted">
           <p>
             随着航空事业的不断深入，从事航空事业的人也是越来越多，当然航空事业的要求是非常高的，记得当时验飞行员也是百里挑一哦，那么航空专业的要求有哪些?这个问题对于想要上蓝天的人来说是太重要了。
           </p>
           <div class="imgs">
-            <img src="@/assets/下.png" alt="" />
+            <img src="@/assets/公共/航空专业详情页_04.png" alt="" />
           </div>
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/航空专业详情页_03.jpg" alt="" />
+            <img src="@/assets/img/公共/航空专业详情页_03.png" alt="" />
           </div>
           <div class="right">
             <span class="orange">政治条件：</span>
@@ -34,7 +34,7 @@
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/航空专业详情页_03.jpg" alt="" />
+            <img src="@/assets/img/公共/航空专业详情页_06.png" alt="" />
           </div>
           <div class="right">
             <span class="blue">身体条件：</span>
@@ -45,7 +45,7 @@
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/航空专业详情页_03.jpg" alt="" />
+            <img src="@/assets/img/公共/航空专业详情页_03_08.png" alt="" />
           </div>
           <div class="right">
             <span class="green">心理品质条件：</span>
@@ -56,7 +56,7 @@
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/航空专业详情页_03.jpg" alt="" />
+            <img src="@/assets/img/公共/航空专业详情页_10.png" alt="" />
           </div>
           <div class="right">
             <span class="pink">学历文化条件：</span>
@@ -276,7 +276,7 @@
     </div>
     <div class="read">
       <div class="read-top">
-        <img src="@/assets/img/推荐阅读_03.jpg" alt="" />
+        <img src="@/assets/img/航空专业/推荐阅读_03.jpg" alt="" />
       </div>
       <Data />
     </div>

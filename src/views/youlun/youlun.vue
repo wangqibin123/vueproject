@@ -3,7 +3,7 @@
     <!--  国际海乘就业趋势  -->
     <div class="cruise_header_title">
       <a href="">
-        <img src="@/assets/images2/banner/游轮海乘专业.png" alt="" />
+        <img src="@/assets/img/游轮海乘专业/游轮海乘专业.png" alt="" />
       </a>
     </div>
     <page/>
@@ -12,13 +12,13 @@
       <div class="cruise_rest">
         <div class="cruise_header_content">
           <a href="">
-            <img src="@/assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/img/公共/专业介绍_03.jpg" alt="" />
           </a>
         </div>
         <div class="cruise_header_bottom">
           <div class="cruise_header_bottom_top">
             <a href="">
-              <img src="@/assets/images/首页改1_31.gif" alt="" />
+              <img src="@/assets/img/游轮海乘专业/游轮海乘专业_03.jpg" alt="" />
             </a>
           </div>
           <div class="cruise_text">
@@ -39,13 +39,13 @@
       <div class="cruise_rest">
         <div class="cruise_header_content">
           <a href="">
-            <img src="@/assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/img/公共/专业优势_03.jpg" alt="" />
           </a>
         </div>
         <div class="cruise_header_bottom">
           <div class="cruise_header_bottom_top">
             <a href="">
-              <img src="@/assets/images/首页改1_31.gif" alt="" />
+              <img src="@/assets/img/游轮海乘专业/游轮海乘专业_06.jpg" alt="" />
             </a>
           </div>
           <div class="cruise_text_img">
@@ -69,13 +69,13 @@
       <div class="cruise_rest">
         <div class="cruise_header_content">
           <a href="">
-            <img src="@/assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/img/公共/职业规划_03.jpg" alt="" />
           </a>
         </div>
         <div class="cruise_header_bottom">
           <div class="cruise_header_bottom_top">
             <a href="">
-              <img src="@/assets/images/首页改1_31.gif" alt="" />
+              <img src="@/assets/img/游轮海乘专业/游轮海乘专业_08.jpg" alt="" />
             </a>
           </div>
           <div class="cruise_text">
@@ -92,14 +92,29 @@
       <div class="cruise_bottom">
         <div class="cruise_bottom_header">
             <a href="">
-            <img src="@/assets/images/首页改1_33.gif" alt="" />
+            <img src="@/assets/img/公共/合作单位_03.jpg" alt="" />
             </a>
         </div>
         <div class="cruise_content">
             <ul class="cruise_content_ul">
             <li v-for="(item, index) in 6" :key="index">
                 <a href="">
-                    <img src="@/assets/images/首页改1_31.gif" alt="" />
+                    <img src="@/assets/img/公共/vip地勤专业_10.png" alt="" />
+                </a>
+                <a href="">
+                    <img src="@/assets/img/公共/vip地勤专业_12.png" alt="" />
+                </a>
+                <a href="">
+                    <img src="@/assets/img/公共/vip地勤专业_15.png" alt="" />
+                </a>
+                 <a href="">
+                    <img src="@/assets/img/公共/vip地勤专业_16.png" alt="" />
+                </a>
+                 <a href="">
+                    <img src="@/assets/img/公共/vip地勤专业_19.png" alt="" />
+                </a>
+                 <a href="">
+                    <img src="@/assets/img/公共/vip地勤专业_20.png" alt="" />
                 </a>
             </li>
             </ul>
