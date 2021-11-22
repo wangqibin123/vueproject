@@ -1,30 +1,30 @@
 <template>
   <div class="major">
       <div class="mar-top">
-          <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="">
+          <img src="@/assets/img/招生要求/总有一个专业适合你2_03.jpg" alt="">
       </div>
       <div class="mar-content">
           <div class="majors" >
               <div class="maj-top">
-                  <img src="@/assets/images2/国际航空服务与管理_44.jpg" alt="">
+                  <img src="@/assets/img/公共/招生要求_24.jpg" alt="">
               </div>
               <p>空乘专业</p>
           </div>
           <div class="majors" >
               <div class="maj-top">
-                  <img src="@/assets/images2/国际航空服务与管理_46.jpg" alt="">
+                  <img src="@/assets/img/公共/招生要求_27.jpg" alt="">
               </div>
               <p>高铁专业</p>
           </div>
           <div class="majors" >
               <div class="maj-top">
-                  <img src="@/assets/images2/国际航空服务与管理_48.jpg" alt="">
+                  <img src="@/assets/img/公共/招生要求_30.jpg" alt="">
               </div>
               <p>游轮海乘专业</p>
           </div>
           <div class="majors" >
               <div class="maj-top">
-                  <img src="@/assets/images2/国际航空服务与管理_50.jpg" alt="">
+                  <img src="@/assets/img/公共/招生要求_31.jpg" alt="">
               </div>
               <p>VIP地勤专业</p>
           </div>

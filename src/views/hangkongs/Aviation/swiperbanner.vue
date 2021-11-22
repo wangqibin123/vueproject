@@ -2,7 +2,7 @@
   <div class="banner">
     <div class="banner_con">
       <div class="title_img">
-        <img src="@/assets/images2/国际航空服务与管理_40.jpg" />
+        <img src="@/assets/img/航空学院/国际航空服务与管理_40.jpg" />
       </div>
       <!-- ---------------------------- -->
       <div class="swiper swiper3">
@@ -39,21 +39,21 @@ export default {
       shang:'0',
       xia:'0',
       img: [
-        { picture: require("@/assets/images2/1.jpg"),type:'0'},
-        { picture: require("@/assets/images2/2.jpg"),type:'1' },
-        { picture: require("@/assets/images2/3.jpg"),type:'2' },
-        { picture: require("@/assets/images2/4.jpg"),type:'3' }, 
-        { picture: require("@/assets/images2/5.jpg"),type:'4' },
+        { picture: require("@/assets/img/航空学院/1.jpg"),type:'0'},
+        { picture: require("@/assets/img/航空学院/2.jpg"),type:'1' },
+        { picture: require("@/assets/img/航空学院/3.jpg"),type:'2' },
+        { picture: require("@/assets/img/航空学院/4.jpg"),type:'3' }, 
+        { picture: require("@/assets/img/航空学院/5.jpg"),type:'4' },
       ],
       img2: [
-        { pic: require("@/assets/images2/国际航空服务与管理_44.jpg"),type:'0' },
-        { pic: require("@/assets/images2/国际航空服务与管理_46.jpg"),type:'1' },
-        { pic: require("@/assets/images2/国际航空服务与管理_48.jpg"),type:'2' },
-        { pic: require("@/assets/images2/国际航空服务与管理_50.jpg"),type:'3'},
-        { pic: require("@/assets/images2/国际航空服务与管理_52.jpg"),type:'4' },
+        { pic: require("@/assets/img/航空学院/国际航空服务与管理_44.jpg"),type:'0' },
+        { pic: require("@/assets/img/航空学院/国际航空服务与管理_46.jpg"),type:'1' },
+        { pic: require("@/assets/img/航空学院/国际航空服务与管理_48.jpg"),type:'2' },
+        { pic: require("@/assets/img/航空学院/国际航空服务与管理_50.jpg"),type:'3'},
+        { pic: require("@/assets/img/航空学院/国际航空服务与管理_52.jpg"),type:'4' },
       ],
-      leftimg:require("@/assets/images2/未标题-1_06.png"),
-      rightimg:require("@/assets/images2/题-1_06.png"),
+      leftimg:require("@/assets/img/航空学院/未标题-1_06.png"),
+      rightimg:require("@/assets/img/航空学院/题-1_06.png"),
     };
   },
   mounted() {
@@ -77,12 +77,12 @@ export default {
   },
   methods:{
     left(){
-        this.leftimg=require("@/assets/images2/题-1_03.png")
-        this.rightimg= require("@/assets/images2/题-1_06.png")
+        this.leftimg=require("@/assets/img/航空学院/题-1_03.png")
+        this.rightimg= require("@/assets/img/航空学院/题-1_06.png")
     },
     right(){
-        this.leftimg=require("@/assets/images2/未标题-1_06.png")
-        this.rightimg=require("@/assets/images2/未标题-1_03.png")
+        this.leftimg=require("@/assets/img/航空学院/未标题-1_06.png")
+        this.rightimg=require("@/assets/img/航空学院/未标题-1_03.png")
     }
   }
 };

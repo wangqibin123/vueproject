@@ -1,13 +1,13 @@
 <template>
   <div class="show">
     <div class="show-header">
-      <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="" />
+      <img src="@/assets/img/航空学院/国际航空服务与管理_22.jpg" alt="" />
     </div>
     <div class="show-text">
       <ul>
         <router-link to="/sichuan" tag="li">
           <div class="school-img">
-            <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_26.jpg" alt="" />
           </div>
           <div class="school-text">
             <div class="school-name">大连海事大学</div>
@@ -20,7 +20,7 @@
         </router-link>
         <li>
           <div class="school-img">
-            <img src="@/assets/images2/国际航空服务与管理_28.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_28.jpg" alt="" />
           </div>
           <div class="school-text">
             <div class="school-name">渤海大学</div>
@@ -35,7 +35,7 @@
       <ul>
         <li>
           <div class="school-img">
-            <img src="@/assets/images2/国际航空服务与管理_32.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_32.jpg" alt="" />
           </div>
           <div class="school-text">
             <div class="school-name">北京航空大学</div>
@@ -48,7 +48,7 @@
         </li>
         <li>
           <div class="school-img">
-            <img src="@/assets/images2/国际航空服务与管理_33.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_33.jpg" alt="" />
           </div>
           <div class="school-text">
             <div class="school-name">吉林大学</div>
@@ -63,7 +63,7 @@
       <ul>
         <li>
           <div class="school-img">
-            <img src="@/assets/images2/国际航空服务与管理_36.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_36.jpg" alt="" />
           </div>
           <div class="school-text">
             <div class="school-name">山东杏林航空</div>
@@ -76,7 +76,7 @@
         </li>
         <li>
           <div class="school-img">
-            <img src="@/assets/images2/国际航空服务与管理_37.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_37.jpg" alt="" />
           </div>
           <div class="school-text">
             <div class="school-name">南京航空学院</div>

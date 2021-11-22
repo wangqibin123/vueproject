@@ -2,7 +2,7 @@
     <div class="information_warp">
         <div class="information_con">
             <div class="information_con_top">
-                <img src="@/assets/images/首页改1_78.gif" alt="">
+                <img src="@/assets/img/shouye/首页改1_78.gif" alt="">
             </div>
             <div class="information_con_cen">
                 <ul class="btm_list">
@@ -47,7 +47,7 @@
             <div class="information_con_btm">
                 <div class="btm_border">
                     <span>查看更多资讯</span>
-                    <img src="@/assets/images/sou.png" alt="">
+                    <img src="@/assets/img/公共/sou.png" alt="">
                 </div>
             </div>
         </div>

@@ -1,28 +1,28 @@
 <template>
     <div class="environment">
         <div class="en-top">
-            <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="">
+            <img src="@/assets/img/四川外国语大学/校园环境_03.jpg" alt="">
         </div>
         <div class="en-content">
             <div class="content-top">
                 <div class="top-left">
-                    <img src="@/assets/images2/国际航空服务与管理_50.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_50.jpg" alt="">
                 </div>
                 <div class="top-right">
                     <div class="right-top">
-                        <img src="@/assets/images2/国际航空服务与管理_50.jpg" alt="">
+                        <img src="@/assets/img/招生要求/招生要求_52.jpg" alt="">
                     </div>
                     <div class="right-bottom">
-                        <img src="@/assets/images2/国际航空服务与管理_50.jpg" alt="">
+                        <img src="@/assets/img/招生要求/招生要求_54.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="content-bottom">
                 <div>
-                    <img src="@/assets/images2/国际航空服务与管理_50.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_57.jpg" alt="">
                 </div>
                 <div>
-                    <img src="@/assets/images2/国际航空服务与管理_50.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_59.jpg" alt="">
                 </div>
             </div>
         </div>

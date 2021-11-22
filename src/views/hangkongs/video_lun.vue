@@ -25,32 +25,32 @@ export default {
             listimg:[
                 {
                     id:1,
-                    img:require("@/assets/images2/国际航空服务与管理_05.jpg"),
-                    img2:require("@/assets/images2/国际航空服务与管理_07.jpg"),
+                    img:require("@/assets/img/航空学院/video/1.jpg"),
+                    img2:require("@/assets/img/航空学院/video/2.jpg"),
                 },
                 {
                     id:2,
-                    img:require("@/assets/images2/国际航空服务与管理_05.jpg"),
-                    img2:require("@/assets/images2/国际航空服务与管理_07.jpg"),
+                    img:require("@/assets/img/航空学院/video/3.jpg"),
+                    img2:require("@/assets/img/航空学院/video/4.jpg"),
                 },
                 {
                     id:3,
-                    img:require("@/assets/images2/国际航空服务与管理_05.jpg"),
-                    img2:require("@/assets/images2/国际航空服务与管理_07.jpg"),
+                    img:require("@/assets/img/航空学院/video/5.jpg"),
+                    img2:require("@/assets/img/航空学院/video/6.jpg"),
                 }
             ],
-            leftimg:require("@/assets/images2/首页改1_10.gif"),
-            rightimg:require("@/assets/images/未标题-1_03.gif"),
+            leftimg:require("@/assets/img/航空学院/首页改1_10.gif"),
+            rightimg:require("@/assets/img/航空学院/未标题-1_03.gif"),
         }
     },
     methods:{
         leftSide(){
-            this.leftimg = require("@/assets/images2/题-1_03.png")
-            this.rightimg = require("@/assets/images/未标题-1_03.gif")
+            this.leftimg = require("@/assets/img/航空学院/题-1_03.png")
+            this.rightimg = require("@/assets/img/航空学院/未标题-1_03.gif")
         },
         rightSide(){
-            this.rightimg = require("@/assets/images2/未标题-1_03.png")
-            this.leftimg = require("@/assets/images2/首页改1_10.gif")
+            this.rightimg = require("@/assets/img/航空学院/未标题-1_03.png")
+            this.leftimg = require("@/assets/img/航空学院/首页改1_10.gif")
         }
     },
     mounted() {

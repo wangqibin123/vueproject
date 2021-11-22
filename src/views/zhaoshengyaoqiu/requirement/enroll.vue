@@ -1,42 +1,42 @@
 <template>
     <div class="enroll">
         <div class="enr-top">
-            <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="">
+            <img src="@/assets/img/公共/航空院校报名流程图_03.jpg" alt="">
         </div>
         <div class="enr-conent">
             <div class="conent-box">
                 <div class="box-img">
-                    <img src="@/assets/航空专业详情页_03.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_35.jpg" alt="">
                 </div>
                 <p class="box-text">网络在线咨询</p>
             </div>
             <div class="conent-box">
                 <div class="box-img">
-                    <img src="@/assets/航空专业详情页_03.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_37.jpg" alt="">
                 </div>
                 <p class="box-text">电话沟通确认</p>
             </div>
             <div class="conent-box">
                 <div class="box-img">
-                    <img src="@/assets/航空专业详情页_03.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_39.jpg" alt="">
                 </div>
                 <p class="box-text">选择专业 补全信息</p>
             </div>
             <div class="conent-box">
                 <div class="box-img">
-                    <img src="@/assets/航空专业详情页_03.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_44.jpg" alt="">
                 </div>
                 <p class="box-text">办理入学手续</p>
             </div>
             <div class="conent-box">
                 <div class="box-img">
-                    <img src="@/assets/航空专业详情页_03.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_45.jpg" alt="">
                 </div>
                 <p class="box-text">学院基础素质测试</p>
             </div>
             <div class="conent-box">
                 <div class="box-img">
-                    <img src="@/assets/航空专业详情页_03.jpg" alt="">
+                    <img src="@/assets/img/招生要求/招生要求_46.jpg" alt="">
                 </div>
                 <p class="box-text">现场信息确认</p>
             </div>
@@ -44,14 +44,14 @@
         <div class="information_con_btm">
             <div class="btm_border">
                 <span>点击查看详情</span>
-                <img src="@/assets/images/sou.png" alt="">
+                <img src="@/assets/img/公共/sou.png" alt="">
             </div>
         </div>
-        <img src="@/assets/箭头.png" class="tu1">
-        <img src="@/assets/箭头.png" class="tu2">
-        <img src="@/assets/箭头.png" class="tu3">
-        <img src="@/assets/箭头.png" class="tu4">
-        <img src="@/assets/箭头.png" class="tu5">
+        <img src="@/assets/img/招生要求/招生要求_42.jpg" class="tu1">
+        <img src="@/assets/img/招生要求/招生要求_42.jpg" class="tu2">
+        <img src="@/assets/img/招生要求/招生要求_42.jpg" class="tu3">
+        <img src="@/assets/img/招生要求/招生要求_42.jpg" class="tu4">
+        <img src="@/assets/img/招生要求/招生要求_42.jpg" class="tu5">
     </div>
 </template>
 
