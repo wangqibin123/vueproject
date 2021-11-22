@@ -5,7 +5,7 @@
         <img src="@/assets/img/公共/专业优势_03.jpg" alt="" />
       </div>
       <div class="major-img2">
-        <img src="@/assets/img/高铁乘务专业/高铁乘务专业_06.gif" alt="" />
+        <img src="@/assets/img/高铁专业/高铁专业_06.gif" alt="" />
       </div>
       <ul class="size-list" v-for="(item,index) in highList" :key="index">
         <li class="list-img">

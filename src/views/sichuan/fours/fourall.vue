@@ -64,7 +64,7 @@
     <index/>
     <div class="all-environment">
       <div class="introduction-header">
-        <img src="@/assets/img/公共/首页改1_18.gif" alt="" />
+        <img src="@/assets/img/四川外国语大学/校园环境_03.jpg" alt="" />
       </div>
       <ul>
         <li>

@@ -5,10 +5,10 @@
     </div>
     <div class="logo_body">
         <router-link to="/" tag="div" class="logo">
-          <img src="@/assets/images/首页改1_03.gif" alt="" />
+          <img src="@/assets/img/公共/首页改1_03.gif" alt="" />
         </router-link>
       <div class="menu">
-        <img @click="btn()" src="@/assets/images/首页改1_05.gif" alt="" />
+        <img @click="btn()" src="@/assets/img/公共/首页改1_05.gif" alt="" />
         <div class="txt" :class="{'act':isloading}">
           <router-link to="/" tag="p">首页</router-link>
           <router-link to="/Service" tag="p">VIP地勤专业</router-link>

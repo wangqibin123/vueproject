@@ -99,22 +99,22 @@
             <ul class="cruise_content_ul">
             <li v-for="(item, index) in 6" :key="index">
                 <a href="">
-                    <img src="@/assets/img/公共/vip地勤专业_10.png" alt="" />
+                    <img src="@/assets/img/公共/VIP地勤专业_10.png" alt="" />
                 </a>
                 <a href="">
-                    <img src="@/assets/img/公共/vip地勤专业_12.png" alt="" />
+                    <img src="@/assets/img/公共/VIP地勤专业_12.png" alt="" />
                 </a>
                 <a href="">
-                    <img src="@/assets/img/公共/vip地勤专业_15.png" alt="" />
+                    <img src="@/assets/img/公共/VIP地勤专业_15.png" alt="" />
                 </a>
                  <a href="">
-                    <img src="@/assets/img/公共/vip地勤专业_16.png" alt="" />
+                    <img src="@/assets/img/公共/VIP地勤专业_16.png" alt="" />
                 </a>
                  <a href="">
-                    <img src="@/assets/img/公共/vip地勤专业_19.png" alt="" />
+                    <img src="@/assets/img/公共/VIP地勤专业_19.png" alt="" />
                 </a>
                  <a href="">
-                    <img src="@/assets/img/公共/vip地勤专业_20.png" alt="" />
+                    <img src="@/assets/img/公共/VIP地勤专业_20.jpg" alt="" />
                 </a>
             </li>
             </ul>

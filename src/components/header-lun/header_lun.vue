@@ -34,12 +34,12 @@ export default {
   data(){
     return {
       img: [
-        { pic: require("@/assets/images2/banner/首页.png") },
-        { pic: require("@/assets/images2/banner/首页轮播1.png") },
-        { pic: require("@/assets/images2/banner/首页轮播2.png") },
+        { pic: require("@/assets/img/shouye/首页.png") },
+        { pic: require("@/assets/img/shouye/首页轮播1.png") },
+        { pic: require("@/assets/img/shouye/首页轮播2.png") },
       ],
-      leftimg:require("@/assets/images/首页改1_10.gif"),
-      rightimg:require("@/assets/images/未标题-1_03.gif")
+      leftimg:require("@/assets/img/公共/首页改1_10.gif"),
+      rightimg:require("@/assets/img/公共/未标题-1_03.gif")
     };
   },
   mounted() {
@@ -58,12 +58,12 @@ export default {
   },
   methods:{
     left(){
-        this.leftimg=require("@/assets/images/左.png")
-        this.rightimg=require("@/assets/images/未标题-1_03.gif")
+        this.leftimg=require("@/assets/img/公共/左.png")
+        this.rightimg=require("@/assets/img/公共/未标题-1_03.gif")
     },
     right(){
-        this.leftimg=require("@/assets/images/首页改1_10.gif")
-        this.rightimg=require("@/assets/images/首页改1_13.gif")
+        this.leftimg=require("@/assets/img/公共/首页改1_10.gif")
+        this.rightimg=require("@/assets/img/公共/首页改1_13.gif")
     }
   }
 }
