@@ -2,17 +2,17 @@
   <div class="sx">
      <div class="lun_warp">
         <div class="lun_con">
-            <img src="@/assets/images2/banner/三校生.png" alt="">
+            <img src="@/assets/img/三校生/三校生.png" alt="">
         </div>
     </div>
       <page />
     <div class="what">
       <div class="what-img-one">
-        <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
+        <img src="@/assets/img/三校生/什么是三校生_03.jpg" alt="" />
       </div>
       <div class="what-school">
         <div class="what-img-two">
-          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/img/三校生/三校生_03.jpg" alt="" />
         </div>
         <p>
           三校生，表示正在接受中等职业教育学生的统称。中等职业学校包括职高、中专、技校。其定义是在九年义务教育的基础上培养一批具有高素质的高技术人才。其学生毕业后有技能可以胜任工作岗。航空服务技能培训等。
@@ -22,17 +22,17 @@
     <!--  -->
     <div class="good">
       <div class="what-img-one">
-        <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
+        <img src="@/assets/img/三校生/选择空乘专业的优势_03.jpg" alt="" />
       </div>
       <div class="good-school">
         <div class="what-img-two">
-          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/img/三校生/三校生_06.jpg" alt="" />
         </div>
         <div class="good-text">
           <ul>
             <li>
               <div class="text-img">
-                <img src="@/assets/images/航空专业详情页_03.png" alt="">
+                <img src="@/assets/img/公共/航空专业详情页_03.png" alt="">
               </div>
               <p>
                 <span class="text-one">升职潜力大:</span>
@@ -41,7 +41,7 @@
             </li>
             <li>
               <div class="text-img">
-                <img src="@/assets/images/航空专业详情页_06.png" alt="">
+                <img src="@/assets/img/公共/航空专业详情页_06.png" alt="">
               </div>
               <p>
                 <span class="text-two">工资待遇好:</span>
@@ -50,7 +50,7 @@
             </li>
             <li>
               <div class="text-img">
-                <img src="@/assets/images/航空专业详情页_03_08.png" alt="">
+                <img src="@/assets/img/公共/航空专业详情页_03_08.png" alt="">
               </div>
               <p>
                 <span class="text-three">入职面试快:</span>

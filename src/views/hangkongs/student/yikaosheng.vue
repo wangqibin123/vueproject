@@ -2,17 +2,17 @@
   <div>
      <div class="lun_warp">
         <div class="lun_con">
-            <img src="@/assets/images2/banner/艺考生.png" alt="">
+            <img src="@/assets/img/艺考生/艺考生.png" alt="">
         </div>
     </div>
       <page />
     <div class="what">
       <div class="what-img-one">
-        <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
+        <img src="@/assets/img/艺考生/什么是艺考生_03.jpg" alt="" />
       </div>
       <div class="what-school">
         <div class="what-img-two">
-          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/img/艺考生/艺考生2_03.jpg" alt="" />
         </div>
         <p>
           空乘就是大学选择读空中乘务专业，也就是未来当上大家说的空姐、空少艺考就是通过艺术类专业考试，拿到学校专业合格证后再在高考报考中报名该学校。简单来说空乘艺考...
@@ -20,25 +20,25 @@
     <div class="information_con_btm">
       <div class="btm_border">
         <span>查看更多资讯</span>
-        <img src="@/assets/images/sou.png" alt="" />
+        <img src="@/assets/img/公共/sou.png" alt="" />
       </div>
     </div>
       </div>
     </div>
   <div class="ches">
     <div class="ches-header">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
+      <img src="@/assets/img/艺考生/艺考生的四大优势_03.jpg" alt="" />
     </div>
     <div class="ches-text">
       <ul>
         <li>
           <div class="text-img">
-            <img src="@/assets/images2/艺考生2_03.jpg" alt="" />
+            <img src="@/assets/img/公共/艺考生2_03.jpg" alt="" />
           </div>
           <div class="text-text">
             <div class="text-header">
               <div class="text-header-img">
-                <img src="@/assets/images/艺考生2_03.png" alt="" />
+                <img src="@/assets/img/艺考生/艺考生2_03.png" alt="" />
               </div>
               <p>升职潜力大</p>
             </div>
@@ -51,7 +51,7 @@
           <div class="text-text">
             <div class="text-header">
               <div class="text-header-img">
-                <img src="@/assets/images/艺考生2_07.png" alt="" />
+                <img src="@/assets/img/艺考生/艺考生2_07.png" alt="" />
               </div>
               <p>工资待遇好</p>
             </div>
@@ -60,17 +60,17 @@
             </div>
           </div>
           <div class="text-img">
-            <img src="@/assets/images/艺考生2_06.jpg" alt="" />
+            <img src="@/assets/img/公共/艺考生2_06.jpg" alt="" />
           </div>
         </li>
         <li>
           <div class="text-img">
-            <img src="@/assets/images/艺考生2_09.jpg" alt="" />
+            <img src="@/assets/img/公共/艺考生2_09.jpg" alt="" />
           </div>
           <div class="text-text">
             <div class="text-header">
               <div class="text-header-img">
-                <img src="@/assets/images/艺考生2_10.png" alt="" />
+                <img src="@/assets/img/艺考生/艺考生2_10.png" alt="" />
               </div>
               <p>入职面试快</p>
             </div>
@@ -83,7 +83,7 @@
           <div class="text-text">
             <div class="text-header">
               <div class="text-header-img">
-                <img src="@/assets/images/艺考生2_12.jpg" alt="" />
+                <img src="@/assets/img/艺考生/艺考生2_12.jpg" alt="" />
               </div>
               <p>休闲时间多</p>
             </div>
@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="text-img">
-            <img src="@/assets/images2/艺考生2_12.jpg" alt="" />
+            <img src="@/assets/img/公共/艺考生2_12.jpg" alt="" />
           </div>
         </li>
       </ul>
