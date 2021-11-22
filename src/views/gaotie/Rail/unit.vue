@@ -2,7 +2,7 @@
   <div class="unit">
     <div class="unit-body">
       <div class="unit-img">
-        <img src="@/assets/img/合作单位_03.jpg" alt="" />
+        <img src="@/assets/img/公共/合作单位_03.jpg" alt="" />
       </div>
       <ul>
         <li v-for="(item, index) in imag" :key="index">
@@ -18,12 +18,12 @@ export default {
   data() {
     return {
       imag: [
-        { img: require("@/assets/images2/国际航空服务与管理_83.jpg") },
-        { img: require("@/assets/images2/国际航空服务与管理_83.jpg") },
-        { img: require("@/assets/images2/国际航空服务与管理_83.jpg") },
-        { img: require("@/assets/images2/国际航空服务与管理_83.jpg") },
-        { img: require("@/assets/images2/国际航空服务与管理_83.jpg") },
-        { img: require("@/assets/images2/国际航空服务与管理_83.jpg") },
+        { img: require("@/assets/img/公共/vip地勤专业_10.png") },
+        { img: require("@/assets/img/公共/vip地勤专业_12.png") },
+        { img: require("@/assets/img/公共/vip地勤专业_15.png") },
+        { img: require("@/assets/img/公共/vip地勤专业_16.png") },
+        { img: require("@/assets/img/公共/vip地勤专业_19.png") },
+        { img: require("@/assets/img/公共/vip地勤专业_20.png") },
       ],
     };
   },

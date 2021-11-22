@@ -2,7 +2,7 @@
   <div class="dv">
       <div class="number">
         <div class="left">
-          <img src="@/assets/images2/航空专业详情页_03.png" alt="" />
+          <img src="@/assets/img/公共/航空专业详情页_03.png" alt="" />
         </div>
         <div class="right">
           <span class="orange">自我分析：</span>
@@ -15,7 +15,7 @@
       </div>
        <div class="number">
         <div class="left">
-          <img src="@/assets/images2/航空专业详情页_06.png" alt="" />
+          <img src="@/assets/img/公共/航空专业详情页_06.png" alt="" />
         </div>
         <div class="right">
           <span class="blue">发展方向：</span>
@@ -25,7 +25,7 @@
       </div>
       <div class="number">
         <div class="left">
-          <img src="@/assets/images2/航空专业详情页_03_08.png" alt="" />
+          <img src="@/assets/img/公共/航空专业详情页_03_08.png" alt="" />
         </div>
         <div class="right">
           <span class="green">自我分析：</span>

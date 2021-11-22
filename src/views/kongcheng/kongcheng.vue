@@ -1,7 +1,7 @@
 <template>
   <div class="int">
     <div class="int_con">
-      <img src="@/assets/images2/banner/空乘.png" />
+      <img src="@/assets/img/空乘专业/空乘.png" />
     </div>
     <div class="page">
       <p>
@@ -13,13 +13,13 @@
     </div>
     <!-- 专业介绍 -->
     <div class="Introduction">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
+      <img src="@/assets/img/公共/专业介绍_03.jpg" />
       <div class="Introduction_con">
-        <img src="@/assets/images/首页改1_31.gif" />
+        <img src="@/assets/img/空乘专业/空乘专业_03.jpg" />
         
         <div class="number">
           <div class="left">
-            <img src="@/assets/images2/航空专业详情页_03.png" alt />
+            <img src="@/assets/img/公共/航空专业详情页_03.png" alt />
           </div>
           <div class="right">
             <span class="orange">自我分析：</span>
@@ -32,7 +32,7 @@
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/images2/航空专业详情页_06.png" alt />
+            <img src="@/assets/img/公共/航空专业详情页_06.png" alt />
           </div>
           <div class="right">
             <span class="blue">发展方向：</span>
@@ -46,12 +46,12 @@
     </div>
     <!-- 专业优势 -->
     <div class="Introduction">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
+      <img src="@/assets/img/公共/专业优势_03.jpg" />
       <div class="Introduction_con">
-        <img src="@/assets/images/首页改1_31.gif" />
+        <img src="@/assets/img/空乘专业/空乘专业_06.jpg" />
         <div class="number">
           <div class="left">
-            <img src="@/assets/images2/航空专业详情页_03.png" alt />
+            <img src="@/assets/img/公共/航空专业详情页_03.png" alt />
           </div>
           <div class="right">
             <span class="orange">自我分析：</span>
@@ -64,7 +64,7 @@
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/images2/航空专业详情页_06.png" alt />
+            <img src="@/assets/img/公共/航空专业详情页_06.png" alt />
           </div>
           <div class="right">
             <span class="blue">发展方向：</span>
@@ -78,12 +78,12 @@
     </div>
     <!-- 职业规划 -->
     <div class="Introduction">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
+      <img src="@/assets/img/公共/职业规划_03.jpg" />
       <div class="Introduction_con">
-        <img src="@/assets/images/首页改1_31.gif" />
+        <img src="@/assets/img/空乘专业/空乘专业_08.jpg" />
         <div class="number">
           <div class="left">
-            <img src="@/assets/images2/航空专业详情页_03.png" alt />
+            <img src="@/assets/img/公共/航空专业详情页_03.png" alt />
           </div>
           <div class="right">
             <span class="orange">自我分析：</span>
@@ -96,7 +96,7 @@
         </div>
         <div class="number">
           <div class="left">
-            <img src="@/assets/images2/航空专业详情页_06.png" alt />
+            <img src="@/assets/img/公共/航空专业详情页_06.png" alt />
           </div>
           <div class="right">
             <span class="blue">发展方向：</span>
@@ -110,19 +110,19 @@
     </div>
     <!-- 合作单位 -->
     <div class="hezuo">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
-      <div class="hezuo_con">
+      <img src="@/assets/img/公共/合作单位_03.jpg" />
+     <div class="hezuo_con">
         <div class="hezuo_img">
-          <img src="@/assets/images2/国际航空服务与管理_79.jpg" />
-          <img src="@/assets/images2/国际航空服务与管理_79.jpg" />
+          <img src="@/assets/img/公共/vip地勤专业_10.png" />
+          <img src="@/assets/img/公共/vip地勤专业_12.png" />
         </div>
         <div class="hezuo_img">
-          <img src="@/assets/images2/国际航空服务与管理_79.jpg" />
-          <img src="@/assets/images2/国际航空服务与管理_79.jpg" />
+          <img src="@/assets/img/公共/vip地勤专业_15.png" />
+          <img src="@/assets/img/公共/vip地勤专业_16.png" />
         </div>
         <div class="hezuo_img">
-          <img src="@/assets/images2/国际航空服务与管理_79.jpg" />
-          <img src="@/assets/images2/国际航空服务与管理_79.jpg" />
+          <img src="@/assets/img/公共/vip地勤专业_19.png" />
+          <img src="@/assets/img/公共/vip地勤专业_20.png" />
         </div>
       </div>
     </div>
