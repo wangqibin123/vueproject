@@ -2,11 +2,11 @@
   <div class="all">
     <div class="all-introduction">
       <div class="introduction-header">
-        <img src="@/assets/images/首页改1_18.gif" alt="" />
+        <img src="@/assets/img/四川外国语大学/四川外国语大学简介_03.jpg" alt="" />
       </div>
       <div class="introduction-text">
         <div class="school-img">
-          <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+          <img src="@/assets/img/四川外国语大学/学校简介(1)_03.jpg" alt="" />
         </div>
         <div class="school-text">
           <div class="school-more">
@@ -17,7 +17,7 @@
           <div class="details">
             <p>
               <span
-                ><i><img src="@/assets/images/学校简介_03.jpg" alt="" /></i
+                ><i><img src="@/assets/img/四川外国语大学/学校简介_03.jpg" alt="" /></i
                 >学校详情：</span
               >
               四川外国语大学，简称“川外”，坐落在重庆市沙坪坝区，是一所经国家教育部批准，隶属于重庆市人民政府的全日制普通高校,为国家最早设立的四所外语专业高等院校之一。
@@ -32,7 +32,7 @@
           <div class="advantage">
             <div>
               <span
-                ><i><img src="@/assets/images/学校简介_06.jpg" alt="" /></i
+                ><i><img src="@/assets/img/四川外国语大学/学校简介_06.jpg" alt="" /></i
                 >学校优势：</span
               >
               <p>可靠的项目资源</p>
@@ -45,7 +45,7 @@
     </div>
     <div class="all-news">
       <div class="introduction-header">
-        <img src="@/assets/images/首页改1_18.gif" alt="" />
+        <img src="@/assets/img/四川外国语大学/新闻动态_03.jpg" alt="" />
       </div>
       <div class="lookmore">
         <span>查看更多></span>
@@ -64,18 +64,18 @@
     <index/>
     <div class="all-environment">
       <div class="introduction-header">
-        <img src="@/assets/images/首页改1_18.gif" alt="" />
+        <img src="@/assets/img/公共/首页改1_18.gif" alt="" />
       </div>
       <ul>
         <li>
           <div>
-            <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+            <img src="@/assets/img/四川外国语大学/学校简介(1)_22.jpg" alt="" />
           </div>
           <p>四川外国语大学</p>
         </li>
         <li>
           <div>
-            <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+            <img src="@/assets/img/四川外国语大学/学校简介(1)_24.jpg" alt="" />
           </div>
           <p>四川外国语大学出国留学咋咋咋咋咋咋咋咋咋咋咋咋的</p>
         </li>
@@ -83,13 +83,13 @@
       <ul>
         <li>
           <div>
-            <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+            <img src="@/assets/img/四川外国语大学/学校简介(1)_27.jpg" alt="" />
           </div>
           <p>四川外国语大学出国咋咋咋的</p>
         </li>
         <li>
           <div>
-            <img src="@/assets/images2/国际航空服务与管理_26.jpg" alt="" />
+            <img src="@/assets/img/四川外国语大学/学校简介(1)_29.jpg" alt="" />
           </div>
           <p>四川外国语大学出国留学</p>
         </li>
@@ -97,14 +97,14 @@
       <div class="information_con_btm">
         <div class="btm_border">
           <span>查看更多资讯</span>
-          <img src="@/assets/images/sou.png" alt="" />
+          <img src="@/assets/img/公共/sou.png" alt="" />
         </div>
       </div>
     </div>
      
     <div class="all-issue">
       <div class="introduction-header">
-        <img src="@/assets/images/首页改1_18.gif" alt="" />
+        <img src="@/assets/img/四川外国语大学/常见问题_03.jpg" alt="" />
       </div>
       <ul>
         <li>
@@ -135,7 +135,7 @@
       <div class="information_con_btm">
         <div class="btm_border">
           <span>查看更多资讯</span>
-          <img src="@/assets/images/sou.png" alt="" />
+          <img src="@/assets/img/公共/sou.png" alt="" />
         </div>
       </div>
     </div>

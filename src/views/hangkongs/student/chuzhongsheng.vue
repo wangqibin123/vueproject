@@ -2,98 +2,98 @@
   <div class="Cthere">
     <div class="lun_warp">
         <div class="lun_con">
-            <img src="@/assets/images2/banner/初中生.jpg" alt="">
+            <img src="@/assets/img/初中生/初中生.jpg" alt="">
         </div>
     </div>
     <page />
     <div class="Green">
       <div class="Ctit">
-        <img src="@/assets/img/初中生成长计划说明_03.jpg" alt="" />
+        <img src="@/assets/img/初中生/初中生成长计划说明_03.jpg" alt="" />
       </div>
       <div class="Ccen">
-        <img src="@/assets/images2/banner/初中生.jpg" alt="" />
+        <img src="@/assets/img/初中生/初中生2_03.jpg" alt="" />
       </div>
      <Explain />
     </div>
 
     <div class="bott">
       <div class="Ctit">
-        <img src="@/assets/img/0002_03.jpg" alt="" />
+        <img src="@/assets/img/初中生/0002_03.jpg" alt="" />
       </div>
        <div class="Ccen">
-        <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="" />
+        <img src="@/assets/img/初中生/初中生2_06.jpg" alt="" />
       </div>
       <div class="img2">
-        <img style="width:1.55rem;height:.3rem" src="@/assets/images2/初中生2_03.jpg" alt="">
-        <img style="width:.19rem;height:.13rem;padding-top:.09rem" src="@/assets/images2/初中生2_08.jpg" alt="">
-        <img style="width:1.55rem;height:.3rem" src="@/assets/images2/初中生2_05.jpg" alt="">
+        <img style="width:1.55rem;height:.3rem" src="@/assets/img/初中生/初中生2_04.jpg" alt="">
+        <img style="width:.19rem;height:.13rem;padding-top:.09rem" src="@/assets/img/初中生/初中生2_08.jpg" alt="">
+        <img style="width:1.55rem;height:.3rem" src="@/assets/img/初中生/初中生2_05.jpg" alt="">
       </div>
       <div class="lits">
         <div class="left">
           <p>
             <span>解题方向不清楚</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
            <p>
             <span>粗心大意</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
            <p>
             <span>基础薄弱</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
            <p>
             <span>苦学无效</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
            <p>
             <span>动力不足</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
            <p>
             <span>知识生疏</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
            <p>
             <span>缺少拓展思路</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
            <p>
             <span>愁眉苦脸式</span>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_14.jpg" alt="">
           </p>
         </div>
         <div class="right">
           <p>
-            <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+            <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>免费的衣、食、住、行</span>
           </p>
            <p>
-             <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+             <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>就业待遇好</span>
           </p>
            <p>
-             <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+             <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>职业稳定性</span>
           </p>
            <p>
-             <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+             <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>一年内工作半年</span>
           </p>
            <p>
-             <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+             <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>欣赏各国风光</span>
           </p>
            <p>
-             <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+             <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>增长见识</span>
           </p>
            <p>
-             <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+             <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>提高交际能力</span>
           </p>
            <p>
-             <img src="@/assets/images2/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
+             <img src="@/assets/img/初中生/C-_Users_Administrator_Desktop_初中生2_17.jpg" alt="">
             <span>产假待遇好</span>
             
           </p>
