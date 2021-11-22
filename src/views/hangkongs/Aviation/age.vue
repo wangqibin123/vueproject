@@ -1,14 +1,14 @@
 <template>
   <div class="age">
     <div class="age-header">
-      <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
+      <img src="@/assets/img/航空学院/国际航空服务与管理_58.jpg" alt="" />
     </div>
     <div class="age-text">
       <ul>
         <router-link to="/hangkong/chuzhongsheng">
         <li>
           <div class="age-img">
-            <img src="@/assets/images2/国际航空服务与管理_64.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_64.jpg" alt="" />
           </div>
           <div class="age-title">
             <p class="junior">初中生15岁+</p>
@@ -18,7 +18,7 @@
         <router-link to="/hangkong/gaozhongsheng">
         <li>
           <div class="age-img">
-            <img src="@/assets/images2/国际航空服务与管理_61.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_61.jpg" alt="" />
           </div>
           <div class="age-title">
             <p class="senior">高中生18岁+</p>
@@ -30,7 +30,7 @@
         <router-link to="/hangkong/sanxiaosheng">
         <li>
           <div class="age-img">
-            <img src="@/assets/images2/国际航空服务与管理_69.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_69.jpg" alt="" />
           </div>
           <div class="age-title">
             <p class="cube">三校生18岁+</p>
@@ -40,7 +40,7 @@
         <router-link to="/hangkong/yikaosheng">
         <li>
           <div class="age-img">
-            <img src="@/assets/images2/国际航空服务与管理_68.jpg" alt="" />
+            <img src="@/assets/img/航空学院/国际航空服务与管理_68.jpg" alt="" />
           </div>
           <div class="age-title">
             <p class="art">艺考生18岁+</p>
@@ -52,7 +52,7 @@
     <div class="information_con_btm">
       <div class="btm_border">
         <span>查看更多资讯</span>
-        <img src="@/assets/images/sou.png" alt="" />
+        <img src="@/assets/img/公共/sou.png" alt="" />
       </div>
     </div>
   </div>

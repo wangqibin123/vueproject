@@ -11,7 +11,7 @@
      <div class="aviation_text">
     <div class="aviation_text_header">
       <a href="">
-        <img src="@/assets/images/首页改1_33.gif" alt="" />
+        <img src="@/assets/img/公共/在线报名_03.gif" alt="" />
       </a>
     </div>
     <div class="aviation_text_content">

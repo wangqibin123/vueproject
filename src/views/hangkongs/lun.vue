@@ -1,7 +1,7 @@
 <template>
     <div class="lun_warp">
         <div class="lun_con">
-            <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="">
+            <!-- <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt=""> -->
         </div>
     </div>
 </template>

@@ -3,7 +3,7 @@
        
     <div class="lun_warp">
         <div class="lun_con">
-            <img src="@/assets/images2/banner/航空专业.jpg" alt="">
+            <img src="@/assets/img/航空学院/航空专业.jpg" alt="">
         </div>
     </div>
     <page />

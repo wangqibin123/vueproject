@@ -2,38 +2,38 @@
   <div class="foot">
     <div class="school">
       <div class="sch-header">
-        <img src="@/assets/images2/国际航空服务与管理_99.jpg" alt="" />
+        <img src="@/assets/img/shouye/国际航空服务与管理_99.jpg" alt="" />
       </div>
       <div class="sch-content">
         <div class="sch-colleage">
-          <img src="@/assets/images/首页改1_110.gif" alt="" />
+          <img src="@/assets/img/公共/首页改1_40.gif" alt="" />
           <span>北京市航空中学</span>
         </div>
         <div class="sch-colleage">
-          <img src="@/assets/images/首页改1_113.gif" alt="" />
+          <img src="@/assets/img/公共/首页改1_37.gif" alt="" />
           <span>吉林大学</span>
         </div>
         <div class="sch-colleage" style="margin: 0.08rem 0">
-          <img src="@/assets/images/首页改1_118.gif" alt="" />
+          <img src="@/assets/img/公共/首页改1_44.gif" alt="" />
           <span>大连海事大学</span>
         </div>
         <div class="sch-colleage" style="margin: 0.08rem 0">
-          <img src="@/assets/images/首页改1_120.gif" alt="" />
+          <img src="@/assets/img/公共/首页改1_46.gif" alt="" />
           <span>渤海大学</span>
         </div>
         <div class="sch-colleage">
-          <img src="@/assets/images/首页改1_125.gif" alt="" />
+          <img src="@/assets/img/公共/首页改1_50.gif" alt="" />
           <span>山东杏林航空大学</span>
         </div>
         <div class="sch-colleage">
-          <img src="@/assets/images/首页改1_127.gif" alt="" />
+          <img src="@/assets/img/公共/首页改1_52.gif" alt="" />
           <span>南京市航空大学</span>
         </div>
       </div>
       <div class="information_con_btm">
           <div class="btm_border">
               <span>查看更多问题</span>
-              <img src="@/assets/images/sou.png" alt="">
+              <img src="@/assets/img/公共/sou.png" alt="">
           </div>
       </div>
     </div>

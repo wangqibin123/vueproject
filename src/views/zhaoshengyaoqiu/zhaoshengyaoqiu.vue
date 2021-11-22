@@ -3,7 +3,17 @@
     <HeaderLun/>
     <page/>
     <div class="people">
-        <div v-for='item in 9' :key="item"><img src="@/assets/images2/国际航空服务与管理_46.jpg" alt=""></div>
+        <div>
+            <img src="@/assets/img/招生要求/招生要求_03.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_05.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_07.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_12.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_13.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_14.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_18.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_19.jpg" alt="">
+            <img src="@/assets/img/招生要求/招生要求_20.jpg" alt="">
+        </div>
     </div>
     <Major/>
     <Enroll/>
