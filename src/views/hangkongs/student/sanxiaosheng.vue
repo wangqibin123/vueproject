@@ -1,5 +1,11 @@
 <template>
   <div class="sx">
+     <div class="lun_warp">
+        <div class="lun_con">
+            <img src="@/assets/images2/banner/三校生.png" alt="">
+        </div>
+    </div>
+      <page />
     <div class="what">
       <div class="what-img-one">
         <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
@@ -42,7 +48,6 @@
                 空乘的工资一般都分为基本工资，小时费，过夜费这几个项目。基本工资飞行的年限和等级固定增加，五险一都会在基本工资里扣除。
               </p>
             </li>
-            </li>
             <li>
               <div class="text-img">
                 <img src="@/assets/images/航空专业详情页_03_08.png" alt="">
@@ -52,7 +57,6 @@
                 空乘专业毕业的就业率是看学生的个人条件能不能通过航空公司来面试的要了，入学时的面试比较简单。航空公司选空乘最先来还是学校，只有学校选不到太多的时候空公司才会面向社会招收空乘人员。
               </p>
             </li>
-            </li>
           </ul>
         </div>
       </div>
@@ -61,9 +65,27 @@
   </div>
 </template>
 <script>
-
+import page from "@/components/page/index.vue";
+export default {
+    components:{
+        page
+    }
+}
 </script>
 <style lang='scss'  scoped >
+ .lun_warp{
+        width: 100%;
+        height: 1.50rem;
+        .lun_con{
+            width: 3.75rem;
+            height: 1.50rem;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 .sx {
   width: 3.55rem;
   margin: 0 auto 0.1rem;

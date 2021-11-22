@@ -34,9 +34,9 @@ export default {
   data(){
     return {
       img: [
-        { pic: require("@/assets/images/首页改1_27.gif") },
-        { pic: require("@/assets/images/首页改1_03.gif") },
-        { pic: require("@/assets/images/首页改1_03.gif") },
+        { pic: require("@/assets/images2/banner/四川外国语大学.png") },
+        { pic: require("@/assets/images2/banner/四川外国语大学.png") },
+        { pic: require("@/assets/images2/banner/四川外国语大学.png") },
       ],
       leftimg:require("@/assets/images/首页改1_10.gif"),
       rightimg:require("@/assets/images/未标题-1_03.gif")

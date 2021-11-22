@@ -276,7 +276,7 @@
     </div>
     <div class="read">
       <div class="read-top">
-        <img src="@/assets/images/首页改1_33.gif" alt="" />
+        <img src="@/assets/img/推荐阅读_03.jpg" alt="" />
       </div>
       <Data />
     </div>
@@ -477,7 +477,8 @@ export default {
 }
 .requirement {
   width: 100%;
-  padding: 0.15rem 0.1rem;
+  // padding: 0.15rem 0.1rem;
+  padding: 0 0.1rem .15rem .1rem;
   box-sizing: border-box;
   .requ {
     width: 100%;
@@ -600,6 +601,10 @@ export default {
       background-color: #fff;
       ::v-deep .ant-form-item-control{
         display: flex;
+        flex-direction: column;
+        width: 3.55rem;
+        // width: 2.73rem;
+        // margin: 0 auto;
       }
       .aviation_text_content {
         display: flex;
@@ -692,29 +697,34 @@ export default {
             }
           }
         }
-        .aviation_text_button {
-          background: #1d6da5;
-          width: 2.43rem;
-          height: 0.34rem;
-          display: block;
-          margin: 0.1rem 0.5rem 0 0.5rem;
-          line-height: 0.34rem;
-          text-align: center;
-          font-size: 0.18rem;
-          color: #e8ffff;
-        }
-        .submit-size {
-          height: 0.13rem;
-          text-align: center;
-          margin-bottom: 0.11rem;
-          display: block;
-          padding: 0 0 0.03rem 0;
-          font-family: PingFang-SC-Medium;
-          font-weight: normal;
-          font-stretch: normal;
-          line-height: 18px;
-          letter-spacing: 0px;
-          color: #888888;
+        .bottom_jick{
+            margin: .15rem 0 auto;
+          .aviation_text_button {
+            background: #1d6da5;
+            width: 2.73rem;
+            height: 0.44rem;
+            display: block;
+            // margin: 0.1rem 0.5rem 0 0.5rem;
+            margin: 0 auto;
+            line-height: 0.44rem;
+            text-align: center;
+            font-size: 0.18rem;
+            color: #e8ffff;
+          }
+          .submit-size {
+            height: 0.13rem;
+            text-align: center;
+            padding-bottom: 0.15rem;
+            display: block;
+            // padding: 0 0 0.03rem 0;
+            padding-top: .05rem;
+            font-family: PingFang-SC-Medium;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 18px;
+            letter-spacing: 0px;
+            color: #888888;
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   <div class="high">
     <div class="high-body">
       <div class="high-img1">
-        <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="" />
+        <img src="@/assets/img/专业介绍_03.jpg" alt="" />
       </div>
       <div class="high-img2">
         <img src="@/assets/images2/国际航空服务与管理_02.jpg" alt="" />

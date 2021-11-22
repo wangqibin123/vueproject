@@ -1,7 +1,7 @@
 <template>
   <div class="int">
     <div class="int_con">
-      <img src="@/assets/images/首页改1_27.gif" />
+      <img src="@/assets/images2/banner/空乘.png" />
     </div>
     <div class="page">
       <p>
@@ -16,7 +16,7 @@
       <img src="@/assets/images2/国际航空服务与管理_58.jpg" />
       <div class="Introduction_con">
         <img src="@/assets/images/首页改1_31.gif" />
-        -->
+        
         <div class="number">
           <div class="left">
             <img src="@/assets/images2/航空专业详情页_03.png" alt />

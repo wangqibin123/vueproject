@@ -499,29 +499,36 @@ export default {
         }
       }
     }
-    .aviation_text_button {
-      background: #1d6da5;
-      width: 2.43rem;
-      height: 0.34rem;
-      display: block;
-      margin: 0.1rem 0.5rem 0 0.5rem;
-      line-height: 0.34rem;
-      text-align: center;
-      font-size: 0.18rem;
-      color: #e8ffff;
-    }
-    .submit-size {
-      height: 0.13rem;
-      text-align: center;
-      margin-bottom: 0.11rem;
-      display: block;
-      padding: 0 0 0.03rem 0;
-      font-family: PingFang-SC-Medium;
-      font-weight: normal;
-      font-stretch: normal;
-      line-height: 18px;
-      letter-spacing: 0px;
-      color: #888888;
+   .bottom_jick{
+        margin-top: .15rem;
+      .aviation_text_button {
+        background: #1d6da5;
+        width: 2.73rem;
+        height: 0.44rem;
+        display: block;
+        // margin: 0.1rem 0.5rem 0 0.5rem;
+        margin: 0 auto;
+        line-height: 0.44rem;
+        text-align: center;
+        font-size: 0.18rem;
+        color: #e8ffff;
+      }
+      .submit-size {
+        height: 0.13rem;
+        text-align: center;
+        margin-bottom: 0.05rem;
+        padding: .05rem 0;
+        display: block;
+        padding-bottom: .15rem;
+        // padding: 0 0 0.03rem 0;
+        padding-top: .05rem;
+        font-family: PingFang-SC-Medium;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 18px;
+        letter-spacing: 0px;
+        color: #888888;
+      }
     }
   }
 }

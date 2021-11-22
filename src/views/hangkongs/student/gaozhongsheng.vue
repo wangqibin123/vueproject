@@ -1,8 +1,14 @@
 <template>
   <div>
+      <div class="lun_warp">
+        <div class="lun_con">
+            <img src="@/assets/images2/banner/高中生.png" alt="">
+        </div>
+    </div>
+      <page />
     <div class="major">
       <div class="mar-top">
-          <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="">
+          <img src="@/assets/img/当代高中生出路_03.jpg" alt="">
       </div>
       <div class="mar-button">
         多岗位任你选择
@@ -34,9 +40,10 @@
           </div>
       </div>
     </div>
+    <!-- 未完成 -->
     <div class="kcdetail">
         <div class="mar-top">
-            <img src="@/assets/images2/国际航空服务与管理_22.jpg" alt="">
+            <!-- <img src="@/assets/img/选择空乘能给孩子带来什么_03.jpg" alt=""> -->
         </div>
         <div class="en-content">
             <div class="content-bottom">
@@ -60,7 +67,7 @@
     </div>
      <div class="ches">
         <div class="ches-header">
-            <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
+            <img src="@/assets/img/高中生学习空乘的优势2_03.jpg" alt="" />
         </div>
         <div class="ches-text">
             <ul>
@@ -133,7 +140,7 @@
     </div>
     <div class="kczhiwei">
         <div class="ches-header">
-            <img src="@/assets/images2/国际航空服务与管理_58.jpg" alt="" />
+            <img src="@/assets/img/空乘职位晋升详情_03.jpg" alt="" />
         </div>
         <div class="kczhiwei-img">
             <img src="@/assets/images2/艺考生2_12.jpg" alt="" />
@@ -149,12 +156,28 @@
 </template>
 
 <script>
+import page from "@/components/page/index.vue";
 export default {
-
+    components:{
+        page
+    }
 }
 </script>
 
 <style lang='scss' scoped>
+ .lun_warp{
+        width: 100%;
+        height: 1.50rem;
+        .lun_con{
+            width: 3.75rem;
+            height: 1.50rem;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 .major{
     width: 3.55rem;
     margin: .15rem auto;

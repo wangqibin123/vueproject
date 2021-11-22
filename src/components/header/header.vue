@@ -10,6 +10,7 @@
       <div class="menu">
         <img @click="btn()" src="@/assets/images/首页改1_05.gif" alt="" />
         <div class="txt" :class="{'act':isloading}">
+          <router-link to="/" tag="p">首页</router-link>
           <router-link to="/Service" tag="p">VIP地勤专业</router-link>
           <router-link to="/hangkong" tag="p">航空学院</router-link>
           <router-link to="/hangkong/chuzhongsheng" tag="p">初中生</router-link>
