@@ -2,7 +2,7 @@
     <div class="high_speed">
          <div class="lun_warp">
         <div class="lun_con">
-            <img src="@/assets/img/高铁乘务专业/高铁乘务专业.png" alt="">
+            <img src="@/assets/img/高铁专业/高铁乘务专业.png" alt="">
         </div>
     </div>
        

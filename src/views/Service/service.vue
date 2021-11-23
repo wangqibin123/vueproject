@@ -11,7 +11,7 @@
     <div class="Introduction">
       <img src="@/assets/img/公共/专业介绍_03.jpg" />
       <div class="Introduction_con">
-        <img src="@/assets/img/vip地勤/vip地勤专业_03.png" />
+        <img src="@/assets/img/vip地勤/VIP地勤专业_03.png" />
         <div class="in_xuxian">
           <div class="xuxian_text">
             &nbsp;&nbsp;&nbsp;&nbsp; 地勤是航空服务专业，该专业主要课程民航概论、
@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="in_img">
-          <img src="@/assets/公共/航空专业详情页_04.png" />
+          <img src="@/assets/img/公共/航空专业详情页_04.jpg" />
         </div>
         <div class="number">
           <div class="left">
@@ -53,7 +53,7 @@
     <div class="advantage">
       <img src="@/assets/img/公共/专业优势_03.jpg" />
       <div class="advantage_con">
-        <img src="@/assets/img/vip地勤/vip地勤专业_06.png" />
+        <img src="@/assets/img/vip地勤/VIP地勤专业_06.png" />
         <Explain />
       </div>
     </div>
@@ -61,7 +61,7 @@
     <div class="Introduction">
       <img src="@/assets/img/公共/职业规划_03.jpg" />
       <div class="Introduction_con">
-        <img src="@/assets/img/vip地勤/vip地勤专业_08.png" />
+        <img src="@/assets/img/vip地勤/VIP地勤专业_08.png" />
         <div class="in_xuxian">
           <div class="xuxian_text">
             &nbsp;&nbsp;&nbsp;&nbsp; 地勤是航空服务专业，该专业主要课程民航概论、
@@ -76,16 +76,16 @@
       <img src="@/assets/img/公共/合作单位_03.jpg" />
       <div class="hezuo_con">
         <div class="hezuo_img">
-          <img src="@/assets/img/公共/vip地勤专业_10.png" />
-          <img src="@/assets/img/公共/vip地勤专业_12.png" />
+          <img src="@/assets/img/公共/VIP地勤专业_10.png" />
+          <img src="@/assets/img/公共/VIP地勤专业_12.png" />
         </div>
         <div class="hezuo_img">
-          <img src="@/assets/img/公共/vip地勤专业_15.png" />
-          <img src="@/assets/img/公共/vip地勤专业_16.png" />
+          <img src="@/assets/img/公共/VIP地勤专业_15.png" />
+          <img src="@/assets/img/公共/VIP地勤专业_16.png" />
         </div>
         <div class="hezuo_img">
-          <img src="@/assets/img/公共/vip地勤专业_19.png" />
-          <img src="@/assets/img/公共/vip地勤专业_20.png" />
+          <img src="@/assets/img/公共/VIP地勤专业_19.png" />
+          <img src="@/assets/img/公共/VIP地勤专业_20.jpg" />
         </div>
       </div>
     </div>

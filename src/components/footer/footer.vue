@@ -3,14 +3,14 @@
         <footer>
             <div>
                 <a :href="'tel:'+'17513541518'">
-                    <img src="@/assets/images/首页改1_123.gif" alt="">
+                    <img src="@/assets/img/公共/首页改1_123.gif" alt="">
                 </a>
             </div>
             <div @click="hand">
-                <img src="@/assets/images/首页改1_12007 (2).gif" alt="">
+                <img src="@/assets/img/公共/首页改1_12007 (2).gif" alt="">
             </div>
             <router-link tag="div" to="/zaixianbaoming">
-                <img src="@/assets/images/首页改1_12007 (3).gif" alt="">
+                <img src="@/assets/img/公共/首页改1_12007 (3).gif" alt="">
             </router-link>
         </footer>
         <div v-if="boo" class="footer-conter">在线咨询</div>

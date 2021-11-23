@@ -5,13 +5,13 @@
         <img src="@/assets/img/公共/专业介绍_03.jpg" alt="" />
       </div>
       <div class="high-img2">
-        <img src="@/assets/img/高铁乘务专业/高铁乘务专业_03.gif" alt="" />
+        <img src="@/assets/img/高铁专业/高铁专业_03.gif" alt="" />
       </div>
       <div class="size-duce">
             随着航空事业的不断深入，从事航空事业的人也是越来越多，当然航空事业的要求是非常高的，记得当时验飞行员也是百里挑一哦，那么航空专业的要求有哪些?这个问题对于想要上蓝天的人来说是太重要了。
         </div>
         <div class="size-icon">
-            <img src="@/assets/公共/航空专业详情页_04.png" alt="">
+            <img src="@/assets/img/公共/航空专业详情页_04.jpg" alt="">
         </div>
         <ul class="size-list" v-for="(item,index) in highList" :key="index">
             <li class="list-img">

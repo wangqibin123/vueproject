@@ -18,12 +18,12 @@ export default {
   data() {
     return {
       imag: [
-        { img: require("@/assets/img/公共/vip地勤专业_10.png") },
-        { img: require("@/assets/img/公共/vip地勤专业_12.png") },
-        { img: require("@/assets/img/公共/vip地勤专业_15.png") },
-        { img: require("@/assets/img/公共/vip地勤专业_16.png") },
-        { img: require("@/assets/img/公共/vip地勤专业_19.png") },
-        { img: require("@/assets/img/公共/vip地勤专业_20.png") },
+        { img: require("@/assets/img/公共/VIP地勤专业_10.png") },
+        { img: require("@/assets/img/公共/VIP地勤专业_12.png") },
+        { img: require("@/assets/img/公共/VIP地勤专业_15.png") },
+        { img: require("@/assets/img/公共/VIP地勤专业_16.png") },
+        { img: require("@/assets/img/公共/VIP地勤专业_19.png") },
+        { img: require("@/assets/img/公共/VIP地勤专业_20.jpg") },
       ],
     };
   },

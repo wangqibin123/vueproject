@@ -1,6 +1,6 @@
 <template>
   <div class="videos">
-      <video src="@/assets/images2/ship/mda-jmi4aniy24gvebwr.mp4" controls></video>
+      <!-- <video src="@/assets/images2/ship/mda-jmi4aniy24gvebwr.mp4" controls></video> -->
   </div>
 </template>
 

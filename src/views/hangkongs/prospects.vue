@@ -2,7 +2,7 @@
   <div class="prospects">
       <div class="prospects_header">
           <div class="prospects_title">
-            <img src="@/assets/images2/国际航空服务与管理_72.jpg" alt="">
+            <img src="@/assets/img/航空学院/国际航空服务与管理_72.jpg" alt="">
           </div>
           <div class="prospects_banner">
               <ul class="prospects_banner_ul">

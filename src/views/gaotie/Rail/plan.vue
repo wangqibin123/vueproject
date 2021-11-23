@@ -5,7 +5,7 @@
                 <img src="@/assets/img/公共/职业规划_03.jpg" alt="">
             </div>
             <div class="plan-img2">
-                <img src="@/assets/img/高铁乘务专业/高铁乘务专业_08.gif" alt="">
+                <img src="@/assets/img/高铁专业/高铁专业_08.gif" alt="">
             </div>
             <div class="plan-list">  
                 伴随着近几年铁路格局的改变，铁路事业的发展，形成了在铁路工程和服务领域的人才紧缺，这一专业的人才呈现出供不应求的状态，大量高铁乘务专业的人才缺口急需填补。因此，未来高铁专业的就业前景十分广阔。

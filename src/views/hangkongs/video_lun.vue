@@ -39,18 +39,18 @@ export default {
                     img2:require("@/assets/img/航空学院/video/6.jpg"),
                 }
             ],
-            leftimg:require("@/assets/img/航空学院/首页改1_10.gif"),
-            rightimg:require("@/assets/img/航空学院/未标题-1_03.gif"),
+            leftimg:require("@/assets/img/公共/首页改1_10.gif"),
+            rightimg:require("@/assets/img/航空学院/未标题-1_03.png"),
         }
     },
     methods:{
         leftSide(){
             this.leftimg = require("@/assets/img/航空学院/题-1_03.png")
-            this.rightimg = require("@/assets/img/航空学院/未标题-1_03.gif")
+            this.rightimg = require("@/assets/img/航空学院/未标题-1_03.png")
         },
         rightSide(){
             this.rightimg = require("@/assets/img/航空学院/未标题-1_03.png")
-            this.leftimg = require("@/assets/img/航空学院/首页改1_10.gif")
+            this.leftimg = require("@/assets/img/公共/首页改1_10.gif")
         }
     },
     mounted() {
